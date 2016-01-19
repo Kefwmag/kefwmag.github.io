@@ -16,12 +16,7 @@ header {
   left:0;
   right:0;
   top:0;
-  
-  background : -webkit-linear-gradient(top, rgb(0, 40, 161) 00%, rgb(5, 57, 79) 99%);
-  background : -moz-linear-gradient(top, rgb(0, 40, 161) 00%, rgb(5, 57, 79) 99%);
-  background : -o-linear-gradient(top, rgb(0, 40, 161) 00%, rgb(5, 57, 79) 99%);
-  background : -ms-linear-gradient(top, rgb(0, 40, 161) 00%, rgb(5, 57, 79) 99%);
-  background : -linear-gradient(top, rgb(0, 40, 161) 00%, rgb(5, 57, 79) 99%);
+  background-color:#0099FF;
   
   color:white;
   text-align:center;
