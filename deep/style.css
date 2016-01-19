@@ -21,16 +21,22 @@ header {
     text-align:center;
     border-bottom:3px solid #069;
 }
-
-nav {
-	height:calc(100% - 75px);
-	width: 250px;
-	background-color:#333;
-	position:fixed;
-	left:0;
-	bottom:0;
+@media screen and (min-width: 750px) {
+	nav {
+		display:block;
+		height:calc(100% - 75px);
+		width: 250px;
+		background-color:#333;
+		position:fixed;
+		left:0;
+		bottom:0;
+	}
 }
-
+@media screen and (max-width: 750px) {
+	nav {
+		display:none;
+	}
+}
 nav ul {
 	padding:0;
 	text-align: center;
