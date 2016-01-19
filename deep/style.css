@@ -28,8 +28,10 @@ section {
     	color: #069;
     	position:absolute;
     	top:75px;
-    	background-color:white;
+    	background-color:#BBB;
     	text-align:center;
+    	line-height:50px;
+    	box-sizing:border-box;
 }
 
 @media screen and (min-width: 750px) {
