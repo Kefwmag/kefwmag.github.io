@@ -97,6 +97,7 @@ main div article {
 	margin:8px;
 	padding:5px;
 	box-sizing:border-box;
+	position:relative;
 }
 
 main div article h1 {
@@ -110,7 +111,8 @@ main div article p  {
 	font-size:smaller
 }
 main div article a {
-	text-align:right;
+	position:absolute;
+	right:10px;
 	color:#069;
 }
 
