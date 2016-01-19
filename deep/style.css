@@ -49,13 +49,13 @@ nav ul li {
     height:40px;
     width:90%;
     margin:3px auto;
-    margin-bottom:16px;
+    margin-bottom:18px;
     border-bottom:1px solid white;
 }
 
 nav ul li:first-child {
 	border-top:1px solid white;
-	padding-top: 16px;
+	padding-top: 18px;
 }
 
 
