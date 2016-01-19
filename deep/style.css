@@ -50,3 +50,9 @@ nav ul li {
 nav ul li:first-child {
 	border-top:1px solid white;
 }
+
+
+nav ul li a {
+	color:white;
+	text-decoration:none;
+}
