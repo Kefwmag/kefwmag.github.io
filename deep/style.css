@@ -32,7 +32,11 @@ nav {
 }
 
 nav ul li {
-    text-decoration:none;
+    list-style:none;
     color:white;
+    display:block;
+    height:40px;
+    width:90%;
+    margin:1px;
     border-bottom:1px solid white;
 }
