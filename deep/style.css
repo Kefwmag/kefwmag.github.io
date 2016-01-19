@@ -35,6 +35,10 @@ section {
     	margin:0;
 }
 
+section h1 {
+	margin:0;
+}
+
 @media screen and (min-width: 750px) {
 	nav {
 		display:block;
