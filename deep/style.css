@@ -31,6 +31,10 @@ nav {
 	bottom:0;
 }
 
+nav ul {
+	padding:0;
+}
+
 nav ul li {
     list-style:none;
     color:white;
