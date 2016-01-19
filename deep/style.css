@@ -95,6 +95,8 @@ main div article {
 	border-bottom:1px solid #AAA;
 	background-color:#FFF;
 	margin:8px;
+	padding:5px;
+	box-sizing:border-box;
 }
 
 @media screen and (min-width: 750px) {
