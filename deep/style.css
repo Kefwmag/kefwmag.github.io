@@ -86,6 +86,8 @@ main {
 
 main div {
 	margin:0 auto;
+	width:95%;
+	text-align:right;
 }
 
 main div article {
