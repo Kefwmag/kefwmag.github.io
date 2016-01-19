@@ -1,103 +1,38 @@
 html,body {
-  height:100%;
-  width:100%;
-  margin:0;
-  padding:0;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
 }
 
 body {
-  font-family:Raleway;
+    font-family:Raleway;
 }
 
 header {
-  position:fixed;
-  height:75px;
-  width:100%;
-  left:0;
-  right:0;
-  top:0;
-  background-color:#155379;
-  color:white;
-  text-align:center;
-  border-bottom:3px solid #069;
+    position:fixed;
+    height:75px;
+    width:100%;
+    left:0;
+    right:0;
+    top:0;
+    background-color:#155379;
+    color:white;
+    text-align:center;
+    border-bottom:3px solid #069;
 }
 
-input[type=checkbox].css-checkbox {
-	position:absolute;
-	z-index:-1000; 
-	left:-1000px; 
-	overflow: hidden; 
-	clip: rect(0 0 0 0); 
-	height:50px; 
-	width:50px; 
-	margin:-1px; 
-	padding:0; 
-	border:0;
-}
-
-input[type=checkbox].css-checkbox + label.css-label {
-	height:50px; 
-	/*display:block;*/
-	line-height:50px;
-	background-repeat:no-repeat;
-	background-position: 0 0;
-	font-size:50px;
-	vertical-align:middle;
-	cursor:pointer;
-	transition:margin-right 0.5s;
-}
-
-input[type=checkbox].css-checkbox:checked + label.css-label {
-	background-position: 0 -50px;
-	margin-left:350px;
-	transition: margin-left 0.5s
-}
-						
-label.css-label {
-	background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_fdfc055fe2f73fca51e2aa4573bdd3b2.png);
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-
-.css-label {
-    position:absolute;
-    right:2px;
-    /*display:none;*/
-}
-
-.css-checkbox {
-    display:none;
-}
 nav {
-	display:block;
-	position:absolute;
-	left:-350px;
-	top:0;
+	height:calc(100% - 75px);
+	width: 300px;
+	background-color:#333;
+	position:fixed;
+	left:0;
 	bottom:0;
-	background-color:rgb(40,40,40);
-	opacity:0.7
-	height:100%;
-	width:350px;
-	transition: left 0.5s;
-	color:white;
-	text-align:center;
-	padding:0;
 }
+
 nav ul li {
-	height:50px;
-	width:350px;
-	border-top: 1px solid white;	
-	border-bottom: 1px solid white;
-	display:block;
-	color:white;
-	line-height:50px;
-	font-size:larger;
-	box-sizing:border-box;
+    text-decoration:none;
+    color:white;
+    border-bottom:1px solid white;
 }
-.css-checkbox:checked ~ nav {
-	right:0;
-	transition:right 0.5s;
