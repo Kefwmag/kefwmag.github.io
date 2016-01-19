@@ -84,7 +84,11 @@ main {
 	text-align:center;
 }
 
-main article {
+main div {
+	margin:0 auto;
+}
+
+main div article {
 	display:inline-block;
 	border-bottom:1px solid #AAA;
 	background-color:#FFF;
@@ -125,7 +129,7 @@ main article {
 		width:calc(100% - 250px);
     		transition:width 0.8s;
 	}
-	main article {
+	main div article {
 		width:300px;
 	}
 }
@@ -141,7 +145,7 @@ main article {
 	main {
 		width:100%;
 	}
-	main article {
+	main div article {
 		height:300px;
 	}
 }
