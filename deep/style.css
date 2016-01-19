@@ -96,13 +96,13 @@ main {
 	}
 	nav:hover + section {
 		width:calc(100% - 250px);
-    		transition:left 0.8s;
+    		transition:width 0.8s;
 	}
 	
 	main { 
 		width:calc(100% - 50px);
     		right:0;
-    		transition:left 0.8s;
+    		transition:width 0.8s;
 	}
 	nav:hover + main {
 		width:calc(100% - 250px);
