@@ -78,6 +78,15 @@ main {
 	padding-top:125px;
 	padding-left:10px;
 	transition:width 0.8s;
+	background-color:#BBB;
+}
+
+main article {
+	height:300px;
+	width:300px;
+	display:inline-block;
+	border-bottom:1px solid #AAA;
+	background-color:#FFF;
 }
 
 @media screen and (min-width: 750px) {
