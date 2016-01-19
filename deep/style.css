@@ -40,31 +40,6 @@ section h1 {
 	margin:0;
 }
 
-@media screen and (min-width: 750px) {
-	nav {
-		display:block;
-		height:calc(100% - 75px);
-		width: 250px;
-		background-color:#333;
-		position:fixed;
-		left:0;
-		bottom:0;
-	}
-	section {
-		width:calc(100% - 250px);
-    		right:0;
-	}
-}
-@media screen and (max-width: 750px) {
-	nav {
-		display:none;
-	}
-	section {
-		width:100%;
-    		right:0;
-    		left:0;
-	}
-}
 nav ul {
 	padding:0;
 	text-align: center;
@@ -90,4 +65,42 @@ nav ul li:first-child {
 nav ul li a {
 	color:white;
 	text-decoration:none;
+}
+
+main {
+	position: absolute;
+	right:0;
+}
+
+@media screen and (min-width: 750px) {
+	nav {
+		display:block;
+		height:calc(100% - 75px);
+		width: 250px;
+		background-color:#333;
+		position:fixed;
+		left:0;
+		bottom:0;
+	}
+	section {
+		width:calc(100% - 250px);
+    		right:0;
+	}
+	
+	main { 
+		width:calc(100% - 250px);
+	}
+}
+@media screen and (max-width: 750px) {
+	nav {
+		display:none;
+	}
+	section {
+		width:100%;
+    		right:0;
+    		left:0;
+	}
+	main {
+		width:100%;
+	}
 }
