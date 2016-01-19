@@ -82,7 +82,6 @@ main {
 }
 
 main article {
-	height:300px;
 	display:inline-block;
 	border-bottom:1px solid #AAA;
 	background-color:#FFF;
@@ -123,6 +122,9 @@ main article {
 		width:calc(100% - 250px);
     		transition:width 0.8s;
 	}
+	main article {
+		width:300px;
+	}
 }
 @media screen and (max-width: 750px) {
 	nav {
@@ -135,5 +137,8 @@ main article {
 	}
 	main {
 		width:100%;
+	}
+	main article {
+		height:300px;
 	}
 }
