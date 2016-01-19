@@ -8,3 +8,29 @@ html,body {
 body {
   font-family: Arial;
 }
+
+header {
+  position:fixed;
+  height:75px;
+  width:100%;
+  left:0;
+  right:0;
+  top:0;
+  
+  /* Chrome 10+,Safari */
+  background : -webkit-linear-gradient(top, rgb(0, 40, 161) 00%, rgb(0, 174, 255) 99%);
+  
+  /* Firefox 4+ */ 
+  background : -moz-linear-gradient(top, rgb(0, 40, 161) 00%, rgb(0, 174, 255) 99%);
+  
+  /* Opera */
+  background : -o-linear-gradient(top, rgb(0, 40, 161) 00%, rgb(0, 174, 255) 99%);
+  
+  /* IE 10+ */
+  background : -ms-linear-gradient(top, rgb(0, 40, 161) 00%, rgb(0, 174, 255) 99%); 
+  
+  /* W3C */
+  background : -linear-gradient(top, rgb(0, 40, 161) 00%, rgb(0, 174, 255) 99%);
+  
+  color:white;
+}
