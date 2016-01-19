@@ -80,13 +80,15 @@ main {
 	padding-left:10px;
 	transition:width 0.8s;
 	background-color:#BBB;
+	height:100%;
+	text-align:center;
 }
 
 main article {
 	display:inline-block;
 	border-bottom:1px solid #AAA;
 	background-color:#FFF;
-	margin:12px;
+	margin:8px;
 }
 
 @media screen and (min-width: 750px) {
