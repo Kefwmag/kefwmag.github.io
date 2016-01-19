@@ -81,8 +81,13 @@ main {
 		width: 250px;
 		background-color:#333;
 		position:fixed;
-		left:0;
+		left:-200px;
 		bottom:0;
+		transition:left 0.8s;
+	}
+	nav:hover {
+		left:0;
+		transition:left 0.8s;
 	}
 	section {
 		width:calc(100% - 250px);
