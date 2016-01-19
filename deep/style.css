@@ -18,19 +18,19 @@ header {
   top:0;
   
   /* Chrome 10+,Safari */
-  background : -webkit-linear-gradient(top, rgb(0, 40, 161) 00%, rgb(0, 174, 255) 99%);
+  background : -webkit-linear-gradient(top, rgb(0, 40, 161) 00%, rgb(5, 57, 79) 99%);
   
   /* Firefox 4+ */ 
-  background : -moz-linear-gradient(top, rgb(0, 40, 161) 00%, rgb(0, 174, 255) 99%);
+  background : -moz-linear-gradient(top, rgb(0, 40, 161) 00%, rgb(5, 57, 79) 99%);
   
   /* Opera */
-  background : -o-linear-gradient(top, rgb(0, 40, 161) 00%, rgb(0, 174, 255) 99%);
+  background : -o-linear-gradient(top, rgb(0, 40, 161) 00%, rgb(5, 57, 79) 99%);
   
   /* IE 10+ */
-  background : -ms-linear-gradient(top, rgb(0, 40, 161) 00%, rgb(0, 174, 255) 99%); 
+  background : -ms-linear-gradient(top, rgb(0, 40, 161) 00%, rgb(5, 57, 79) 99%); 
   
   /* W3C */
-  background : -linear-gradient(top, rgb(0, 40, 161) 00%, rgb(0, 174, 255) 99%);
+  background : -linear-gradient(top, rgb(0, 40, 161) 00%, rgb(5, 57, 79) 99%);
   
   color:white;
 }
