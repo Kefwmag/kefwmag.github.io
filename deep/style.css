@@ -100,7 +100,7 @@ main {
     		right:0;
     		transition:left 0.8s;
 	}
-	nav:hover + section {
+	nav:hover ~ section {
 		width:calc(100% - 250px);
     		transition:width 0.8s;
 	}
@@ -110,7 +110,7 @@ main {
     		right:0;
     		transition:width 0.8s;
 	}
-	nav:hover + main {
+	nav:hover ~ main {
 		width:calc(100% - 250px);
     		transition:left 0.8s;
 	}
