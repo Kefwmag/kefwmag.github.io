@@ -112,7 +112,7 @@ main {
 	}
 	nav:hover ~ main {
 		width:calc(100% - 250px);
-    		transition:left 0.8s;
+    		transition:width 0.8s;
 	}
 }
 @media screen and (max-width: 750px) {
