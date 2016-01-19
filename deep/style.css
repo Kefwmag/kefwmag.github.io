@@ -92,11 +92,26 @@ main div {
 
 main div article {
 	display:inline-block;
-	border-bottom:1px solid #AAA;
+	border-bottom:5px solid #AAA;
 	background-color:#FFF;
 	margin:8px;
 	padding:5px;
 	box-sizing:border-box;
+}
+
+main div article h1 {
+	margin-bottom:3px;
+}
+main div article h3 {
+	font-size:smaller;
+	color:#AAA;
+}
+main div article p  {
+	font-size:smaller
+}
+main div article a {
+	text-align:right;
+	color:#069;
 }
 
 @media screen and (min-width: 750px) {
