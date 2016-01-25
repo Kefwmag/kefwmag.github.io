@@ -190,14 +190,10 @@ main div article a {
 		position:absolute;
 		right:0;
 		top:125px;
-		left:60px;
+		left:0;
 		margin:0;
 		z-index:10;
 		transition:left 0.8s
-	}
-	#hamburger:checked ~ main article.fs {
-		left:250px;
-    		transition:left 0.8s;
 	}
 }
 @media screen and (max-width: 750px) {
