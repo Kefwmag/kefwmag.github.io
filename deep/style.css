@@ -123,6 +123,15 @@ main div article a {
 	bottom:6px;
 }
 
+#hamburger {
+	position:fixed;
+	height:40px;
+	width:40px;
+	border:1px solid white;
+	left:20px;
+	top:17px;
+}
+
 @media screen and (min-width: 750px) {
 	nav {
 		display:block;
