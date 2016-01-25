@@ -203,12 +203,13 @@ article.fs a {
 	main div article {
 		width:20vw;
 	}
-	@media screen and (max-width: 900px) {
-		article {
-			width:45vw;
-		}
+}
+@media screen and (max-width: 900px) {
+	main div article {
+		width:45vw;
 	}
 }
+
 @media screen and (max-width: 750px) {
 	nav {
 		display:none;
@@ -223,5 +224,6 @@ article.fs a {
 	}
 	main div article {
 		height:300px;
+		width:90%;
 	}
 }
