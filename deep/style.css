@@ -50,6 +50,9 @@ nav {
 nav ul {
 	padding:0;
 	text-align: center;
+	position:relative;
+	top:100%;
+	transition:top 0.8s;
 }
 
 nav ul li {
@@ -140,6 +143,12 @@ main div article a {
     		right:0;
     		transition:left 0.8s;
 	}
+	
+	nav:hover > ul {
+		top:0;
+		transition:top 0.8s;
+	}
+	
 	nav:hover ~ section {
 		width:calc(100% - 250px);
     		transition:width 0.8s;
