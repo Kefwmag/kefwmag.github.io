@@ -105,6 +105,7 @@ main div article {
 	position:relative;
 	text-align:left;
 	height:275px;
+	transition:height 0.8s,width 0.8s;
 }
 
 main div article h1 {
@@ -156,6 +157,7 @@ article.fs {
 	padding-left:20px;
 	transition:left 0.8s
 	font-size:initial;
+	transition:height 0.8s,width 0.8s;
 }
 article.fs p {
 	font-size:initial;
