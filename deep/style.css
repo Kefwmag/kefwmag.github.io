@@ -132,12 +132,9 @@ main div article a {
 	height:40px;
 	width:40px;
 	left:20px;
-	top:15px;
+	top:16px;
 }
 
-#hamburger:checked + label {
-	border:10px solid red;
-}
 
 @media screen and (min-width: 750px) {
 	nav {
@@ -150,7 +147,7 @@ main div article a {
 		bottom:0;
 		transition:left 0.8s;
 	}
-	nav:hover {
+	#hamburger:checked ~ nav {
 		left:0;
 		transition:left 0.8s;
 	}
@@ -160,12 +157,12 @@ main div article a {
     		transition:left 0.8s;
 	}
 	
-	nav:hover > ul {
+	#hamburger:checked ~ nav > ul {
 		top:0;
 		transition:top 0.8s;
 	}
 	
-	nav:hover ~ section {
+	#hamburger:checked ~ section {
 		width:calc(100% - 250px);
     		transition:width 0.8s;
 	}
@@ -175,7 +172,7 @@ main div article a {
     		right:0;
     		transition:width 0.8s;
 	}
-	nav:hover ~ main {
+	#hamburger:checked ~ main {
 		width:calc(100% - 250px);
     		transition:width 0.8s;
 	}
