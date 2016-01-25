@@ -98,12 +98,13 @@ main div article {
 	margin:8px;
 	padding:5px;
 	padding-bottom:15px;
+	padding-left:8px;
 	box-sizing:border-box;
 	position:relative;
 }
 
 main div article h1 {
-	margin-bottom:3px;
+	margin:3px 0;
 }
 main div article h3 {
 	font-size:smaller;
