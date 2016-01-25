@@ -147,7 +147,7 @@ main div article a {
 		bottom:0;
 		transition:left 0.8s;
 	}
-	#hamburger:checked ~ nav {
+	nav:hover {
 		left:0;
 		transition:left 0.8s;
 	}
@@ -157,12 +157,12 @@ main div article a {
     		transition:left 0.8s;
 	}
 	
-	#hamburger:checked ~ nav > ul {
+	nav:hover > ul {
 		top:0;
 		transition:top 0.8s;
 	}
 	
-	#hamburger:checked ~ section {
+	nav:hover ~ section {
 		width:calc(100% - 250px);
     		transition:width 0.8s;
 	}
@@ -172,7 +172,7 @@ main div article a {
     		right:0;
     		transition:width 0.8s;
 	}
-	#hamburger:checked ~ main {
+	nav:hover ~ main {
 		width:calc(100% - 250px);
     		transition:width 0.8s;
 	}
