@@ -16,4 +16,15 @@ window.onload = function() {
             evt.target.innerText = "Read More";
         }
     }, false);
+    checkURL();
+}
+
+function checkURL() {
+	url = window.location.href.split("?")[1]
+	if ((url != undefined) && (posts.indexOf(url) != -1)) {
+		console.log(url);
+		document.querySelector("article#" + url).className = "fs";
+		document.querySelector("article#" + url + " a.readMore").innerText = "Go Back";
+		console.log("Expanded Article")
+	}
 }
