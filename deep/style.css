@@ -203,7 +203,11 @@ article.fs a {
 	main div article {
 		width:20vw;
 	}
-
+	@media screen and (max-width: 900px) {
+		article {
+			width:45vw;
+		}
+	}
 }
 @media screen and (max-width: 750px) {
 	nav {
