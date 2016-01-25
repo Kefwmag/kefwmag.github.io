@@ -150,7 +150,7 @@ main div article a {
 		bottom:0;
 		transition:left 0.8s;
 	}
-	(header > #hamburger:checked) ~ nav {
+	#hamburger:checked ~ nav {
 		left:0;
 		transition:left 0.8s;
 	}
