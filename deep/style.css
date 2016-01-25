@@ -196,6 +196,11 @@ main div article a {
 		padding-left:20px;
 		transition:left 0.8s
 	}
+	
+	article.fs a {
+		top:8px;
+		bottom:auto;
+	}
 }
 @media screen and (max-width: 750px) {
 	nav {
