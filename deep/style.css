@@ -134,6 +134,8 @@ main div article a {
 	left:20px;
 	top:16px;
 	background-image:url('https://vibrantoutlook.files.wordpress.com/2014/04/menu-icon.png');
+	background-size: 50px 55px;
+    	background-position: -5px -9px;
 }
 
 
