@@ -13,7 +13,7 @@ window.onload = function() {
             history.pushState({}, "Home", "http://kefwmag.github.io/deep");
             evt.preventDefault();
             evt.target.parentNode.className = "";
-            evt.target.innerText = "Read more";
+            evt.target.innerText = "Read More";
         }
     }, false);
 }
