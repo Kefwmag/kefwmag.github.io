@@ -104,6 +104,7 @@ main div article {
 	box-sizing:border-box;
 	position:relative;
 	text-align:left;
+	height:275px;
 }
 
 main div article h1 {
@@ -115,6 +116,8 @@ main div article h3 {
 }
 main div article p  {
 	font-size:smaller
+	height:80%;
+	overflow:hidden;
 }
 main div article a {
 	position:absolute;
