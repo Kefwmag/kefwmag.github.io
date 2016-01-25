@@ -150,8 +150,11 @@ article.fs {
 	z-index:10;
 	padding-left:20px;
 	transition:left 0.8s
+	font-size:initial;
 }
-
+article.fs p {
+	font-size:initial;
+}
 article.fs a {
 	top:8px;
 	bottom:auto;
