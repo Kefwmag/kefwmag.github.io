@@ -127,9 +127,12 @@ main div article a {
 	position:fixed;
 	height:40px;
 	width:40px;
-	border:1px solid white;
 	left:20px;
-	top:17px;
+	top:15px;
+}
+
+#hamburger:checked {
+	border:10px solid red;
 }
 
 @media screen and (min-width: 750px) {
