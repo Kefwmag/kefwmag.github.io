@@ -113,11 +113,13 @@ main div article h1 {
 main div article h3 {
 	font-size:smaller;
 	color:#AAA;
+	margin:3px 0;
 }
 main div article p  {
 	font-size:smaller;
 	height:80%;
 	overflow:hidden;
+	margin:5px o;
 }
 main div article a {
 	position:absolute;
