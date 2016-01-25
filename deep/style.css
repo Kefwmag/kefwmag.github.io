@@ -51,8 +51,8 @@ nav ul {
 	padding:0;
 	text-align: center;
 	position:relative;
-	top:100%;
-	transition:top 0.8s;
+	right:100%;
+	transition:right 0.8s;
 }
 
 nav ul li {
@@ -158,8 +158,8 @@ main div article a {
 	}
 	
 	nav:hover > ul {
-		top:0;
-		transition:top 0.8s;
+		right:0;
+		transition:right 0.8s;
 	}
 	
 	nav:hover ~ section {
