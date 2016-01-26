@@ -26,7 +26,7 @@ window.onload = function() {
     if (cat == "lifestyle ") {
         catHead.innerHTML = "Lifestyle";
     }
-    if (cat == "") {
+    if (cat == " ") {
         catHead.innerHTML = "All Articles";
     }
 }
