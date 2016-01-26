@@ -12,4 +12,18 @@ window.onload = function() {
             evt.target.innerText = "Read More";
         }
     }, false);
+    var catHead = document.getElementById("categoryName");
+    var cat = catHead.innerHTML;
+    if (cat == "news ") {
+        catHead.innerHTML = "School News";
+    }
+    if (cat == "tech ") {
+        catHead.innerHTML = "Technology";
+    }
+    if (cat == "arts ") {
+        catHead.innerHTML = "Arts & Entertainment";
+    }
+    if (cat == "lifestyle ") {
+        catHead.innerHTML = "Lifestyle";
+    }
 }
