@@ -116,7 +116,7 @@ main div article h3 {
 	color:#AAA;
 	margin:3px 0;
 }
-main div article p  {
+main div article summary  {
 	font-size:smaller;
 	height:71%;
 	overflow:hidden;
