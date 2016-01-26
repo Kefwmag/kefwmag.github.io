@@ -1,7 +1,7 @@
 ---
 layout: dposts
 title:  "Technology Post 1"
-date:   2016-01-06 13:42:53 +0000
+date:   2016-01-26 13:42:53 +0000
 categories: tech
 ---
 
