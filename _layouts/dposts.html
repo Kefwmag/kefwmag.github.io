@@ -13,19 +13,21 @@ layout: deep
   </article>
   
     <script>
-        var catHead =document.getElementById("categoryName")
-        var cat = catHead.innerHTML;
-        if (cat == "news") {
-          catHead.innerHTML = "School News";
-        }
-        if (cat == "tech") {
-          catHead.innerHTML = "Technology";
-        }
-        if (cat == "arts") {
-          catHead.innerHTML = "Arts & Entertainment";
-        }
-        if (cat == "lifestyle") {
-          catHead.innerHTML = "Lifestyle";
+        window.onload = function() {
+            var catHead =document.getElementById("categoryName")
+            var cat = catHead.innerHTML;
+            if (cat == "news") {
+                catHead.innerHTML = "School News";
+            }
+            if (cat == "tech") {
+                catHead.innerHTML = "Technology";
+            }
+            if (cat == "arts") {
+                catHead.innerHTML = "Arts & Entertainment";
+            }
+            if (cat == "lifestyle") {
+                catHead.innerHTML = "Lifestyle";
+            }
         }
     </script>
 </div>
