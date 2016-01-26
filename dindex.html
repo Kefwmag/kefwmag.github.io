@@ -29,7 +29,7 @@
             <div>
                 {% for post in site.posts %}
                     <article id="article1">
-                        <h1 class="storyName">{{ post.title }}/h1>
+                        <h1 class="storyName">{{ post.title }}</h1>
                         <h3 class="author">By {{ post.author }}, {{ post.date | date: "%b %-d, %Y" }}</h3>
                         <p>
                             {{post.content}}
