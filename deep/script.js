@@ -8,13 +8,10 @@ window.onload = function() {
             evt.preventDefault();
             evt.target.parentNode.className = "fs";
             evt.target.innerText = "Go back"
-            history.pushState({}, evt.target.parentNode.id + ".html", window.location.href + "/?" + evt.target.parentNode.id);
         } else if((evt.target.tagName == "A") && (evt.target.innerText == "Go back")) {
-            history.pushState({}, "Home", "http://kefwmag.github.io/deep");
             evt.preventDefault();
             evt.target.parentNode.className = "";
             evt.target.innerText = "Read More";
         }
     }, false);
-    checkURL();
 }
