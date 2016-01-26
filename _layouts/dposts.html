@@ -4,10 +4,10 @@ layout: deep
 
 <div>
   <article class="fs">
-    <h1 class="storyName">{{ post.title }}</h1>
-    <h3 class="author">By {{ post.author }}, {{ post.date | date: "%b %-d, %Y" }}</h3>
+    <h1 class="storyName">{{ page.title }}</h1>
+    <h3 class="author">By {{ page.author }}, {{ page.date | date: "%b %-d, %Y" }}</h3>
     <summary>
-      {{post.content}}
+      {{ content }}
     </summary>
     <a href="{{ post.url }}">Go back</a>
   </article>
