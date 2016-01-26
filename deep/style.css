@@ -148,7 +148,7 @@ main div article a {
 }
 
 article.fs {
-	height:100%;
+	height:calc(100% - 125px);
 	width:100%;
 	position:absolute;
 	right:0;
