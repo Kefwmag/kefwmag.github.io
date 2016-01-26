@@ -4,7 +4,7 @@ layout: deep
 
             <div>
                 {% for post in site.posts %}
-                    <article id="article1">
+                    <article class="{{post.category}}">
                         <h1 class="storyName">{{ post.title }}</h1>
                         <h3 class="author">By {{ post.author }}, {{ post.date | date: "%b %-d, %Y" }}</h3>
                         <summary>
