@@ -9,6 +9,23 @@ layout: deep
     <summary>
       {{ content }}
     </summary>
-    <a href="{{ post.url }}">Go back</a>
+    <a href="/dindex.html">Go back</a>
   </article>
+  
+    <script>
+        var catHead =document.getElementById("categoryName")
+        var cat = catHead.innerHTML;
+        if (cat == "news") {
+          catHead.innerHTML = "School News";
+        }
+        if (cat == "tech") {
+          catHead.innerHTML = "Technology";
+        }
+        if (cat == "arts") {
+          catHead.innerHTML = "Arts & Entertainment";
+        }
+        if (cat == "lifestyle") {
+          catHead.innerHTML = "Lifestyle";
+        }
+    </script>
 </div>
