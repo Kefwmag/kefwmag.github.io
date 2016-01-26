@@ -159,6 +159,7 @@ article.fs {
 	padding-left:20px;
 	transition:left 0.8s;
 	font-size:initial;
+	display:inline-block;
 	transition:height 0.8s,width 0.8s,left 0.8s,right 0.8s,top 0.8s;
 }
 article.fs p {
