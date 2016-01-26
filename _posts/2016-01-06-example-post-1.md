@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: dpost
 title:  "Example Post 1"
 date:   2016-01-06 13:41:53 +0000
 categories: example
