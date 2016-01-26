@@ -96,7 +96,7 @@ main div {
 }
 
 main div article {
-	display:inline-block;
+	display:none;
 	border-bottom:5px solid #AAA;
 	background-color:#FFF;
 	margin:8px;
