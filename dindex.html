@@ -31,9 +31,9 @@
                     <article id="article1">
                         <h1 class="storyName">{{ post.title }}</h1>
                         <h3 class="author">By {{ post.author }}, {{ post.date | date: "%b %-d, %Y" }}</h3>
-                        <p>
+                        <summary>
                             {{post.content}}
-                        </p>
+                        </summary>
                         <a href="#">Read More</a>
                     </article>
                 {% endfor %}
