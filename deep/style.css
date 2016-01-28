@@ -129,7 +129,7 @@ main div article summary  {
 	margin:5px 0;
 	display:inline-block;
 }
-main div article a {
+main div article a:last-child {
 	position:absolute;
 	right:10px;
 	color:#069;
