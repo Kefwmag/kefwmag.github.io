@@ -170,11 +170,7 @@ article.fs p {
 	font-size:initial;
 }
 article.fs a i {
-	height:100px;
-	position:absolute;
-	top:150px;
-	left:150px;
-	display:block;
+	
 }
 article.fs a:last-child {
 	top:8px;
