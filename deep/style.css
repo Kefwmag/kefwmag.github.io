@@ -235,10 +235,14 @@ article.fs a {
 		right:0;
 		top:0;
 		bottom:0;
+		padding:25px;
 	}
 	nav ul li {
 		width:40%;
 		display:inline-block;
+	}
+	nav ul li:nth-of-type(2) {
+		border-top:1px solid white;
 	}
 	#hamburger:checked ~ nav {
 		top:125px;
