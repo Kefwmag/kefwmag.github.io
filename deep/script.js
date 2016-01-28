@@ -20,7 +20,7 @@ window.onload = function() {
     }
     if (cat == "tech ") {
         catHead.innerHTML = "Technology";
-        document.getElementsByTagName("main")[0].innerHTML += "<style>header { background-color:#24bba8;border-bottom: 3px solid #088A79;}section {    border-bottom: 3px solid #088a79;color: #d90000;}main div article a {color:#24bba8;}</style>"
+        document.getElementsByTagName("main")[0].innerHTML += "<style>header { background-color:#24bba8;border-bottom: 3px solid #088A79;}section {    border-bottom: 3px solid #088a79;color: #24bba8;}main div article a {color:#24bba8;}</style>"
     }
     if (cat == "arts ") {
         catHead.innerHTML = "Arts & Entertainment";
