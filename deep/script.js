@@ -28,7 +28,7 @@ window.onload = function() {
     }
     if (cat == "arts ") {
         catHead.innerHTML = "Arts & Entertainment";
-        document.getElementsByTagName("main")[0].innerHTML += "<style>header { background-color:#f6aa00;border-bottom: 3px solid #ce7805;}section {    border-bottom: 3px solid #ce7805;color: #f6aa00;}main div article a {color:#f6aa00;}</style>";
+        document.getElementsByTagName("main")[0].innerHTML += "<style>header { background-color:#56059C;border-bottom: 3px solid #410377;}section {    border-bottom: 3px solid #410377;;color: #56059C;}main div article a {color:#f6aa00;}</style>";
     }
     if (cat == " ") {
         catHead.innerHTML = "All Articles";
