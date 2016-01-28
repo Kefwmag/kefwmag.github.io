@@ -222,11 +222,23 @@ article.fs a {
 
 @media screen and (max-width: 750px) {
 	nav {
-		height:30%;
+		height:50%;
 		position:fixed;
 		top:-100%;
 		width:100%;
 		transition:top 0.8s;
+		z-index:1;
+	}
+	nav ul {
+		height:100%;
+		left:0;
+		right:0;
+		top:0;
+		bottom:0;
+	}
+	nav ul li {
+		width:40%;
+		display:inline-block;
 	}
 	#hamburger:checked ~ nav {
 		top:125px;
