@@ -172,8 +172,8 @@ article.fs p {
 }
 article.fs a i {
 	position:absolute;
-	left:0;
-	top:0;
+	left:10px;
+	top:50px;
 }
 article.fs a:last-child {
 	top:8px;
