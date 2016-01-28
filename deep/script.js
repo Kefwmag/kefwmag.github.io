@@ -16,6 +16,7 @@ window.onload = function() {
     var cat = catHead.innerHTML;
     if (cat == "news ") {
         catHead.innerHTML = "School News";
+        document.getElementsByTagName("main")[0].innerHTML += "<style>header { background-color:#d90000;border-bottom: 3px solid #9A1504;}section {    border-bottom: 3px solid #9A1504;color: #d90000;}main div article a {color:#d90000;}</style>"
     }
     if (cat == "tech ") {
         catHead.innerHTML = "Technology";
