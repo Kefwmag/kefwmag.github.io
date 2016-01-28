@@ -20,10 +20,11 @@ window.onload = function() {
     }
     if (cat == "tech ") {
         catHead.innerHTML = "Technology";
-        document.getElementsByTagName("main")[0].innerHTML += "<style>header { background-color:#24bba8;border-bottom: 3px solid #088A79;}section {    border-bottom: 3px solid #088a79;color: #24bba8;}main div article a {color:#24bba8;}</style>"
+        document.getElementsByTagName("main")[0].innerHTML += "<style>header { background-color:#24bba8;border-bottom: 3px solid #088A79;}section {    border-bottom: 3px solid #088a79;color: #24bba8;}main div article a {color:#24bba8;}</style>";
     }
     if (cat == "arts ") {
         catHead.innerHTML = "Arts & Entertainment";
+        document.getElementsByTagName("main")[0].innerHTML += "<style>header { background-color:#f6aa00;border-bottom: 3px solid #ce7805;}section {    border-bottom: 3px solid #ce7805;color: #f6aa00;}main div article a {color:#f6aa00;}</style>";
     }
     if (cat == "lifestyle ") {
         catHead.innerHTML = "Lifestyle";
