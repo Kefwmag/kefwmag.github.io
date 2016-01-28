@@ -126,6 +126,7 @@ main div article summary  {
 	height:71%;
 	overflow:hidden;
 	margin:5px 0;
+	display:inline-block;
 }
 main div article a {
 	position:absolute;
