@@ -120,6 +120,7 @@ main div article h3 {
 	font-size:smaller;
 	color:#AAA;
 	margin:3px 0;
+	margin-bottom:13px;
 }
 main div article summary  {
 	font-size:smaller;
@@ -170,7 +171,9 @@ article.fs p {
 	font-size:initial;
 }
 article.fs a i {
-	
+	position:absolute;
+	left:0;
+	top:0;
 }
 article.fs a:last-child {
 	top:8px;
