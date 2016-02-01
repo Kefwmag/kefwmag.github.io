@@ -173,12 +173,12 @@ article.fs p {
 article.fs a i {
 	position:absolute;
 	left:20px;
-	top:60px;
+	top:58px;
 }
 article.fs a:nth-of-type(2) i {
 	left: 60px;
 }
-article.fs a i:nth-of-type(3) {
+article.fs a:nth-of-type(3) i {
 	left: 100px;
 }
 article.fs a:last-child {
