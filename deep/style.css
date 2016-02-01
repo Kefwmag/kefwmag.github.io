@@ -178,6 +178,9 @@ article.fs a i {
 article.fs a i:nth-of-type(2) {
 	left: 60px;
 }
+article.fs a i:nth-of-type(3) {
+	left: 100px;
+}
 article.fs a:last-child {
 	top:8px;
 	bottom:auto;
