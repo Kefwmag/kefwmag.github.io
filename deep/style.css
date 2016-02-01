@@ -126,7 +126,7 @@ main div article summary  {
 	font-size:smaller;
 	height:71%;
 	overflow:hidden;
-	margin:5px 0;
+	margin:12px 0;
 	display:inline-block;
 }
 main div article a:last-child {
@@ -173,13 +173,13 @@ article.fs p {
 article.fs a i {
 	position:absolute;
 	left:20px;
-	top:58px;
+	top:62px;
 }
 article.fs a:nth-of-type(2) i {
 	left: 60px;
 }
 article.fs a:nth-of-type(3) i {
-	left: 100px;
+	left: 110px;
 }
 article.fs a:last-child {
 	top:8px;
