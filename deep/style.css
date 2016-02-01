@@ -175,7 +175,7 @@ article.fs a i {
 	left:20px;
 	top:60px;
 }
-article.fs a i:nth-of-type(2) {
+article.fs a:nth-of-type(2) i {
 	left: 60px;
 }
 article.fs a i:nth-of-type(3) {
