@@ -18,7 +18,7 @@ window.onload = function() {
         document.getElementsByTagName("main")[0].innerHTML += "<style>header { background-color:#56059C;border-bottom: 3px solid #410377;}section {    border-bottom: 3px solid #410377;color: #56059C;}main div article a {color:#410377;}</style>";
     }
     if (cat == "sport ") {
-        catHead.innerHTML = "Sports;
+        catHead.innerHTML = "Sports";
         document.getElementsByTagName("main")[0].innerHTML += "<style>header { background-color:#56059C;border-bottom: 3px solid #410377;}section {    border-bottom: 3px solid #410377;color: #56059C;}main div article a {color:#410377;}</style>";
     }
     if (cat == " ") {
