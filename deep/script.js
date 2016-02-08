@@ -1,17 +1,4 @@
 window.onload = function() {
-    document.addEventListener('click', function(evt) {
-        console.log(evt.target.parentNode);
-        console.log(evt.target.innerText);
-        console.log(evt.target.tagName)
-        console.log(evt.target.parentNode.id)
-        if((evt.target.tagName == "A") && (evt.target.innerText == "Read More")) {
-            evt.target.parentNode.className = "fs";
-            evt.target.innerText = "Go back"
-        } else if((evt.target.tagName == "A") && (evt.target.innerText == "Go back")) {
-            evt.target.parentNode.className = "";
-            evt.target.innerText = "Read More";
-        }
-    }, false);
     var catHead = document.getElementById("categoryName");
     var cat = catHead.innerHTML;
     if (cat == "news ") {
@@ -27,6 +14,10 @@ window.onload = function() {
         document.getElementsByTagName("main")[0].innerHTML += "<style>header { background-color:#f6aa00;border-bottom: 3px solid #ce7805;}section {    border-bottom: 3px solid #ce7805;color: #f6aa00;}main div article a {color:#f6aa00;}</style>";
     }
     if (cat == "arts ") {
+        catHead.innerHTML = "Arts & Entertainment";
+        document.getElementsByTagName("main")[0].innerHTML += "<style>header { background-color:#56059C;border-bottom: 3px solid #410377;}section {    border-bottom: 3px solid #410377;color: #56059C;}main div article a {color:#410377;}</style>";
+    }
+    if (cat == "sport ") {
         catHead.innerHTML = "Arts & Entertainment";
         document.getElementsByTagName("main")[0].innerHTML += "<style>header { background-color:#56059C;border-bottom: 3px solid #410377;}section {    border-bottom: 3px solid #410377;color: #56059C;}main div article a {color:#410377;}</style>";
     }
