@@ -127,6 +127,14 @@ main div article summary  {
 	overflow:hidden;
 	display:inline-block;
 }
+man div artcile summary p {
+	margin:0;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	white-space: nowrap; /* Don't forget this one */
+	text-overflow: ellipsis;
+}
 main div article a:last-child {
 	position:absolute;
 	right:10px;
