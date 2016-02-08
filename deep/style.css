@@ -120,7 +120,6 @@ main div article h3 {
 	font-size:smaller;
 	color:#AAA;
 	margin:3px 0;
-	margin-bottom:13px;
 }
 main div article summary  {
 	font-size:smaller;
@@ -184,6 +183,10 @@ article.fs a:nth-of-type(3) i {
 article.fs a:last-child {
 	top:8px;
 	bottom:auto;
+}
+
+article.fs h3 {
+	margin-bottom:13px;
 }
 
 @media screen and (min-width: 750px) {
