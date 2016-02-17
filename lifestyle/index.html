@@ -3,7 +3,11 @@ layout: deep
 ---
 
 <div>
+    {% assign pageCat = "lifestyle" %}{% assign categories = page.categories | split: ' ' %}
     {% for post in site.posts %}
+    {% assign flagInclude = false %}
+    {% for category in categories %}{% if category == pageCat %}{% assign flagInclude = true %}{% endif %}{% endfor %}
+    {% if flagInclude %}
         <article class="{{ post.categories }}">
             <h1 class="storyName">{{ post.title }}</h1>
             <h3 class="author">By {{ post.author }}, {{ post.date | date: "%b %-d, %Y" }}</h3>
@@ -12,6 +16,7 @@ layout: deep
             </summary>
             <a href="{{ post.url }}">Read More</a>
         </article>
+    {% endif %}
     {% endfor %}
     <style>
         article.lifestyle {
