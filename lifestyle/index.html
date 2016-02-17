@@ -7,7 +7,7 @@ layout: deep
     {% for post in site.posts %}
     {% assign categories = post.categories | split: ' ' %}
     {% assign flagInclude = false %}
-    {% for category in categories %}{% if category == pageCat %}{% assign flagInclude = true %}{% endif %}{% endfor %}
+    {% for category in categories %}{% if category == pageCat %}{% assign flagInclude = true %}{% endif %}{{ category }} - {{pageCat}} - {{flagInclude}}{% endfor %}
     {{ post.title }} - {{flagInclude}} - {{ categories }}
     {% if flagInclude %}
         <article class="{{ post.categories }}">
