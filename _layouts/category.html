@@ -3,19 +3,19 @@ layout: deep
 ---
 
 <div>
-    {% assign pageCat = page.pageCat %}
+    {% assign pagecat = page.pagecat %}
     {% for post in site.posts %}
     {% assign flagInclude = false %}
     {% if post.category == pageCat %}{% assign flagInclude = true %}{% endif %}
     {% if flagInclude %}{% include postpreview.html %}{% endif %}
     {% endfor %}
     <style>
-        article.{{pageCat}} {
+        article.{{pagecat}} {
           display:inline-block;
         }
     </style>
     
     <script>
-        document.getElementById("categoryName").innerHTML = "{{pageCat}} ";
+        document.getElementById("categoryName").innerHTML = "{{pagecat}} ";
     </script>
 </div>
