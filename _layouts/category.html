@@ -5,10 +5,8 @@ layout: deep
 <div>
     {% assign pagecat = page.category %}
     {% for post in site.posts %}
-    {% assign flagInclude = false %}
-    {% if post.category == pageCat %}{% assign flagInclude = true %}{% endif %}
     {{post.category}}
-    {% if flagInclude %}{% include postpreview.html %}{% endif %}
+    {% if post.category == pageCat %}{% include postpreview.html %}{% endif %}
     {% endfor %}
     <style>
         article.{{pagecat}} {
