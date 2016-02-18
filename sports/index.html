@@ -3,8 +3,13 @@ layout: deep
 ---
 
 <div>
+    {% assign pageCat = "sports" %}
     {% for post in site.posts %}
-        <article class="{{ post.categories }}">
+    {% assign flagInclude = false %}
+    {% if post.category == pageCat %}{% assign flagInclude = true %}{% endif %}
+    {{ post.title }} - {{flagInclude}} - {{ post.category }}
+    {% if flagInclude %}
+        <article class="{{ post.category }}">
             <h1 class="storyName">{{ post.title }}</h1>
             <h3 class="author">By {{ post.author }}, {{ post.date | date: "%b %-d, %Y" }}</h3>
             <summary>
@@ -12,9 +17,10 @@ layout: deep
             </summary>
             <a href="{{ post.url }}">Read More</a>
         </article>
+    {% endif %}
     {% endfor %}
     <style>
-        article.lifestyle {
+        article.sports {
           display:inline-block;
         }
     </style>
