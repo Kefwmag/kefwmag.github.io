@@ -3,16 +3,12 @@ layout: deep
 ---
 
 <div>
-    {% for post in site.posts %}
-    <!-- Post: {{post.category}} This page: {{page.category}} -->
-    {% if post.category == page.category %}{% include postpreview.html %}{% endif %}
-    {% endfor %}
+    {% for post in site.posts %}{% if post.category == page.category %}{% include postpreview.html %}{% endif %}{% endfor %}
     <style>
         article.{{page.category}} {
           display:inline-block;
         }
     </style>
-    
     <script>
         document.getElementById("categoryName").innerHTML = "{{page.category}} ";
     </script>
