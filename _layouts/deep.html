@@ -23,7 +23,7 @@
             </ul>
         </nav>
         <section>
-            <h1 id="categoryName">{{ page.category }} </h1>       
+            <h1 id="categoryName">{{ page.category || page.pageCat }} </h1>       
         </section>
         <main>
             {{content}}
