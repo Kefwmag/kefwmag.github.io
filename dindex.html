@@ -1,17 +1,12 @@
 ---
 layout: deep
+useTitle: true
+title: Home
 ---
 
 <div>
     {% for post in site.posts %}
-        <article class="{{post.categories}}">
-            <h1 class="storyName">{{ post.title }}</h1>
-            <h3 class="author">By {{ post.author }}, {{ post.date | date: "%b %-d, %Y" }}</h3>
-            <summary>
-                {{post.excerpt}}
-            </summary>
-            <a href="{{ post.url }}">Read More</a>
-        </article>
+    {% include postpreview.html %}
     {% endfor %}
     <style>
         article {

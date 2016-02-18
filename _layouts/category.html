@@ -1,0 +1,12 @@
+---
+layout: deep
+---
+
+<div>
+    {% for post in site.posts %}{% if post.category == page.category %}{% include postpreview.html %}{% endif %}{% endfor %}
+    <style>
+        article.{{page.category}} {
+          display:inline-block;
+        }
+    </style>
+</div>

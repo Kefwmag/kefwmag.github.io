@@ -1,33 +1,32 @@
-
 <!DOCTYPE html>
 <html>
     <head>
         <title>KEFW Magazine</title>
         <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/deep/style.css" />
+        <link rel="stylesheet" href="{{site.url}}/deep/style.css" />
     </head>
     <body>
-        <header>
+        <header class="{{page.category}}">
             <h1>KEFW Magazine</h1>
         </header>
         <input type="checkbox" id="hamburger" name="hamburger" />
         <label for="hamburger"></label>
         <nav>
             <ul>
-                <li><a href="/dindex.html"> Home                   </a></li>
-                <li><a href="/news/">       News                   </a></li>
-                <li><a href="/tech/">       Technology             </a></li>
-                <li><a href="/lifestyle/">  Lifestyle              </a></li>
-                <li><a href="/arts/">       Arts and Entertainment </a></li>
+                <li><a href="{{site.url}}/dindex.html"> Home                   </a></li>
+                {% for link in site.cats %}
+                <li><a href="{{site.url}}/{{ link[0] }}/">{{ link[1] }}</a></li>
+                {% endfor %}
             </ul>
         </nav>
-        <section>
-            <h1 id="categoryName">{{ page.categories }} </h1>       
+        <section class="{{page.category}}">
+            <!-- Category title is fetched from _config.yml -->
+            <h1 id="categoryName" class="{{page.category}}">{% if page.useTitle %}{{page.title}}{% else %}{{site.cats[page.category]}}{% endif %}</h1>       
         </section>
         <main>
             {{content}}
         </main>
-        <script src="/deep/script.js"></script>
+        <!--<script src="{{site.url}}/deep/script.js"></script>-->
     </body>
 </html>

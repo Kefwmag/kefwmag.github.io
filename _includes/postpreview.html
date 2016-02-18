@@ -1,0 +1,8 @@
+        <article class="{{post.category}}">
+            <h1 class="storyName">{{ post.title }}</h1>
+            <h3 class="author">By {{ post.author }}, {{ post.date | date: "%b %-d, %Y" }}</h3>
+            <summary>
+                {{post.excerpt}}
+            </summary>
+            <a class="{{post.category}}" href="{{site.url}}{{ post.url }}">Read More</a>
+        </article>
