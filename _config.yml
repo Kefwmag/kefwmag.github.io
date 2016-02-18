@@ -12,7 +12,7 @@ description: >
   This is the official website of the King Edward VI Five Ways School
   Magazine.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://kefwmag.github.io" # the base hostname & protocol for your site
+url: "https://kefwmag.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
