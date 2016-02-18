@@ -5,8 +5,9 @@ layout: deep
 <div>
     {% assign pageCat = "lifestyle" %}
     {% for post in site.posts %}
+    {% assign flagInclude = false %}
     {% if post.category == pageCat %}{% assign flagInclude = true %}{% endif %}
-    {{ post.title }} - {{flagInclude}} - {{ categories }}
+    {{ post.title }} - {{flagInclude}} - {{ post.category }}
     {% if flagInclude %}
         <article class="{{ post.category }}">
             <h1 class="storyName">{{ post.title }}</h1>
