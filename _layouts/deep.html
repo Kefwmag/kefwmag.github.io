@@ -21,7 +21,7 @@
                 {% endfor %}
             </ul>
         </nav>
-        <section>
+        <section class="{{page.category}}">
             <!-- Category title is fetched from _config.yml -->
             <h1 id="categoryName" class="{{page.category}}">{% if page.useTitle %}{{page.title}}{% else %}{{site.cats[page.category]}}{% endif %}</h1>       
         </section>
