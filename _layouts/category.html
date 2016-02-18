@@ -4,7 +4,7 @@ layout: deep
 
 <div>
     {% for post in site.posts %}
-    {{post.category}}{{page.category}}
+    <!-- Post: {{post.category}} This page: {{page.category}} -->
     {% if post.category == page.category %}{% include postpreview.html %}{% endif %}
     {% endfor %}
     <style>
