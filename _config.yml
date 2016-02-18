@@ -18,8 +18,8 @@ url: "http://ir-g.uk/kefwmag.github.io"
 markdown: kramdown
 
 cats:
+  news: "News"
   sports: "Sports"
+  tech: "Technology"
   lifestyle: "Lifestyle"
   arts: "Arts & Entertainment"
-  news: "News"
-  tech: "Technology"
