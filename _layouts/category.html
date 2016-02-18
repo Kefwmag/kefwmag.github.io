@@ -3,7 +3,7 @@ layout: deep
 ---
 
 <div>
-    {% assign pagecat = page.pagecat %}
+    {% assign pagecat = page.category %}
     {% for post in site.posts %}
     {% assign flagInclude = false %}
     {% if post.category == pageCat %}{% assign flagInclude = true %}{% endif %}
