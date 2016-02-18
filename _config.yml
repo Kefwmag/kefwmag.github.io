@@ -16,3 +16,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ir-g.uk/kefwmag.github.io"
 # Build settings
 markdown: kramdown
+
+cats:
+
+ - sports: "Sports"
+ - lifestyle: "Lifestyle"
+ - tech: "Technology"
+ - tech: "Technology"
