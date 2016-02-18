@@ -5,7 +5,7 @@ layout: deep
 <div>
     {% assign pagecat = page.category %}
     {% for post in site.posts %}
-    {{post.category}}
+    {{post.category}}{{page.category}}
     {% if post.category == pageCat %}{% include postpreview.html %}{% endif %}
     {% endfor %}
     <style>
