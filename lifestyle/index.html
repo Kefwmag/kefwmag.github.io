@@ -5,12 +5,10 @@ layout: deep
 <div>
     {% assign pageCat = "lifestyle" %}
     {% for post in site.posts %}
-    {% assign categories = post.categories | split: ' ' %}
-    {% assign flagInclude = false %}
-    {% for category in categories %}{% if category == pageCat %}{% assign flagInclude = true %}{% endif %}{{ category | join: '' }} - {{pageCat}} - {{flagInclude}}{% endfor %}
+    {% if post.category == pageCat %}{% assign flagInclude = true %}{% endif %}
     {{ post.title }} - {{flagInclude}} - {{ categories }}
     {% if flagInclude %}
-        <article class="{{ post.categories }}">
+        <article class="{{ post.category }}">
             <h1 class="storyName">{{ post.title }}</h1>
             <h3 class="author">By {{ post.author }}, {{ post.date | date: "%b %-d, %Y" }}</h3>
             <summary>
