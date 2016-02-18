@@ -20,6 +20,6 @@ markdown: kramdown
 cats:
   sports: "Sports"
   lifestyle: "Lifestyle"
-  arts: "Arts & Entertainment "
+  arts: "Arts & Entertainment"
   news: "News"
   tech: "Technology"
