@@ -7,17 +7,7 @@ layout: deep
     {% for post in site.posts %}
     {% assign flagInclude = false %}
     {% if post.category == pageCat %}{% assign flagInclude = true %}{% endif %}
-    {{ post.title }} - {{flagInclude}} - {{ post.category }}
-    {% if flagInclude %}
-        <article class="{{ post.category }}">
-            <h1 class="storyName">{{ post.title }}</h1>
-            <h3 class="author">By {{ post.author }}, {{ post.date | date: "%b %-d, %Y" }}</h3>
-            <summary>
-                {{post.excerpt}}
-            </summary>
-            <a href="{{ post.url }}">Read More</a>
-        </article>
-    {% endif %}
+    {% if flagInclude %}{% include postpreview.html %}{% endif %}
     {% endfor %}
     <style>
         article.{{pageCat}} {
