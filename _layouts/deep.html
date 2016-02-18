@@ -20,7 +20,7 @@
                 <li><a href="{{site.url}}/tech/">       Technology             </a></li>
                 <li><a href="{{site.url}}/lifestyle/">  Lifestyle              </a></li>
                 <li><a href="{{site.url}}/arts/">       Arts and Entertainment </a></li>
-            </ul>{% for link in page.cats %}
+            </ul>{% for link in site.cats %}
   <a href="{{ link[1] }}">{{ link[0] }}</a>
 {% endfor %}
         </nav>
