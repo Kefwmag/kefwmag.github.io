@@ -170,7 +170,7 @@ article.fs {
 	left:0;
 	margin:0;
 	z-index:10;
-	padding:5 100px;
+	padding:5px 100px;
 	transition:left 0.8s;
 	font-size:initial;
 	display:inline-block;
@@ -193,13 +193,13 @@ article.fs img {
 article.fs a i {
 	position:absolute;
 	left:20px;
-	top:62px;
+	top:142px;
 }
 article.fs a:nth-of-type(2) i {
-	left: 60px;
+	left: 140px;
 }
 article.fs a:nth-of-type(3) i {
-	left: 110px;
+	left: 190px;
 }
 article.fs a:last-child {
 	top:8px;
