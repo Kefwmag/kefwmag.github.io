@@ -175,6 +175,14 @@ article.fs {
 article.fs p {
 	font-size:initial;
 }
+
+article.fs img {
+	width:100%;
+	height:auto;
+	margin:5px;
+	display:inline-block;
+	
+}
 article.fs a i {
 	position:absolute;
 	left:20px;
