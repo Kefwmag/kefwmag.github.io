@@ -127,6 +127,9 @@ main div article summary  {
 	overflow:hidden;
 	display:inline-block;
 }
+main div article summary img  {
+	display:none;
+}
 main div article summary p {
 	margin:0;
 	height:100%;
