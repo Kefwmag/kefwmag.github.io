@@ -158,7 +158,7 @@ main div article a:last-child {
 }
 
 article.fs {
-	height:calc(100% - 125px);
+	height:auto;
 	width:100%;
 	position:absolute;
 	right:0;
@@ -176,6 +176,7 @@ article.fs p {
 	font-size:initial;
 }
 article.fs summary {
+	height:auto;
 	overflow:visible;
 }
 article.fs img {
