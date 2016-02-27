@@ -316,7 +316,11 @@ section.news {
 	color: #d90000;
 }
 
-main div article.fs a.news{
+main div article.fs.news a{
+	color:#d90000;
+}
+
+main div article.fs.news a i {
 	color:#d90000;
 }
 
@@ -330,11 +334,11 @@ section.tech {
 	color: #24bba8;
 }
 
-main div article.fs a.tech {
+main div article.fs.tech a {
 	color:#24bba8;
 }
 
-main div article a.tech i {
+main div article.fs.tech a i {
 	color:#24bba8;
 }
 
@@ -348,10 +352,10 @@ section.lifestyle {
 	color: #f6aa00;
 }
 
-main div article.fs a.lifestyle {
+main div article.fs.lifestyle a {
 	color:#f6aa00;
 }
-main div article a.lifestyle i {
+main div article.fs.lifestyle a i {
 	color:#f6aa00;
 }
 
@@ -365,10 +369,10 @@ section.arts {
 	color: #56059C;
 }
 
-main div article.fs a.arts { 
+main div article.fs.arts a { 
 	color:#410377;
 }
-main div article a.arts i { 
+main div article.fs.arts a i { 
 	color:#410377;
 }
 
@@ -382,9 +386,10 @@ section.sport {
 	color: #56059C;
 }
 
-main div article.fs a.sport {
+main div article.fs.sport a i {
 	color:#410377;
 }
-main div article a.sport i{
+/*main div article.fs.sport a i {
 	color:#410377;
 }
+*/
