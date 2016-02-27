@@ -316,7 +316,7 @@ section.news {
 	color: #d90000;
 }
 
-main div article a.news{
+main div article.fs a.news{
 	color:#d90000;
 }
 
@@ -334,7 +334,7 @@ main div article a.tech {
 	color:#24bba8;
 }
 
-main div article a.tech i {
+main div article.fs a.tech i {
 	color:#24bba8;
 }
 
@@ -348,7 +348,7 @@ section.lifestyle {
 	color: #f6aa00;
 }
 
-main div article a.lifestyle {
+main div article.fs a.lifestyle {
 	color:#f6aa00;
 }
 
@@ -362,7 +362,7 @@ section.arts {
 	color: #56059C;
 }
 
-main div article a.arts { 
+main div article.fs a.arts { 
 	color:#410377;
 }
 
@@ -376,6 +376,6 @@ section.sport {
 	color: #56059C;
 }
 
-main div article a.sport {
+main div article.fs a.sport {
 	color:#410377;
 }
