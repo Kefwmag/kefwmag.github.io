@@ -192,8 +192,8 @@ article.fs img {
 }
 article.fs a i {
 	position:absolute;
-	left:20px;
-	top:142px;
+	left:100px;
+	top:62px;
 }
 article.fs a:nth-of-type(2) i {
 	left: 140px;
