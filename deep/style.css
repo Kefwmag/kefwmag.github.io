@@ -175,7 +175,9 @@ article.fs {
 article.fs p {
 	font-size:initial;
 }
-
+article.fs summary {
+	overflow:visible;
+}
 article.fs img {
 	width:50%;
 	height:auto;
