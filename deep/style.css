@@ -330,11 +330,11 @@ section.tech {
 	color: #24bba8;
 }
 
-main div article a.tech {
+main div article.fs a.tech {
 	color:#24bba8;
 }
 
-main div article.fs a.tech i {
+main div article a.tech i {
 	color:#24bba8;
 }
 
@@ -351,6 +351,9 @@ section.lifestyle {
 main div article.fs a.lifestyle {
 	color:#f6aa00;
 }
+main div article a.lifestyle i {
+	color:#f6aa00;
+}
 
 header.arts {
 	background-color:#56059C;
@@ -365,6 +368,9 @@ section.arts {
 main div article.fs a.arts { 
 	color:#410377;
 }
+main div article a.arts i { 
+	color:#410377;
+}
 
 header.sport {
 	background-color:#56059C;
@@ -377,5 +383,8 @@ section.sport {
 }
 
 main div article.fs a.sport {
+	color:#410377;
+}
+main div article a.sport i{
 	color:#410377;
 }
