@@ -313,6 +313,7 @@ header.news {
 
 section.news { 
 	border-bottom: 3px solid #9A1504;
+	background: #9A1504;
 	color: #d90000;
 }
 
@@ -331,6 +332,7 @@ header.tech {
 
 section.tech {    
 	border-bottom: 3px solid #088a79;
+	background: #088a79;
 	color: #24bba8;
 }
 
@@ -349,6 +351,7 @@ header.lifestyle {
 
 section.lifestyle {
 	border-bottom: 3px solid #ce7805;
+	background: #ce7805;
 	color: #f6aa00;
 }
 
@@ -366,6 +369,7 @@ header.arts {
 
 section.arts {
 	border-bottom: 3px solid #410377;
+	background: #410377;
 	color: #56059C;
 }
 
@@ -383,6 +387,7 @@ header.sport {
 
 section.sport {
 	border-bottom: 3px solid #410377;
+	background: #410377;
 	color: #56059C;
 }
 
