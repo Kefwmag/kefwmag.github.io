@@ -9,7 +9,7 @@
     </head>
     <body>
         <header class="{{page.category}}">
-            <h1>BackChat</h1>
+            <a href="{{site.url}}/"><h1>BackChat</h1></a>
         </header>
         <input type="checkbox" id="hamburger" name="hamburger" />
         <label for="hamburger"></label>
@@ -23,7 +23,7 @@
         </nav>
         <section class="{{page.category}}">
             <!-- Category title is fetched from _config.yml -->
-            <h1 id="categoryName" class="{{page.category}}">{% if page.useTitle %}{{page.title}}{% else %}{{site.cats[page.category]}}{% endif %}</h1>       
+            {% unless page.useTitle %}<a href="{{site.url}}/">{% endunless %}<h1 id="categoryName" class="{{page.category}}">{% if page.useTitle %}{{page.title}}{% else %}{{site.cats[page.category]}}{% endif %}</h1>{% unless page.useTitle %}</a>{% endunless %}       
         </section>
         <main>
             {{content}}
