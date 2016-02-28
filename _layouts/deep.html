@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>BackChat</title>
+        <title>BackChat{% if page.title %} - {{page.title}}{% endif %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="{{site.url}}/deep/style.css" />
-        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+        <link rel="shortcut icon" type="image/x-icon" href="{{site.url}}/favicon.ico">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     </head>
     <body>
         <header class="{{page.category}}">
-            <h1>BackChat</h1>
+            <a class="headlink" href="{{site.url}}/"><h1>BackChat</h1></a>
         </header>
         <input type="checkbox" id="hamburger" name="hamburger" />
-        <label for="hamburger"></label>
+        <label for="hamburger">
+            <img style="height: 100%; width: 100%;" alt="Menu" src="{% include menu_dataurl.txt %}">
+        </label>
         <nav>
             <ul>
                 <li><a href="{{site.url}}/dindex.html"> Home                   </a></li>
@@ -23,7 +26,7 @@
         </nav>
         <section class="{{page.category}}">
             <!-- Category title is fetched from _config.yml -->
-            <h1 id="categoryName" class="{{page.category}}">{% if page.useTitle %}{{page.title}}{% else %}{{site.cats[page.category]}}{% endif %}</h1>       
+            {% unless page.useTitle %}<a class="headlink" href="{{site.url}}/{{page.category}}/" title="{{site.cats[page.category]}}">{% endunless %}<h1 id="categoryName" class="{{page.category}}">{% if page.useTitle %}{{page.title}}{% else %}{{site.cats[page.category]}}{% endif %}</h1>{% unless page.useTitle %}</a>{% endunless %}       
         </section>
         <main>
             {{content}}

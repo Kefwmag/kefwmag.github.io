@@ -1,4 +1,4 @@
-html,body {
+  html,body {
     height:100%;
     width:100%;
     margin:0;
@@ -6,7 +6,7 @@ html,body {
 }
 
 body {
-    font-family:Raleway;
+    font-family:Raleway, "Sans Serif";
     background-color:#BBB;
 }
 
@@ -30,7 +30,7 @@ section {
     	color: #069;
     	position:absolute;
     	top:75px;
-    	background-color:#EED;
+    	background-color:#069;
     	text-align:center;
     	line-height:50px;
     	box-sizing:border-box;
@@ -42,9 +42,10 @@ section {
 section h1 {
 	margin:0;
 	transition:width 0.8s;
+	color: white;
 }
 
-nav { 
+nav {
 	z-index:999;
 	display:block;
 	background-color:#333;
@@ -150,15 +151,13 @@ main div article a:last-child {
 }
 
 #hamburger + label {
-	position:fixed;
-	height:40px;
-	width:40px;
-	left:20px;
-	top:19px;
-	background-image:url('https://vibrantoutlook.files.wordpress.com/2014/04/menu-icon.png');
-	background-size: 50px 55px;
-    	background-position: -5px -9px;
-    	z-index:9999;
+    position: fixed;
+    height: 45px;
+    width: 45px;
+    left: 10px;
+    top: 10px;
+    z-index: 9999;
+    padding: 5px 5px 5px 5px;
 }
 
 article.fs {
@@ -188,7 +187,7 @@ article.fs img {
 	height:auto;
 	margin:5px;
 	display:inline-block;
-	
+
 }
 article.fs a i {
 	position:absolute;
@@ -232,18 +231,18 @@ article.fs summary {
     		right:0;
     		transition:left 0.8s;
 	}
-	
+
 	#hamburger:checked ~ nav > ul {
 		right:0;
 		transition:right 0.8s;
 	}
-	
+
 	#hamburger:checked ~ nav ~ section {
 		width:calc(100% - 250px);
     		transition:width 0.8s;
 	}
-	
-	main { 
+
+	main {
 		width:calc(100% - 50px);
     		right:0;
     		transition:width 0.8s;
@@ -307,89 +306,99 @@ article.fs summary {
 
 /* Special CATEGORY COLOURS */
 
-header.news { 
-	background-color:#d90000;
+header.news {
+	background-color:#CC0000;
 	border-bottom: 3px solid #9A1504;
 }
 
-section.news { 
+section.news {
 	border-bottom: 3px solid #9A1504;
-	color: #d90000;
+	background: #9A1504;
+	color: #CC0000;
 }
 
 main div article.news a{
-	color:#d90000;
+	color:#CC0000;
 }
 
 main div article.news a i {
-	color:#d90000;
+	color:#CC0000;
 }
 
-header.tech { 
-	background-color:#24bba8;
-	border-bottom: 3px solid #088A79;
+header.tech {
+	background-color:#333333;
+	border-bottom: 3px solid #4C4C4C;
 }
 
-section.tech {    
-	border-bottom: 3px solid #088a79;
-	color: #24bba8;
+section.tech {
+	border-bottom: 3px solid #4C4C4C;
+	background: #4C4C4C;
+	color: #333333;
 }
 
 main div article.tech a {
-	color:#24bba8;
+	color:#333333;
 }
 
 main div article.tech a i {
-	color:#24bba8;
+	color:#333333;
 }
 
-header.lifestyle { 
-	background-color:#f6aa00;
-	border-bottom: 3px solid #ce7805;
+header.lifestyle {
+	background-color:#009933;
+	border-bottom: 3px solid #29B156;
 }
 
 section.lifestyle {
-	border-bottom: 3px solid #ce7805;
-	color: #f6aa00;
+	border-bottom: 3px solid #29B156;
+	background: #29B156;
+	color: #009933;
 }
 
 main div article.lifestyle a {
-	color:#f6aa00;
+	color:#009933;
 }
 main div article.lifestyle a i {
-	color:#f6aa00;
+	color:#009933;
 }
 
 header.arts {
-	background-color:#56059C;
-	border-bottom: 3px solid #410377;
+	background-color:#660066;
+	border-bottom: 3px solid #861186;
 }
 
 section.arts {
-	border-bottom: 3px solid #410377;
+	border-bottom: 3px solid #861186;
+	background: #861186;
+	color: #660066;
+}
+
+main div article.arts a {
+	color:#660066;
+}
+main div article.arts a i {
+	color:#660066;
+}
+
+header.sports {
+	background-color:#FF6600;
+	border-bottom: 3px solid #FF8230;
+}
+
+section.sports {
+	border-bottom: 3px solid #FF8230;
+	background: #FF8230;
 	color: #56059C;
 }
 
-main div article.arts a { 
+main div article.sports a i {
 	color:#410377;
 }
-main div article.arts a i { 
+main div article.sports a i {
 	color:#410377;
 }
 
-header.sport {
-	background-color:#56059C;
-	border-bottom: 3px solid #410377;
-}
-
-section.sport {
-	border-bottom: 3px solid #410377;
-	color: #56059C;
-}
-
-main div article.sport a i {
-	color:#410377;
-}
-main div article.sport a i {
-	color:#410377;
+a.headlink{
+	color: white;
+	text-decoration: unset;
 }
