@@ -42,6 +42,7 @@ section {
 section h1 {
 	margin:0;
 	transition:width 0.8s;
+	color: white;
 }
 
 nav { 
@@ -394,6 +395,4 @@ main div article.sport a i {
 	color:#410377;
 }
 
-a{
-	color: white;
-}
+
