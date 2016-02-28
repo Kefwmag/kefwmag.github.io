@@ -5,7 +5,7 @@ layout: deep
 <div>
   <article class="fs {{page.categories}}">
     <h1 class="storyName">{{ page.title }}</h1>
-    <h3 class="author">By {{ page.author }}, {{ page.date | date: "%b %-d, %Y" }}</h3>
+    <h3 class="author">{% if page.author %}By {{ page.author }}, {% endif %}{{ page.date | date: "%b %-d, %Y" }}</h3>
     
     <!-- Twitter -->
     <a href="http://twitter.com/share?url={{site.url}}{{page.url}}&text={{page.title}} - Read more on BackChat" target="_blank" class="share-btn twitter">
