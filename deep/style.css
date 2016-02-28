@@ -393,6 +393,7 @@ main div article.sport a i {
 	color:#410377;
 }
 
-a{
+a.headlink{
 	color: white;
+	text-decoration: unset;
 }
