@@ -1,4 +1,4 @@
-html,body {
+  html,body {
     height:100%;
     width:100%;
     margin:0;
@@ -30,7 +30,7 @@ section {
     	color: #069;
     	position:absolute;
     	top:75px;
-    	background-color:#EED;
+    	background-color:#069;
     	text-align:center;
     	line-height:50px;
     	box-sizing:border-box;
@@ -45,7 +45,7 @@ section h1 {
 	color: white;
 }
 
-nav { 
+nav {
 	z-index:999;
 	display:block;
 	background-color:#333;
@@ -187,7 +187,7 @@ article.fs img {
 	height:auto;
 	margin:5px;
 	display:inline-block;
-	
+
 }
 article.fs a i {
 	position:absolute;
@@ -231,18 +231,18 @@ article.fs summary {
     		right:0;
     		transition:left 0.8s;
 	}
-	
+
 	#hamburger:checked ~ nav > ul {
 		right:0;
 		transition:right 0.8s;
 	}
-	
+
 	#hamburger:checked ~ nav ~ section {
 		width:calc(100% - 250px);
     		transition:width 0.8s;
 	}
-	
-	main { 
+
+	main {
 		width:calc(100% - 50px);
     		right:0;
     		transition:width 0.8s;
@@ -306,12 +306,12 @@ article.fs summary {
 
 /* Special CATEGORY COLOURS */
 
-header.news { 
+header.news {
 	background-color:#CC0000;
 	border-bottom: 3px solid #9A1504;
 }
 
-section.news { 
+section.news {
 	border-bottom: 3px solid #9A1504;
 	background: #9A1504;
 	color: #CC0000;
@@ -325,12 +325,12 @@ main div article.news a i {
 	color:#CC0000;
 }
 
-header.tech { 
+header.tech {
 	background-color:#333333;
 	border-bottom: 3px solid #4C4C4C;
 }
 
-section.tech {    
+section.tech {
 	border-bottom: 3px solid #4C4C4C;
 	background: #4C4C4C;
 	color: #333333;
@@ -344,14 +344,14 @@ main div article.tech a i {
 	color:#333333;
 }
 
-header.lifestyle { 
+header.lifestyle {
 	background-color:#009933;
-	border-bottom: 3px solid #371456;
+	border-bottom: 3px solid #29B156;
 }
 
 section.lifestyle {
-	border-bottom: 3px solid #371456;
-	background: #371456;
+	border-bottom: 3px solid #29B156;
+	background: #29B156;
 	color: #009933;
 }
 
@@ -364,30 +364,30 @@ main div article.lifestyle a i {
 
 header.arts {
 	background-color:#660066;
-	border-bottom: 3px solid #410377;
+	border-bottom: 3px solid #861186;
 }
 
 section.arts {
-	border-bottom: 3px solid #410377;
-	background: #410377;
+	border-bottom: 3px solid #861186;
+	background: #861186;
 	color: #660066;
 }
 
-main div article.arts a { 
+main div article.arts a {
 	color:#660066;
 }
-main div article.arts a i { 
+main div article.arts a i {
 	color:#660066;
 }
 
 header.sports {
 	background-color:#FF6600;
-	border-bottom: 3px solid #410377;
+	border-bottom: 3px solid #FF8230;
 }
 
 section.sports {
-	border-bottom: 3px solid #410377;
-	background: #410377;
+	border-bottom: 3px solid #FF8230;
+	background: #FF8230;
 	color: #56059C;
 }
 
