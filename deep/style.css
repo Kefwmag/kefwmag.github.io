@@ -307,81 +307,81 @@ article.fs summary {
 /* Special CATEGORY COLOURS */
 
 header.news { 
-	background-color:#d90000;
+	background-color:#CC0000;
 	border-bottom: 3px solid #9A1504;
 }
 
 section.news { 
 	border-bottom: 3px solid #9A1504;
 	background: #9A1504;
-	color: #d90000;
+	color: #CC0000;
 }
 
 main div article.news a{
-	color:#d90000;
+	color:#CC0000;
 }
 
 main div article.news a i {
-	color:#d90000;
+	color:#CC0000;
 }
 
 header.tech { 
-	background-color:#24bba8;
+	background-color:#333333;
 	border-bottom: 3px solid #088A79;
 }
 
 section.tech {    
 	border-bottom: 3px solid #088a79;
 	background: #088a79;
-	color: #24bba8;
+	color: #333333;
 }
 
 main div article.tech a {
-	color:#24bba8;
+	color:#333333;
 }
 
 main div article.tech a i {
-	color:#24bba8;
+	color:#333333;
 }
 
 header.lifestyle { 
-	background-color:#f6aa00;
+	background-color:#009933;
 	border-bottom: 3px solid #ce7805;
 }
 
 section.lifestyle {
 	border-bottom: 3px solid #ce7805;
 	background: #ce7805;
-	color: #f6aa00;
+	color: #009933;
 }
 
 main div article.lifestyle a {
-	color:#f6aa00;
+	color:#009933;
 }
 main div article.lifestyle a i {
-	color:#f6aa00;
+	color:#009933;
 }
 
 header.arts {
-	background-color:#56059C;
+	background-color:#660066;
 	border-bottom: 3px solid #410377;
 }
 
 section.arts {
 	border-bottom: 3px solid #410377;
 	background: #410377;
-	color: #56059C;
+	color: #660066;
 }
 
 main div article.arts a { 
-	color:#410377;
+	color:#660066;
 }
 main div article.arts a i { 
-	color:#410377;
+	color:#660066;
 }
 
 header.sport {
-	background-color:#56059C;
+	background-color:#FF6600;
 	border-bottom: 3px solid #410377;
 }
 
