@@ -23,7 +23,7 @@
         </nav>
         <section class="{{page.category}}">
             <!-- Category title is fetched from _config.yml -->
-            {% unless page.useTitle %}<a href="{{site.url}}/{{page.category}}" title="{{site.cats[page.category]}}">{% endunless %}<h1 id="categoryName" class="{{page.category}}">{% if page.useTitle %}{{page.title}}{% else %}{{site.cats[page.category]}}{% endif %}</h1>{% unless page.useTitle %}</a>{% endunless %}       
+            {% unless page.useTitle %}<a href="{{site.url}}/{{page.category}}/" title="{{site.cats[page.category]}}">{% endunless %}<h1 id="categoryName" class="{{page.category}}">{% if page.useTitle %}{{page.title}}{% else %}{{site.cats[page.category]}}{% endif %}</h1>{% unless page.useTitle %}</a>{% endunless %}       
         </section>
         <main>
             {{content}}
