@@ -20,7 +20,7 @@ header {
     background-color:#155379;
     color:white;
     text-align:center;
-    border-bottom:3px solid #069;
+    border-bottom:3px solid #155379;
     z-index:999;
 }
 
@@ -308,7 +308,7 @@ article.fs summary {
 
 header.news {
 	background-color:#CC0000;
-	border-bottom: 3px solid #9A1504;
+	border-bottom: 3px solid #CC0000;
 }
 
 section.news {
@@ -327,7 +327,7 @@ main div article.news a i {
 
 header.tech {
 	background-color:#333333;
-	border-bottom: 3px solid #4C4C4C;
+	border-bottom: 3px solid #333333;
 }
 
 section.tech {
@@ -346,7 +346,7 @@ main div article.tech a i {
 
 header.lifestyle {
 	background-color:#009933;
-	border-bottom: 3px solid #29B156;
+	border-bottom: 3px solid #009933;
 }
 
 section.lifestyle {
@@ -364,7 +364,7 @@ main div article.lifestyle a i {
 
 header.arts {
 	background-color:#660066;
-	border-bottom: 3px solid #861186;
+	border-bottom: 3px solid #660066;
 }
 
 section.arts {
@@ -382,7 +382,7 @@ main div article.arts a i {
 
 header.sports {
 	background-color:#FF6600;
-	border-bottom: 3px solid #FF8230;
+	border-bottom: 3px solid #FF6600;
 }
 
 section.sports {
