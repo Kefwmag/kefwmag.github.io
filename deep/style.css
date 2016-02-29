@@ -168,7 +168,7 @@ article.fs {
 	left:0;
 	margin:0;
 	z-index:10;
-	padding:5px 100px;
+	/* padding:5px 100px; */
 	transition:left 0.8s;
 	font-size:initial;
 	display:inline-block;
@@ -300,9 +300,14 @@ article.fs summary {
 	main div article {
 		height:300px;
 		width:90%;
+		padding: 5px 20px;
 	}
 }
-
+@media screen and (min-width: 750px) {
+	main div article{
+		padding: 5px 100px;
+	} 
+}
 /* Special CATEGORY COLOURS */
 
 header.news {
