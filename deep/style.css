@@ -281,7 +281,7 @@ article.fs summary {
 }
 @media screen and (max-width: 900px) {
 	main div article {
-		/* width:40vw; */
+		width:40vw;
 	}
 }
 
