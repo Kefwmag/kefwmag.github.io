@@ -157,9 +157,9 @@ main div article a:last-child {
 	left:0;
 	width:100%;
 	background-color:#FFF;
-	padding:5px;
+	padding:8px;
 	box-sizing:border-box;
-	text-align:center;
+	text-align:right;
 }
 main div.home article a:last-child {
 	color:#069;
