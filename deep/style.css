@@ -38,7 +38,7 @@ section {
     	transition:width 0.8s
 }
 
-section a.headlink {
+a.headlink {
 	margin:0;
 	transition:width 0.8s;
 	color: white;
