@@ -193,17 +193,7 @@ article.fs img {
 	display:inline-block;
 
 }
-article.fs a i {
-	position:absolute;
-	left:100px;
-	top:62px;
-}
-article.fs a:nth-of-type(2) i {
-	left: 140px;
-}
-article.fs a:nth-of-type(3) i {
-	left: 190px;
-}
+
 article.fs a:last-child {
 	top:8px;
 	bottom:auto;
@@ -260,7 +250,19 @@ article.fs summary {
 	}
 	main div article.fs{
 		padding: 5px 100px;
-	} 
+	}
+	
+	article.fs a i {
+		position:absolute;
+		left:100px;
+		top:62px;
+	}
+	article.fs a:nth-of-type(2) i {
+		left: 140px;
+	}
+	article.fs a:nth-of-type(3) i {
+		left: 190px;
+	}
 }
 @media screen and (max-width: 900px) {
 	main div article {
@@ -307,6 +309,17 @@ article.fs summary {
 	}
 	main div article.fs {
 		padding: 5px 20px;
+	}
+	article.fs a i {
+		position:absolute;
+		left:20px;
+		top:62px;
+	}
+	article.fs a:nth-of-type(2) i {
+		left: 60px;
+	}
+	article.fs a:nth-of-type(3) i {
+		left: 110px;
 	}
 }
 /* Special CATEGORY COLOURS */
@@ -392,8 +405,8 @@ section.sports {
 }
 
 main div article.sports a {
-	color:#410377;
+	color:#FF6600;
 }
 main div article.sports a i {
-	color:#410377;
+	color:#FF6600;
 }
