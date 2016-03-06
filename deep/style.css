@@ -45,6 +45,10 @@ a.headlink {
 	text-decoration: unset;
 }
 
+a.headlink h1 {
+	margin:0;
+}
+
 nav {
 	z-index:999;
 	display:block;
