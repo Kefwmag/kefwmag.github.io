@@ -223,7 +223,7 @@ article.fs summary {
 	height:71%;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 650px) {
 	nav {
 		height:calc(100% - 75px);
 		width: 250px;
