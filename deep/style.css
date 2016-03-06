@@ -254,11 +254,11 @@ article.fs summary {
 	main {
 		width:calc(100% - 50px);
     		right:0;
-    		transition:width 0.8s;
+    		transition:right 0.8s;
 	}
 	#hamburger:checked ~ nav ~ main {
-		width:calc(100% - 250px);
-    		transition:width 0.8s;
+		right:-200px;
+    		transition:right 0.8s;
 	}
 	main div article {
 		width:40vw;
