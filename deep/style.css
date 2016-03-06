@@ -38,15 +38,12 @@ section {
     	transition:width 0.8s
 }
 
-section a {
+section a.headlink {
 	margin:0;
 	transition:width 0.8s;
 	color: white;
-}
-/* a.headlink{
-	color: white;
 	text-decoration: unset;
-}*/
+}
 
 nav {
 	z-index:999;
