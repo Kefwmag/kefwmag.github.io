@@ -261,7 +261,7 @@ article.fs summary {
     		transition:width 0.8s;
 	}
 	main div article {
-		width:20vw;
+		width:40vw;
 	}
 	main div article.fs{
 		padding: 5px 100px;
@@ -279,9 +279,9 @@ article.fs summary {
 		left: 190px;
 	}
 }
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 900px) {
 	main div article {
-		width:40vw;
+		width:20vw;
 	}
 }
 
