@@ -285,7 +285,7 @@ article.fs summary {
 	}
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 650px) {
 	nav {
 		height:50%;
 		position:fixed;
