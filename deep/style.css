@@ -297,14 +297,14 @@ article.fs summary {
 	main {
 		width:100%;
 	}
-	main div article .main-article {
+	main div article.fs {
 		height:300px;
 		width:90%;
 		padding: 5px 20px;
 	}
 }
 @media screen and (min-width: 750px) {
-	main div article .main-article{
+	main div article.fs{
 		padding: 5px 100px;
 	} 
 }
