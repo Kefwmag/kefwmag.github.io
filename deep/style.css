@@ -152,9 +152,14 @@ main div article summary p {
 }
 main div article a:last-child {
 	position:absolute;
-	right:10px;
+	right:0;
 	color:#069;
-	bottom:6px;
+	bottom:0;
+	left:0;
+	width:100%;
+	background-color:#FFF;
+	padding:5px;
+	box-sizing:border-box;
 }
 
 #hamburger{
