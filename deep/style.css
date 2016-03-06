@@ -38,11 +38,15 @@ section {
     	transition:width 0.8s
 }
 
-section h1 {
+section a h1 {
 	margin:0;
 	transition:width 0.8s;
 	color: white;
 }
+/* a.headlink{
+	color: white;
+	text-decoration: unset;
+}*/
 
 nav {
 	z-index:999;
@@ -393,9 +397,4 @@ main div article.sports a i {
 }
 main div article.sports a i {
 	color:#410377;
-}
-
-a.headlink{
-	color: white;
-	text-decoration: unset;
 }
