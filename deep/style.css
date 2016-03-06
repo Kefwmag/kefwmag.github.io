@@ -256,6 +256,9 @@ article.fs summary {
     		right:0;
     		transition:right 0.8s;
 	}
+	main div {
+		text-align:left;
+	}
 	#hamburger:checked ~ nav ~ main {
 		right:-200px;
     		transition:right 0.8s;
@@ -280,6 +283,9 @@ article.fs summary {
 	}
 }
 @media screen and (min-width: 900px) {
+	main div {
+		text-align: center;
+	}
 	main div article {
 		width:20vw;
 	}
