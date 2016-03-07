@@ -291,6 +291,9 @@ article.fs summary {
 	main div {
 		text-align: center;
 	}
+	main div article.fs{
+		padding: 15px 300px;
+	}
 	main div article {
 		width:20vw;
 	}
@@ -339,7 +342,7 @@ article.fs summary {
 	article.fs a i {
 		position:absolute;
 		left:20px;
-		top:62px;
+		top:2.2em;
 	}
 	article.fs a:nth-of-type(2) i {
 		left: 60px;
