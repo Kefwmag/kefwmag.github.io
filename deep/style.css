@@ -129,6 +129,7 @@ main div article {
 	height:275px;
 	vertical-align:top;
 	transition:height 0.8s,width 0.8s;
+	overflow-y: hidden;
 }
 
 main div article h1 {
