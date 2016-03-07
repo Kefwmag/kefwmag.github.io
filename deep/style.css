@@ -95,6 +95,7 @@ nav ul li a {
 	position:relative;
 	right:100%;
 	transition:right 0.8s;
+	transition-delay:0.4s;
 }
 
 main {
@@ -261,6 +262,7 @@ article.fs summary {
 	#hamburger:checked ~ nav ul li a {
 		right:0;
     		transition:right 0.8s;
+    		transition-delay:0.4s;
 	}
 	main {
 		width:calc(100% - 50px);
@@ -342,6 +344,28 @@ article.fs summary {
 		border-top:1px solid white;
 		padding-top:18px;
 	}
+	nav ul li {
+		bottom:100%;
+    		transition:bottom 0.8s;
+    		transition-delay:0.2s;
+	}
+	#hamburger:checked ~ nav ul li  {
+		bottom:0;
+    		transition:bottom 0.8s;
+    		transition-delay:0.2s;
+	}
+	nav ul li a {
+		right:0;
+		bottom:100%;
+    		transition:bottom 0.8s;
+    		transition-delay:0.4s;
+	}
+	#hamburger:checked ~ nav ul li a {
+		bottom:0;
+    		transition:bottom 0.8s;
+    		transition-delay:0.4s;
+	}
+	
 	#hamburger:checked ~ nav {
 		top:75px;
 		transition:top 0.8s;
