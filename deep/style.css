@@ -272,13 +272,13 @@ article.fs summary {
 		width:40vw;
 	}
 	main div article.fs{
-		padding: 5px 100px;
+		padding: 10px 100px;
 	}
 	
 	article.fs a i {
 		position:absolute;
 		left:100px;
-		top:2.2em;
+		top:calc(2.2em + 5px);
 	}
 	article.fs a:nth-of-type(2) i {
 		left: 140px;
@@ -301,7 +301,7 @@ article.fs summary {
 	article.fs a i {
 		position:absolute;
 		left:200px;
-		top:2.2em;
+		top:calc(2.2em + 30px);
 	}
 	article.fs a:nth-of-type(2) i {
 		left:240px;
