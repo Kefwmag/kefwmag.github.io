@@ -134,7 +134,7 @@ main div article {
 
 main div article h1 {
 	margin:3px 0;
-	font-size: 2em;
+	font-size: 3em;
 	color:#222;
 }
 main div article h3 {
@@ -287,7 +287,7 @@ article.fs summary {
 	article.fs a i {
 		position:absolute;
 		left:100px;
-		top:calc(2.2em + 5px);
+		top:calc(3.2em + 5px);
 	}
 	article.fs a:nth-of-type(2) i {
 		left: 140px;
@@ -310,7 +310,7 @@ article.fs summary {
 	article.fs a i {
 		position:absolute;
 		left:200px;
-		top:calc(2.2em + 30px);
+		top:calc(3.2em + 30px);
 	}
 	article.fs a:nth-of-type(2) i {
 		left:240px;
@@ -385,7 +385,7 @@ article.fs summary {
 	article.fs a i {
 		position:absolute;
 		left:20px;
-		top:2.2em;
+		top:3.2em;
 	}
 	article.fs a:nth-of-type(2) i {
 		left: 60px;
