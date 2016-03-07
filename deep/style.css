@@ -79,6 +79,7 @@ nav ul li {
     margin:3px auto;
     margin-bottom:18px;
     border-bottom:1px solid white;
+    vertical-align:top;
 }
 
 nav ul li:first-child {
