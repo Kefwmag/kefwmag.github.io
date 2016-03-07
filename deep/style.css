@@ -243,7 +243,7 @@ article.fs summary {
 	section {
 		width:calc(100% - 50px);
     		right:0;
-    		transition:width 0.8s;
+    		transition:right 0.8s;
 	}
 
 	#hamburger:checked ~ nav > ul {
@@ -252,8 +252,8 @@ article.fs summary {
 	}
 
 	#hamburger:checked ~ nav ~ section {
-		width:calc(100% - 250px);
-    		transition:width 0.8s;
+		right:-200px;
+    		transition:right 0.8s;
 	}
 
 	main {
