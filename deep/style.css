@@ -293,9 +293,21 @@ article.fs summary {
 	}
 	main div article.fs{
 		padding: 15px 300px;
+		
 	}
 	main div article {
 		width:20vw;
+	}
+	article.fs a i {
+		position:absolute;
+		left:300px;
+		top:2.2em;
+	}
+	article.fs a:nth-of-type(2) i {
+		left: 340px;
+	}
+	article.fs a:nth-of-type(3) i {
+		left: 390px;
 	}
 }
 
