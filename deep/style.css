@@ -92,6 +92,8 @@ nav ul li:first-child {
 nav ul li a {
 	color:white;
 	text-decoration:none;
+	position:relative;
+	right:100%;
 }
 
 main {
@@ -255,7 +257,10 @@ article.fs summary {
 		right:-200px;
     		transition:right 0.8s;
 	}
-
+	#hamburger:checked ~ nav ul li a {
+		right:0;
+    		transition:right 0.8s;
+	}
 	main {
 		width:calc(100% - 50px);
     		right:0;
