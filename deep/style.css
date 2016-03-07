@@ -300,14 +300,14 @@ article.fs summary {
 	}
 	article.fs a i {
 		position:absolute;
-		left:300px;
+		left:200px;
 		top:2.2em;
 	}
 	article.fs a:nth-of-type(2) i {
-		left: 340px;
+		left:240px;
 	}
 	article.fs a:nth-of-type(3) i {
-		left: 390px;
+		left: 290px;
 	}
 }
 
