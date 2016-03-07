@@ -129,6 +129,8 @@ main div article {
 
 main div article h1 {
 	margin:3px 0;
+	font-size: 2em;
+	color:#222;
 }
 main div article h3 {
 	font-size:smaller;
@@ -276,7 +278,7 @@ article.fs summary {
 	article.fs a i {
 		position:absolute;
 		left:100px;
-		top:62px;
+		top:2.2em;
 	}
 	article.fs a:nth-of-type(2) i {
 		left: 140px;
