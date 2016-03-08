@@ -134,8 +134,11 @@ main div article {
 
 main div article h1 {
 	margin:3px 0;
-	font-size: 3em;
+	font-size: 1.5em;
 	color:#222;
+}
+main div article.fs h1 {
+	font-size: 3em;
 }
 main div article h3 {
 	font-size:smaller;
