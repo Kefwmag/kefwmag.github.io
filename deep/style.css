@@ -220,7 +220,7 @@ article.fs img {
 	height:auto;
 	margin:5px;
 	display:inline-block;
-
+	float:left;
 }
 
 article.fs > a:last-child {
