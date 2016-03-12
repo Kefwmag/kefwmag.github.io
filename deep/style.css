@@ -209,6 +209,7 @@ article.fs {
 }
 article.fs p {
 	font-size:initial;
+	display:inline;
 }
 article.fs summary {
 	height:auto;
