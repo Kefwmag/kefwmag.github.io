@@ -239,6 +239,10 @@ figure {
 	margin:0;
 	padding:0;
 }
+figure a {
+	margin: 0 3px;
+	text-decoration: none;
+}
 @media screen and (min-width: 650px) {
 	nav {
 		height:calc(100% - 75px);
