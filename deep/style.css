@@ -162,7 +162,7 @@ main div article summary p {
 	overflow:hidden;
 	text-overflow: ellipsis;
 }
-main div article a:last-child {
+main div article > a:last-child {
 	position:absolute;
 	right:0;
 	bottom:0;
@@ -235,7 +235,10 @@ article.fs summary {
 	margin:28px 0;
 	height:71%;
 }
-
+figure {
+	margin:0;
+	padding:0;
+}
 @media screen and (min-width: 650px) {
 	nav {
 		height:calc(100% - 75px);
