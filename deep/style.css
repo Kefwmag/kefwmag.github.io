@@ -212,6 +212,7 @@ article.fs p {
 }
 article.fs summary {
 	height:auto;
+	margin:3px 0;
 	overflow:visible;
 }
 article.fs img {
@@ -231,10 +232,6 @@ article.fs h3 {
 	margin-bottom:13px;
 }
 
-article.fs summary {
-	margin:3px 0;
-	height:71%;
-}
 figure {
 	margin:0;
 	padding:0;
