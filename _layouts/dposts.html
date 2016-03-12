@@ -6,22 +6,23 @@ layout: deep
   <article class="fs {{page.categories}}">
     <h1 class="storyName">{{ page.title }}</h1>
     <h3 class="author">{% if page.author %}By {{ page.author }}, {% endif %}{{ page.date | date: "%b %-d, %Y" }}</h3>
-    
-    <!-- Twitter -->
-    <a href="http://twitter.com/share?url={{site.url}}{{page.url}}&text={{page.title}} - Read more on BackChat" target="_blank" class="share-btn twitter">
-        <i class="fa fa-twitter fa-2x"></i>
-    </a>
-    
-    <!-- Google Plus -->
-    <a href="https://plus.google.com/share?url={{site.url}}{{page.url}}" onclick="javascript:window.open(this.href,
-  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="share-btn google-plus">
-        <i class="fa fa-google-plus fa-2x"></i>
-    </a>
-
-    <!-- Facebook -->
-    <a href="http://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank" class="share-btn facebook">
-        <i class="fa fa-facebook fa-2x"></i>
-    </a>
+    <figure>
+      <!-- Twitter -->
+      <a href="http://twitter.com/share?url={{site.url}}{{page.url}}&text={{page.title}} - Read more on BackChat" target="_blank" class="share-btn twitter">
+          <i class="fa fa-twitter fa-2x"></i>
+      </a>
+      
+      <!-- Google Plus -->
+      <a href="https://plus.google.com/share?url={{site.url}}{{page.url}}" onclick="javascript:window.open(this.href,
+    '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="share-btn google-plus">
+          <i class="fa fa-google-plus fa-2x"></i>
+      </a>
+  
+      <!-- Facebook -->
+      <a href="http://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank" class="share-btn facebook">
+          <i class="fa fa-facebook fa-2x"></i>
+      </a>
+    </figure>
     <summary>
       {{ content }}
     </summary>
