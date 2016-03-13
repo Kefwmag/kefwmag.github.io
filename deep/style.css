@@ -87,7 +87,7 @@ nav ul li {
     list-style:none;
     color:white;
     display:block;
-    height:40px;
+    height:35px;
     width:90%;
     margin:3px auto;
     margin-bottom:18px;
@@ -105,8 +105,8 @@ nav ul li:last-child {
 	bottom:5px;
 	margin: 3px 12.5px 18px;
 	border-top:1px solid white;
-	line-height:60px;
-	height:60px;
+	line-height:50px;
+	height:50px;
 }
 nav ul li a {
 	color:white;
