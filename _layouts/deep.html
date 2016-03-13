@@ -31,11 +31,11 @@
         </label>
         <nav>
             <ul>
-                <li><a href=""> Home                   </a></li>
+                <li><a href="/">Home</a></li>
                 {% for link in site.cats %}
                 <li><a href="/{{ link[0] }}/">{{ link[1] }}</a></li>
                 {% endfor %}
-                <li><a href="/contact">Contact Us</a></li>
+                <li><a href="/contact/">Contact Us</a></li>
             </ul>
         </nav>
         <section class="{{page.category}}">
