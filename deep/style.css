@@ -342,6 +342,8 @@ figure a {
 		width:100%;
 		transition:top 0.8s;
 		z-index:11;
+		font-size: small;
+		padding-bottom: 15px;
 	}
 	nav ul {
 		height:75%;
