@@ -62,6 +62,12 @@ nav {
 	background-color:#333;
 	position:fixed;
 	color:#888;
+	font-size:xx-small;
+	text-align:center;
+}
+
+nav > a {
+	color:#999;
 }
 
 nav ul {
@@ -71,6 +77,8 @@ nav ul {
 	right:100%;
 	transition:right 0.8s;
 	height:90%;
+	margin-bottom:0;
+	font-size:initial;
 }
 
 nav ul li {
