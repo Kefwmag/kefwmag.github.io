@@ -68,7 +68,12 @@ nav {
 	box-sizing:border-box;
 }
 
-nav > a {
+nav p {
+	position:absolute;
+	bottom:5px;
+}
+
+nav p > a {
 	color:#999;
 }
 
