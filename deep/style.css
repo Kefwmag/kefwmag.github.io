@@ -65,6 +65,7 @@ nav {
 	font-size:xx-small;
 	text-align:center;
 	padding-bottom:5px;
+	box-sizing:border-box;
 }
 
 nav > a {
