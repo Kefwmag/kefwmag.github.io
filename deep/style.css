@@ -364,6 +364,10 @@ figure a {
     		transition:bottom 0.8s;
     		transition-delay:0.2s;
 	}
+	nav ul li:last-child{
+		position:initial;
+		margin:initial;
+	}
 	#hamburger:checked ~ nav ul li  {
 		bottom:0;
     		transition:bottom 0.8s;
