@@ -69,6 +69,7 @@ nav ul {
 	position:relative;
 	right:100%;
 	transition:right 0.8s;
+	height:100%;
 }
 
 nav ul li {
@@ -88,7 +89,13 @@ nav ul li:first-child {
 	padding-top: 18px;
 }
 
-
+nav ul li:last-child {
+	position:absolute;
+	bottom:5px;
+	margin: 3px 12.5px 18px;
+	border-top:1px solid white;
+	line-height:100%;
+}
 nav ul li a {
 	color:white;
 	text-decoration:none;
