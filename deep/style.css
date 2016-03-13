@@ -250,7 +250,8 @@ article.fs > a:last-child {
 }
 
 article.fs h3 {
-	margin-bottom:13px;
+	margin:10px 0;
+	font-size:initial;
 }
 
 article.fs h4 {
