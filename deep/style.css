@@ -293,7 +293,14 @@ figure a {
     		right:0;
     		transition:right 0.8s;
 	}
-
+	nav p {
+		right:50px;
+		transition:right 0.8s;
+	}
+	#hamburger:checked ~ nav p {
+		right:0;
+		transition:right 0.8s;
+	}
 	#hamburger:checked ~ nav > ul {
 		right:0;
 		transition:right 0.8s;
