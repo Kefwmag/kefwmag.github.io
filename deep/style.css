@@ -272,11 +272,13 @@ figure a {
 		width: 250px;
 		left:-200px;
 		bottom:0;
-		transition:left 0.8s;
+		padding-right:50px;
+		transition:left 0.8s, padding-right 0.8s;
 	}
 	#hamburger:checked ~ nav {
 		left:0;
-		transition:left 0.8s;
+		padding-right:0;
+		transition:left 0.8s, padding-right 0.8s;
 	}
 	section {
 		width:calc(100% - 50px);
