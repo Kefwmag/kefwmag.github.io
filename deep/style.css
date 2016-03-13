@@ -232,8 +232,9 @@ article.fs p {
 }
 article.fs summary {
 	height:auto;
-	margin:3px 0;
+	margin:1.7em 0;
 	overflow:visible;
+	line-height:1.7em;
 }
 article.fs img {
 	width:50%;
@@ -260,11 +261,11 @@ article.fs h4 {
 	margin:5px;
 }
 figure {
-	margin:0;
+	margin:10px 0;
 	padding:0;
 }
 figure a {
-	margin: 0 3px;
+	margin: 0 5px;
 	text-decoration: none;
 }
 @media screen and (min-width: 650px) {
