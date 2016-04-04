@@ -496,7 +496,7 @@ header.sports {
 section.sports {
 	border-bottom: 3px solid #FF8230;
 	background: #FF8230;
-	color: #56059C;
+	color: #FF6600;
 }
 
 main div article.sports a {
@@ -504,4 +504,21 @@ main div article.sports a {
 }
 main div article.sports a i {
 	color:#FF6600;
+}
+
+header.ama {
+	background-color:#e614e6;
+}
+
+section.ama {
+	border-bottom: 3px solid #ff50ff;
+	background: #ff50ff;
+	color: #e614e6;
+}
+
+main div article.ama a {
+	color:#e614e6;
+}
+main div article.ama a i {
+	color:#e614e6;
 }
