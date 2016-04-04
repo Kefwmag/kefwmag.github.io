@@ -5,18 +5,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="/deep/style.css" />
-        <!--<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">{% case page.category %}
         {% when 'news' %}
         <meta name="theme-color" content="#CC0000">
+        <link rel="icon" type="image/png" href="/newsFavicon.png" />
         {% when 'tech' %}
         <meta name="theme-color" content="#333333">
+        <link rel="icon" type="image/png" href="/techFavicon.png" />
         {% when 'sports' %}
         <meta name="theme-color" content="#FF6600">
+        <link rel="icon" type="image/png" href="/sportsFavicon.png" />
         {% when 'lifestyle' %}
         <meta name="theme-color" content="#009933">
+        <link rel="icon" type="image/png" href="/lifestyleFavicon.png" />
         {% when 'arts' %}
         <meta name="theme-color" content="#660066">
+        <link rel="icon" type="image/png" href="/artsFavicon.png" />
         {% else %}
         <meta name="theme-color" content="#00ADF1">
         {% endcase %}
