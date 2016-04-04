@@ -133,6 +133,10 @@ main {
 	min-height:calc(100% - 250px);
 }
 
+#home {
+	background-image: url('/assets/favicons/transparent.img');
+}
+
 main div {
 	margin:0 auto;
 	width:95%;
