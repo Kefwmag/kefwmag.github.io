@@ -387,7 +387,8 @@ figure a {
 	}
 	nav ul li:last-child{
 		position:initial;
-		margin:initial;
+		margin:3px 0 18px;
+		line-height:initial;
 	}
 	#hamburger:checked ~ nav ul li  {
 		bottom:0;
