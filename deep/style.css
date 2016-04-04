@@ -370,10 +370,10 @@ figure a {
 		right:0;
 		top:0;
 		bottom:0;
-		padding:25px;
+		padding:25px 10px;
 	}
 	nav ul li {
-		width:40%;
+		width:49%;
 		display:inline-block;
 	}
 	nav ul li:nth-of-type(2) {
