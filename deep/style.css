@@ -140,7 +140,7 @@ main div {
 	text-align:center;
 	background-image: url('/assets/favicons/transparent.png');
 	background-repeat:no-repeat;
-	background-position: right 20px bottom 15px;
+	background-position: right 50px bottom 25px;
 	background-attachment: fixed;
 	background-size:64px;
 }
