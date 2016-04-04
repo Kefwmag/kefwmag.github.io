@@ -389,6 +389,8 @@ figure a {
 		position:initial;
 		margin:3px 0 18px;
 		line-height:initial;
+		height:35px;
+		border-top:none;
 	}
 	#hamburger:checked ~ nav ul li  {
 		bottom:0;
