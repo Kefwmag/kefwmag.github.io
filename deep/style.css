@@ -138,7 +138,11 @@ main div {
 	margin:0 auto;
 	width:95%;
 	text-align:center;
-	background-image: url('/assets/favicons/transparent.img');
+	background-image: url('/assets/favicons/transparent.png');
+	background-repeat:none;
+	background-position: right bottom;
+	background-attachment: fixed;
+	background-size:64px;
 }
 
 main div article {
