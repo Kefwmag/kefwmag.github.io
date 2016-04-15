@@ -259,7 +259,9 @@ article.fs img {
 	display:inline-block;
 	float:left;
 }
-
+article.fs img:nth-child(even) {
+	float:right;
+}
 article.fs > a:last-child {
 	top:8px;
 	bottom:auto;
@@ -276,6 +278,9 @@ article.fs h4 {
 	width:50%;
 	text-align:center;
 	margin:0 15px;
+}
+article.fs h4:nth-child(even) {
+	float:right;
 }
 figure {
 	margin:1.7em 0 0;
