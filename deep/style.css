@@ -238,7 +238,13 @@ article.fs {
 }
 article.fs p {
 	font-size:initial;
-	margin-bottom:0.7em;
+	display:inline;
+}
+article.fs p:after {
+	content:'';
+	display:block;
+	width:100%;
+	height:1em;
 }
 article.fs summary {
 	height:auto;
