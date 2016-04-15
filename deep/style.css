@@ -238,7 +238,7 @@ article.fs {
 }
 article.fs p {
 	font-size:initial;
-	display:inline;
+	margin-bottom:0.7em;
 }
 article.fs summary {
 	height:auto;
