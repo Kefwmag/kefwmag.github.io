@@ -1,0 +1,30 @@
+---
+layout: deep
+useTitle: true
+title: Submit Form
+---
+
+<div>
+  <article class="fs contact">
+    <h1>Submit</h1>
+    <h3>Something on your mind? Worried about the future? Write to Mel and Ma below!</h3>
+    <form action="http://formspree.io/backchat2016@gmail.com" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="_next" value="/" />
+      <input type="hidden" name="_cc" value="demelzarosewerrin@gmail.com" />
+      
+      <label for="name">Your name (optional):</label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+      
+      <label for="name">Your form:</label><br />
+      <input id="form" class="input" name="form" type="text" value="" size="30" /><br />
+      
+      <label for="_subject">Subject:</label><br />
+      <input id="_subject" class="input" name="subject" type="text" value="" size="30" /><br />
+      
+      <label for="message">Your message:</label><br />
+      <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+      
+      <input id="submit_button" type="submit" value="Send email" />
+  </form>
+  </article>
+</div>
