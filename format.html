@@ -1,0 +1,497 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Raleway, "Sans Serif";
+    background-color: #BBB;
+    overflow-x: hidden;
+    background-image: url('/assets/favicons/transparent.png');
+    background-repeat: no-repeat;
+    background-position: right 50px bottom 25px;
+    background-attachment: fixed;
+    background-size: 64px;
+}
+header {
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #155379;
+    color: white;
+    text-align: center;
+    z-index: 999;
+}
+section {
+    height: 50px;
+    border-bottom: 3px solid #069;
+    color: #069;
+    position: absolute;
+    top: 75px;
+    background-color: #069;
+    text-align: center;
+    line-height: 50px;
+    box-sizing: border-box;
+    margin: 0;
+    z-index: 10;
+    transition: width 0.8s
+}
+section h1 {
+    margin: 0;
+    transition: width 0.8s;
+    color: white;
+}
+a.headlink {
+    margin: 0;
+    transition: width 0.8s;
+    color: white;
+    text-decoration: unset;
+}
+a.headlink h1 {
+    margin: 0;
+}
+nav {
+    z-index: 999;
+    display: block;
+    background-color: #333;
+    position: fixed;
+    color: #888;
+    font-size: xx-small;
+    text-align: center;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
+nav p {
+    position: absolute;
+    bottom: 5px;
+}
+nav p > a {
+    color: #999;
+}
+nav ul {
+    padding: 0;
+    text-align: center;
+    position: relative;
+    right: 100%;
+    transition: right 0.8s;
+    height: 90%;
+    margin-bottom: 0;
+    font-size: initial;
+}
+nav ul li {
+    list-style: none;
+    color: white;
+    display: block;
+    height: 35px;
+    width: 90%;
+    margin: 3px auto;
+    margin-bottom: 18px;
+    border-bottom: 1px solid white;
+    vertical-align: top;
+}
+nav ul li:first-child {
+    border-top: 1px solid white;
+    padding-top: 18px;
+}
+nav ul li:last-child {
+    position: absolute;
+    bottom: 5px;
+    margin: 3px 12.5px 18px;
+    border-top: 1px solid white;
+    line-height: 50px;
+    height: 50px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    right: 100%;
+    transition: right 0.8s;
+    transition-delay: 0.4s;
+}
+main {
+    position: absolute;
+    right: 0;
+    padding-top: 125px;
+    padding-left: 10px;
+    transition: width 0.8s;
+    text-align: center;
+    min-height: calc(100% - 250px);
+}
+main div {
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+}
+main div article {
+    display: none;
+    border-bottom: 5px solid #AAA;
+    background-color: #FFF;
+    margin: 8px;
+    padding: 5px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+    height: 275px;
+    vertical-align: top;
+    transition: height 0.8s, width 0.8s;
+    overflow-y: hidden;
+}
+main div article h1 {
+    margin: 3px 0;
+    font-size: 1.5em;
+    color: #222;
+}
+main div article.fs h1 {
+    font-size: 3em;
+}
+main div article h3 {
+    font-size: smaller;
+    color: #AAA;
+    margin: 3px 0;
+}
+main div article summary {
+    font-size: smaller;
+    margin-top: 2px;
+    height: 179px;
+    overflow: hidden;
+    display: inline-block;
+}
+main div article summary img {
+    display: none;
+}
+main div article summary p {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+main div article > a:last-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFF;
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: right;
+}
+main div.home article a:last-child {
+    color: #069;
+}
+#hamburger {
+    display: none;
+}
+#hamburger + label {
+    position: fixed;
+    height: 45px;
+    width: 45px;
+    left: 10px;
+    top: 10px;
+    z-index: 9999;
+    padding: 5px 5px 5px 5px;
+}
+article.fs {
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 125px;
+    left: 0;
+    margin: 0;
+    z-index: 10;
+    box-sizing: border-box;
+    transition: left 0.8s;
+    font-size: initial;
+    display: inline-block;
+    transition: height 0.8s, width 0.8s, left 0.8s, right 0.8s, top 0.8s;
+}
+article.fs p {
+    font-size: initial;
+    display: inline;
+}
+article.fs p:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1em;
+}
+article.fs summary {
+    height: auto;
+    margin: 1.7em 0;
+    overflow: visible;
+    line-height: 1.7em;
+}
+article.fs img {
+    width: 50%;
+    height: auto;
+    margin: 15px;
+    display: inline-block;
+    float: left;
+}
+article.fs img:nth-child(even) {
+    float: right;
+}
+article.fs > a:last-child {
+    top: 8px;
+    bottom: auto;
+}
+article.fs h3 {
+    margin: 10px 0;
+    font-size: initial;
+}
+article.fs h4 {
+    display: block;
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin: 0 15px;
+}
+article.fs h4:nth-child(even) {
+    float: right;
+}
+figure {
+    margin: 1.7em 0 0;
+    padding: 0;
+}
+figure a {
+    margin: 0 8px;
+    text-decoration: none;
+}
+@media screen and (min-width: 650px) {
+    nav {
+        height: calc(100% - 75px);
+        width: 250px;
+        left: -200px;
+        bottom: 0;
+        padding-right: 50px;
+        transition: left 0.8s, padding-right 0.8s;
+    }
+    #hamburger:checked ~ nav {
+        left: 0;
+        padding-right: 0;
+        transition: left 0.8s, padding-right 0.8s;
+    }
+    section {
+        width: calc(100% - 50px);
+        right: 0;
+        transition: right 0.8s;
+    }
+    nav p {
+        right: 50px;
+        transition: right 0.8s;
+    }
+    #hamburger:checked ~ nav p {
+        right: 0;
+        transition: right 0.8s;
+    }
+    #hamburger:checked ~ nav > ul {
+        right: 0;
+        transition: right 0.8s;
+    }
+    #hamburger:checked ~ nav ~ section {
+        right: -200px;
+        transition: right 0.8s;
+    }
+    #hamburger:checked ~ nav ul li a {
+        right: 0;
+        transition: right 0.8s;
+        transition-delay: 0.4s;
+    }
+    main {
+        width: calc(100% - 50px);
+        right: 0;
+        transition: right 0.8s;
+    }
+    main div {
+        text-align: left;
+    }
+    #hamburger:checked ~ nav ~ main {
+        right: -200px;
+        transition: right 0.8s;
+    }
+    main div article {
+        width: 40vw;
+    }
+    main div article.fs {
+        padding: 10px 100px;
+    }
+}
+@media screen and (min-width: 900px) {
+    main div {
+        text-align: center;
+    }
+    main div article.fs {
+        padding: 35px 200px;
+    }
+    main div article {
+        width: 20vw;
+    }
+}
+@media screen and (max-width: 650px) {
+    nav {
+        height: 70%;
+        position: fixed;
+        top: -100%;
+        width: 100%;
+        transition: top 0.8s;
+        z-index: 11;
+        font-size: small;
+        padding-bottom: 15px;
+    }
+    nav ul {
+        height: 75%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding: 25px 10px;
+    }
+    nav ul li {
+        width: 49%;
+        display: inline-block;
+    }
+    nav ul li:nth-of-type(2) {
+        border-top: 1px solid white;
+        padding-top: 18px;
+    }
+    nav ul li {
+        bottom: 100%;
+        transition: bottom 0.8s;
+        transition-delay: 0.2s;
+    }
+    nav ul li:last-child {
+        position: initial;
+        margin: 3px 0 18px;
+        line-height: initial;
+        height: 35px;
+        border-top: none;
+    }
+    #hamburger:checked ~ nav ul li {
+        bottom: 0;
+        transition: bottom 0.8s;
+        transition-delay: 0.2s;
+    }
+    nav ul li a {
+        right: 0;
+        bottom: 100%;
+        transition: bottom 0.8s;
+        transition-delay: 0.4s;
+    }
+    #hamburger:checked ~ nav ul li a {
+        bottom: 0;
+        transition: bottom 0.8s;
+        transition-delay: 0.4s;
+    }
+    #hamburger:checked ~ nav {
+        top: 75px;
+        transition: top 0.8s;
+    }
+    section {
+        width: 100%;
+        right: 0;
+        left: 0;
+    }
+    main {
+        width: 100%;
+    }
+    main div article.fs {
+        padding: 5px 20px;
+    }
+}
+/* Special CATEGORY COLOURS */
+
+header.news {
+    background-color: #CC0000;
+}
+section.news {
+    border-bottom: 3px solid #9A1504;
+    background: #9A1504;
+    color: #CC0000;
+}
+main div article.news a {
+    color: #CC0000;
+}
+main div article.news a i {
+    color: #CC0000;
+}
+header.tech {
+    background-color: #333333;
+}
+section.tech {
+    border-bottom: 3px solid #4C4C4C;
+    background: #4C4C4C;
+    color: #333333;
+}
+main div article.tech a {
+    color: #333333;
+}
+main div article.tech a i {
+    color: #333333;
+}
+header.lifestyle {
+    background-color: #009933;
+}
+section.lifestyle {
+    border-bottom: 3px solid #29B156;
+    background: #29B156;
+    color: #009933;
+}
+main div article.lifestyle a {
+    color: #009933;
+}
+main div article.lifestyle a i {
+    color: #009933;
+}
+header.arts {
+    background-color: #660066;
+}
+section.arts {
+    border-bottom: 3px solid #861186;
+    background: #861186;
+    color: #660066;
+}
+main div article.arts a {
+    color: #660066;
+}
+main div article.arts a i {
+    color: #660066;
+}
+header.sports {
+    background-color: #FF6600;
+}
+section.sports {
+    border-bottom: 3px solid #FF8230;
+    background: #FF8230;
+    color: #FF6600;
+}
+main div article.sports a {
+    color: #FF6600;
+}
+main div article.sports a i {
+    color: #FF6600;
+}
+header.ama {
+    background-color: #F55;
+}
+section.ama {
+    border-bottom: 3px solid #f99;
+    background: #f99;
+    color: #FFF;
+}
+main div article.ama a {
+    color: #F55;
+}
+main div article.ama a i {
+    color: #F55;
+}
