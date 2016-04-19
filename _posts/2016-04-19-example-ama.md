@@ -7,4 +7,4 @@ author: "Deep"
 ---
 Example
 
-Feel Free to message us <a href="submit/"> here </a>
+Feel Free to message us <a href="/ama/submit/"> here </a>
