@@ -32,7 +32,8 @@ Enough about me, let’s get to the interesting people, and meet the producers.
 *You can check out GOGO’s music on Soundcloud, at* 
 <a href="//soundcloud.com/beatsbygogo">soundcloud.com/beatsbygogo</a>
 
-*Isa Yousufzai* 
+**Isa Yousufzai**
+
 *Q: How long have you been producing music, and what prompted you to start?* 
 
 **I:** I’ve been producing music for around 3 years now, and I was prompted by my existing interest in music [Isa is a grade 8 drummer and wishes to pursue a career in sound engineering]. Honestly, it was a stroke of luck that I began to produce music, as my Mom already had the software on the family computer. 
@@ -44,7 +45,8 @@ Enough about me, let’s get to the interesting people, and meet the producers.
 *Q: What genres of music do you make, and who are some of your biggest inspirations?* 
 **I:** I mostly make a lot of electronic based stuff, with a lot of sound design, which is mainly based around the ‘future bass’ genre. My inspirations have changed a lot over the years, with my original styles [posted on his now inactive Soundcloud] being based around progressive house, dubstep and electro. At the moment I’d have to say my biggest inspirations are Mura Masa, SG Lewis, Jack Garratt and a lot of artists from the Monstercat Record Label.
 
-*Pav Juss aka Aypex:* 
+**Pav Juss aka Aypex:** 
+
 *Q: How long have you been producing music, and what prompted you to start?* 
 
 **P:** I have been producing music for around 2 years, but have stopped and started. I wanted to start after seeing some of my friends gain an interest in it, and with my interests in certain genres of music, it just seemed fun.
@@ -57,7 +59,7 @@ Enough about me, let’s get to the interesting people, and meet the producers.
 
 **P:** I just make my own kind of experimental stuff, I’d say it wasn’t great, but I like making it. In terms of inspiration, I’d have to say some of my biggest production role models are Jamie XX, Flume, Chet Faker and Porter Robinson 
 
-*Luca Butler aka Slickhops:* 
+**Luca Butler aka Slickhops:** 
 
 *Q: How long have you been producing music, and what prompted you to start?* 
 
@@ -71,7 +73,7 @@ Enough about me, let’s get to the interesting people, and meet the producers.
 
 **L:** I’d have to say some of my biggest production inspirations are Ta-ku, Kasbo, Mura Masa and Dapurr, who is only 16 and is already an incredibly good producer. 
 
-*Sef Ahmed aka SharkBoy (formely Sealord)* 
+**Sef Ahmed aka SharkBoy (formely Sealord)**
 
 *Q: How long have you been producing music, and what prompted you to start?* 
 
@@ -85,7 +87,7 @@ Enough about me, let’s get to the interesting people, and meet the producers.
 
 **S:** Kanye West, Travis Scott, Metro Boomin = Straight fire. Kanye’s sampling is like the craziest thing ever. Travis and Metro are two of the most creative people alive right now. I make rap beats because that’s all I listen to. I generally make like a empty, reverb, spooky kind of thing. 
 
-*Hiram Mildner aka FLEX LUTHOR* 
+**Hiram Mildner aka FLEX LUTHOR**
 
 *Q: How long have you been producing music, and what prompted you to start?* 
 
@@ -97,3 +99,8 @@ Enough about me, let’s get to the interesting people, and meet the producers.
 
 *Q: What genres of music do you make, and who are some of your biggest inspirations?* 
 **H:** I would say my main genre is trap soul or future soul. I’m influenced by a lot of the music I listen to which is a of 70s and 60s funk and also blues and jazz music. 
+
+Despite the propaganda-esque wording, there is truth in the statement written on canvas in the MacCarthy block: that ‘art exists to improve our lives’. There is something to be said for the fact that we live by the creativity surrounding us and that it drives much of our everyday. Five Ways is full of artists. Not all of them may be formally recognised by the school system, nor do they have the desire to be. However, the simple fact that so many people in this school embrace art in their
+everyday, is something to be recognised and rewarded, and is as admirable as many a cause. 
+
+If you have something to share, if you’re part of a band, dance troupe, stage group, or think you or others like you around the Five Ways community have something to say about art in your everyday, email: kogier@sky.com and you could be featured in the next edition of ‘Meet the’.
