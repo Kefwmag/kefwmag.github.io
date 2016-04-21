@@ -2,7 +2,7 @@
 layout: dposts
 title: "Great Sporting Upsets"
 date: 2016-04-21 12:00:00 +0000
-category: "sport"
+category: "sports"
 author: "Ciaran Hanvey - Editor in Chief"
 ---
 Let’s be honest, who doesn’t love a good fairy tale story? The outstanding performances of Claudio Raneiri’s Leicester City have captivated audiences worldwide during the current Barclays Premier League season. People have even given Leicester the tag of ‘the team who saved football.’ Their performances led me to delve in to the history books to find some similarly outstanding and unthinkable performances by underdogs within the world of sport.
