@@ -16,6 +16,7 @@ Ingredients:
 - 25g caster sugar 
 
 Method: 
+
 1. Pre-heat the oven to 200°C/180°C/gas mark 6. 
 
 2. Cut your apples into quarters lengthways, taking out the core. I usually do this by scooping out the core, being mindful of my fingers at all times. 
