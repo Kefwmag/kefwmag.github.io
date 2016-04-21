@@ -55,7 +55,6 @@
             {% unless page.useTitle %}<a class="headlink" href="/{{page.category}}/" title="{{site.cats[page.category]}}">{% endunless %}<h1 id="categoryName" class="{{page.category}}">{% if page.useTitle %}{{page.title}}{% else %}{{site.cats[page.category]}}{% endif %}</h1>{% unless page.useTitle %}</a>{% endunless %}       
         </section>
         <main>
-            {% if page.category == 'ama' and page.collection == 'posts' %}{% include amaPostHeader.html %}{% endif %}
             {{content}}
         </main>
         <script>{% include googleAnalytics.js %}</script>
