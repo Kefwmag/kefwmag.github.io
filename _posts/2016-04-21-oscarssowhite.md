@@ -3,7 +3,7 @@ layout: dposts
 title: "#OscarsSoWhite"
 date: 2016-04-21 12:00:00 +0000
 category: "arts"
-author: "By Livvy McComb - Arts and Entertainment Editor"
+author: "Livvy McComb - Arts and Entertainment Editor"
 ---
 The Oscars hit the headlines this year for all the wrong reasons. Outrage was sparked by the all-white nomination lists for the four acting categories, as was the case with the 2015 awards. These four categories were not the only categories where the names of black and ethnic minority professionals were scarce, and something must be said for the lack of women in technical categories, however the stark image of a whitewashed, twenty name long nomination list for acting was particularly confronting. 
 
