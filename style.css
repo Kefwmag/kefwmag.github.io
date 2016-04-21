@@ -301,6 +301,9 @@ figure a {
     margin: 0 8px;
     text-decoration: none;
 }
+figure a i{
+    color:069;
+}
 
 @media screen and (min-width: 650px) {
     nav {
