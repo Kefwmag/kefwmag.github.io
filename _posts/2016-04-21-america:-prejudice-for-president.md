@@ -2,7 +2,7 @@
 layout: dposts
 title: "America: Prejudice For President"
 date: 2016-04-21 12:00:00 +0000
-category: "tech"
+category: "news"
 author: "James Griffiths"
 ---
 “Make America Great Again!” – A man riddled with melodrama, perfectly accompanied by a crude and bigoted nature, Donald Trump seeks to capture the hearts and minds of fanatical patriots of the United States. With policies ranging from plans to build a ‘border wall’ between the US and Mexico to an almost complete rejection of eco-friendly green fuels, Trump has the media going wild with bewilderment, only adding to his theatrical character, making the world  shudder with disgust and worry. Will Trump rise to power? Is this man the next US president? It’s hard to tell, and it seems unlikely, but Trump has got unrealistically far already. So now the world can only watch and wait in disbelief, as a sense of impending doom hangs over America. 
