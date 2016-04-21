@@ -302,7 +302,7 @@ figure a {
     text-decoration: none;
 }
 figure a i{
-    color:069;
+    color:#069;
 }
 
 @media screen and (min-width: 650px) {
