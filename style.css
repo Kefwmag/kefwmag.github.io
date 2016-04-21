@@ -260,6 +260,7 @@ article.fs summary {
     margin: 1.7em 0;
     overflow: visible;
     line-height: 1.7em;
+    font-size:initial;
 }
 
 article.fs img {
