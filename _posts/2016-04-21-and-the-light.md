@@ -50,3 +50,27 @@ I - My favourite character was Rey, as she has a very interesting story of betra
 E- I really liked BB-8, the main droid in the film. He was very cute and he was very loyal to his owners. I think he also seemed quite friendly to everybody, and the fact that he was sometimes scared or panicky made you feel a lot of sympathy towards him. Some of the things he did in the film were quite funny, which added a bit of humour towards it as well. 
 
 T– Rey was my favourite character, as she showed very clear character development, and was very cool in the fight scenes.
+
+***Q4 – If you could be any character from the film who would you be and why?***
+
+A- Poe Damn-eron #goals. I mean really. Just look at him. You want to be him too. 
+
+K- I would probably have to say I’d love to spend a life in the day of Kylo Ren, purely to see how someone could really have daddy issues that bad. If not I’d choose Phasma, since I feel bad that after all of her publicity, she was mostly left on the cutting room floor and played a relatively inconsequential role in the film. 
+
+I - I would be Rey, as things such as the new discovery of power and adventure seems quite fun, despite the  constant presence of death and failure (which just makes it more risky and exciting!) 
+
+E- I’d probably be Rey. She was the main heroine in the film and most of the story was focused on her. She was very brave and courageous throughout the whole film, despite some ups and downs. Also, she was strong and a good warrior- very good in battle. She was also logical and very tactful, planning things carefully and precisely. As well, she was very devoted to all her friends, and would go out of her way to defend them. She was a very good character, so I would choose Rey. 
+
+T – I would be BB-8 because he is so kawaii. 
+
+***Q5 – What would you say to J.J. Abram’s if you could?***
+
+A- Good choice, leaving Star Trek for Star Wars. You made the right decision. (even though Spock is pretty cool) 
+
+K- I didn’t really realise how broken Star Wars was until you fixed it. Also, why did you have to leave Phasma out like that? She was so cool. P.S. THAT part broke too many hearts. Not cool J.J. Not cool. 
+
+I - Great film… 
+
+E- Although I did love them film, I have one fault- the length of the film. It lasted two hours, and although I loved it all, some of it was dragged out a lot and there were some times where not much was actually happening. If I could say something to J.J. Abrams, it would be this. 
+
+T– I would ask him to clarify Luke Skywalker’s race. Why does everyone always die on a bridge?
