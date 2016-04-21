@@ -28,6 +28,7 @@ layout: deep
       </a>
     </figure>
     <summary>
+      {% if page.category == 'ama' %}{% include amaPostHeader.html %}{% endif %}
       {{ content }}
     </summary>
   </article>
