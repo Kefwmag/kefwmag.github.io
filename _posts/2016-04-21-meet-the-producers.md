@@ -73,7 +73,7 @@ Enough about me, let’s get to the interesting people, and meet the producers.
 
 **L:** I’d have to say some of my biggest production inspirations are Ta-ku, Kasbo, Mura Masa and Dapurr, who is only 16 and is already an incredibly good producer. 
 
-**Sef Ahmed aka [SharkBoy](https://soundcloud.com/seaxlord) (formely Sealord)**
+**[Sef Ahmed](https://soundcloud.com/seaxlord) (formely Sealord)**
 
 *Q: How long have you been producing music, and what prompted you to start?* 
 
@@ -87,7 +87,7 @@ Enough about me, let’s get to the interesting people, and meet the producers.
 
 **S:** Kanye West, Travis Scott, Metro Boomin = Straight fire. Kanye’s sampling is like the craziest thing ever. Travis and Metro are two of the most creative people alive right now. I make rap beats because that’s all I listen to. I generally make like a empty, reverb, spooky kind of thing. 
 
-**Hiram Mildner aka [FLEX LUTHOR](https://soundcloud.com/blackfishhh)**
+**[Hiram Mildner](https://soundcloud.com/blackfishhh)**
 
 *Q: How long have you been producing music, and what prompted you to start?* 
 
