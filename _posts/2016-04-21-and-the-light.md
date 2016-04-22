@@ -15,6 +15,10 @@ Okay guys, the boring ones have gone, only the interesting people are here now (
 
 In this article, we asked some members of BackChat’s Arts and Entertainment team to answer some questions, and give their thoughts on the film. 
 
+
+{% include image.html url="/assets/Edition 1/Star wars logo.png" description="Star Wars" %}
+
+
 ***Q1 – Did you like the film? Why?*** 
 
 A – I loved it! Some people have criticised it for being derivative of A New Hope but a film that’s got: the same essential structure; great new characters; an emo trash villain with the swishiest of L’oreal hair; an extra adorable tiny robot and all your favourite characters from the original (except Lando, I demand more Lando) is an instant win as far as I’m concerned. 
@@ -50,6 +54,8 @@ I - My favourite character was Rey, as she has a very interesting story of betra
 E- I really liked BB-8, the main droid in the film. He was very cute and he was very loyal to his owners. I think he also seemed quite friendly to everybody, and the fact that he was sometimes scared or panicky made you feel a lot of sympathy towards him. Some of the things he did in the film were quite funny, which added a bit of humour towards it as well. 
 
 T– Rey was my favourite character, as she showed very clear character development, and was very cool in the fight scenes.
+
+{% include image.html url="/assets/Edition 1/force awakens.jpg" description="The Force Awakens" %}
 
 ***Q4 – If you could be any character from the film who would you be and why?***
 
