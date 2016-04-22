@@ -5,8 +5,6 @@ date: 2016-04-21 12:00:00 +0000
 category: "ama"
 author: "Mel and Ma"
 ---
-**Hello Mel and Ma,**
-
 **I’ve got my GCSE’s at the end of this year and I don’t know how everyone else has managed to do them! There’s so much to learn and all the exams are so important. How do I revise? When should I start? What do I do?**
 
 **From a very stressed out student**
