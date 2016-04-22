@@ -15,7 +15,7 @@ Wilko:
 
 Wow. Fifth best in the world. We have done it, folks, and you should be proud. It’s going to go on the all the buses, in all the chronicles and all visitors will hear it. Now, I’m sorry I have to dash off, assembly will be cut short, I have to oversee the plastering of our new life-size replica of La Segrada Famillia. "
 
-*The light-fingered, diligent maestro of a man that is Mr Swindells plays the triumphant tune as the Headmistress marches out of Wilkinson Hall, head held high with pride. Mrs Long steps forward to injects the latest batch of male-only excitement into the eagerly awaiting students. *
+*The light-fingered, diligent maestro of a man that is Mr Swindells plays the triumphant tune as the Headmistress marches out of Wilkinson Hall, head held high with pride. Mrs Long steps forward to injects the latest batch of male-only excitement into the eagerly awaiting students.*
 
 “Morning school, only the one match report for you today. The under 14s started off well in the first half, with a triumphant lead from Kevway, powering over the line to create a hole in the oppositions defence. The offensive from five ways fell during the latter parts of the first half but the strong forwards kept the defensive line steady and five ways went into the half time break 5-0 up. After a spurring speech from captain Moui… Mouia…, the one with the turban, and the team were back on track. During the second half defence was maintained with one tri being pushed over the line by Hugh Janus, the team walk away with a 79-0 win. There was some girls match somewhere, won 4-3, well done. We have joint hockey, we are balanced, we are… I promise.”
 
