@@ -288,11 +288,6 @@ article.fs h4 {
     text-align: center;
     margin: 0 15px;
 }
-
-article.fs h4:nth-child(even) {
-    float: right;
-}
-
 figure {
     margin: 1.7em 0 0;
     padding: 0;
