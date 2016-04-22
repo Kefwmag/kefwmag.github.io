@@ -470,9 +470,12 @@ figure a i{
     main {
         width: 100%;
     }
-  
+    main div article {
+        width: 90%;
+    }
     main div article.fs {
         padding: 5px 20px;
+        width:100%;
     }
 }
 /* Special CATEGORY COLOURS */
