@@ -5,8 +5,6 @@ date: 2016-04-21 12:00:00 +0000
 category: "ama"
 author: "Mel and Ma"
 ---
-**Mel and Ma,** 
-
 **I recently had a massive fight with my parents. I’ve never had so many mean things said to me in my life and I’ve never said so many mean things in my life. The scrap made me re-evaluate who I am as a person and it seems to me that I’m probably the worst kind. I broke up with my boyfriend because I realised how much I hold him back, limit his possibilities and influence sadness and arguments. I am crazy in love with him but there’s no way that I can continue to hurt him and be okay with that at all, even if the hurt sprouts from jokes. I’m an anchor to all of the people I am supposed to love, and I’m going to have to let them go. What do I do?** 
 
 **Hurting on the Inside.** 
