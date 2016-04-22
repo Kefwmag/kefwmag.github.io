@@ -5,9 +5,9 @@ date: 2016-04-21 12:00:00 +0000
 category: "lifestyle"
 author: "Miranda Townsend"
 ---
-If you’ve got nothing to do, \n
-Well I’ve got a couple of tricks for you. \n
-So I hope you won’t look uncool, \n
+If you’ve got nothing to do,<br />
+Well I’ve got a couple of tricks for you.<br />
+So I hope you won’t look uncool,<br />
 Using these life-hacks at school! 
 
 
