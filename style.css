@@ -1,3 +1,11 @@
+/*
+* BackChat CSS Written By Deep Sohelia
+* Cheeky Plug: Check out my site over at chillibyte.github.io
+* 
+* Read code at your own risk. I take no responsibility for any hallucinations, nausea, scarring or any other ill effects
+* Here be Dragons.
+*/
+
 html,body {
     height: 100%;
     width: 100%;
@@ -5,6 +13,7 @@ html,body {
     padding: 0;
 }
 
+/* Sets font, background color, and sets up watermark in lower right corner */
 body {
     font-family: Raleway, "Sans Serif";
     background-color: #BBB;
@@ -15,7 +24,7 @@ body {
     background-attachment: fixed;
     background-size: 64px;
 }
-
+/* Sets up the "BackChat" fixed header */
 header {
     position: fixed;
     height: 75px;
@@ -23,19 +32,19 @@ header {
     left: 0;
     right: 0;
     top: 0;
-    background-color: #155379;
+    background-color: #155379; /* Navy ish */
     color: white;
     text-align: center;
     z-index: 999;
 }
-
+/* <section> Contains the Category name*/ 
 section {
     height: 50px;
     border-bottom: 3px solid #069;
     color: #069;
     position: absolute;
     top: 75px;
-    background-color: #069;
+    background-color: #069; /* Dark blue */
     text-align: center;
     line-height: 50px;
     box-sizing: border-box;
@@ -49,7 +58,7 @@ section h1 {
     transition: width 0.8s;
     color: white;
 }
-
+/* <a> tag around the BackChat header */
 a.headlink {
     margin: 0;
     transition: width 0.8s;
@@ -59,7 +68,7 @@ a.headlink {
 a.headlink h1 {
     margin: 0;
 }
-
+/* Sidebar/menu, given a position partially offscren, which is later animated */
 nav {
     z-index: 999;
     display: block;
@@ -80,7 +89,7 @@ nav p {
 nav p > a {
     color: #999;
 }
-
+/* Styling the menu options */
 nav ul {
     padding: 0;
     text-align: center;
@@ -126,7 +135,9 @@ nav ul li a {
     transition: right 0.8s;
     transition-delay: 0.4s;
 }
+/* End Styling Menu Options */ 
 
+/* Main section of layout, where articles are */
 main {
     position: absolute;
     right: 0;
@@ -142,7 +153,7 @@ main div {
     width: 95%;
     text-align: center;
 }
-
+/* Small, square article tile thingies */
 main div article {
     display: none;
     border-bottom: 5px solid #AAA;
@@ -211,11 +222,14 @@ main div article > a:last-child {
 main div.home article a:last-child {
     color: #069;
 }
+/* End article tile styling */
 
+/* Hamburger Menu Styles */
 #hamburger {
     display: none;
 }
-
+/* #hamburger is the input, but label is the thing that is styled and displayed. 
+ * Clicking a label toggles the value of the input */
 #hamburger + label {
     position: fixed;
     height: 45px;
@@ -225,7 +239,7 @@ main div.home article a:last-child {
     z-index: 9999;
     padding: 5px 5px 5px 5px;
 }
-
+/* Full screen (expanded) Article Styles */
 article.fs {
     height: auto;
     min-height: 100%;
@@ -288,6 +302,7 @@ article.fs h4 {
     text-align: center;
     margin: 0 15px;
 }
+/* Sharing Buttons */
 figure {
     margin: 1.7em 0 0;
     padding: 0;
@@ -300,8 +315,23 @@ figure a {
 figure a i{
     color:#069;
 }
+/* End full screen article styles */
+/* Start media queries */
 
+/* Bigger than Mobiles */
 @media screen and (min-width: 650px) {
+    /* Setting main width and animations */
+    main {
+        width: calc(100% - 50px);
+        right: 0;
+        transition: right 0.8s;
+    }
+  
+    main div {
+        text-align: left;
+    }
+   
+    /*Animate the menu in from the left */
     nav {
         height: calc(100% - 75px);
         width: 250px;
@@ -310,13 +340,7 @@ figure a i{
         padding-right: 50px;
         transition: left 0.8s, padding-right 0.8s;
     }
-
-    #hamburger:checked ~ nav {
-        left: 0;
-        padding-right: 0;
-        transition: left 0.8s, padding-right 0.8s;
-    }
-
+    
     section {
         width: calc(100% - 50px);
         right: 0;
@@ -328,6 +352,13 @@ figure a i{
         transition: right 0.8s;
     }
  
+    /* when #hamburger is checked, move the menu to the left of the page so all of it is in view */
+    #hamburger:checked ~ nav {
+        left: 0;
+        padding-right: 0;
+        transition: left 0.8s, padding-right 0.8s;
+    }
+
     #hamburger:checked ~ nav p {
         right: 0;
         transition: right 0.8s;
@@ -348,22 +379,13 @@ figure a i{
         transition: right 0.8s;
         transition-delay: 0.4s;
     }
-   
-    main {
-        width: calc(100% - 50px);
-        right: 0;
-        transition: right 0.8s;
-    }
-  
-    main div {
-        text-align: left;
-    }
-   
+    
     #hamburger:checked ~ nav ~ main {
         right: -200px;
         transition: right 0.8s;
     }
-   
+    /* End Menu Styles */
+    /* Set article tile width to make 2 columns */
     main div article {
         width: 40vw;
     }
@@ -372,8 +394,9 @@ figure a i{
         padding: 10px 100px;
     }
 }
-
+/* Bigger than tablet, i.e Desktop */
 @media screen and (min-width: 900px) {
+    /*Most styles the same as tablet, nothing special, self explanatory */
     main div {
         text-align: center;
     }
@@ -386,8 +409,9 @@ figure a i{
         width: 20vw;
     }
 }
-
+/* MOBILE FUN!!!!!!!! (LOOK AT YOUR OWN RISK THIS IS MY FIRST MOBILE SITE) */
 @media screen and (max-width: 650px) {
+    /* Put the menu off the top of the screen */
     nav {
         height: 70%;
         position: fixed;
@@ -407,7 +431,8 @@ figure a i{
         bottom: 0;
         padding: 25px 10px;
     }
-    
+    /* Horribly botched <li> menu because I'm not changing the markup with Javascript 
+     * nor using 2 menus, one for mobile one for desktop. It works. Shh. */
     nav ul li {
         width: 49%;
         display: inline-block;
@@ -455,7 +480,10 @@ figure a i{
         top: 75px;
         transition: top 0.8s;
     }
-   
+    /* End Menu Styles. Thank God. 
+     * This is the one bit of this website I'm not 100% on. I will be revisiting it.
+    */
+    
     section {
         width: 100%;
         right: 0;
@@ -473,8 +501,8 @@ figure a i{
         width:100%;
     }
 }
-/* Special CATEGORY COLOURS */
 
+/* Special Category Colors/Themes */
 header.news {
     background-color: #CC0000;
 }
