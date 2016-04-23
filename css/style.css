@@ -362,18 +362,3 @@ main div article.arts a {
 main div article.arts a i {
     color: #660066;
 }
-
-header.sports {
-    background-color: #FF6600;
-}
-section.sports {
-    border-bottom: 3px solid #FF8230;
-    background: #FF8230;
-    color: #FF6600;
-}
-main div article.sports a {
-    color: #FF6600;
-}
-main div article.sports a i {
-    color: #FF6600;
-}
