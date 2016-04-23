@@ -11,7 +11,7 @@ Stress is actually quite interesting if you really think about it. It’s differ
 
 Emotionally, it can – well, it can mess you up. You could feel lonely, depressed - like the whole world is against you. You could feel like you’re losing control, completely unable to relax. Or you could become moody and frustrated (so no PMS jokes towards stressing women please). Physically, it can cause tiredness, chest pain, sweating, dry mouths, and loads of other stuff. Google it if you want to find other ‘symptoms’ of stress. 
 
-{% include image.html url="/assets/Edition 1/stress-word-ball.png" description="" %}
+{% include image.html url="/assets/edition-1/stress-word-ball.png" description="" %}
 
 But ‘Symptoms’. I really don’t like that word, especially when it relates to stress. The word ‘symptom’ is used for something that happens to you during a disease or a disorder. A disease is ‘an incorrectly functioning organ, part, structure, or system of the body…’ plus more stuff. Yes, I copied and pasted that from www. dictionary.com (my saviour for when I had an incomprehensible English book to read), and I am not sorry for it. But back to the topic in hand, a disease is something that makes you ill. A disorder when something is wrong with your mind or your body. Stress is probably better to be described as a disorder, but is it really? 
 
