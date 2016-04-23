@@ -1,6 +1,6 @@
         <article class="{{post.category}}">
             <h1 class="storyName">{{ post.title }}</h1>
-            <h3 class="author">{% if post.author %}By {{ post.author }}, {% endif %}{{ post.date | date: "%-d %b, %Y" }}</h3>
+            <h3 class="author">{% if post.author %}By {{ post.author }}, {% endif %}{{ post.date | date: "%-d %b %Y" }}</h3>
             <summary>
                 {{post.excerpt}}
             </summary>
