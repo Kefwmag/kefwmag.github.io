@@ -1,0 +1,14 @@
+header.ama {
+    background-color: #F55;
+}
+section.ama {
+    border-bottom: 3px solid #f99;
+    background: #f99;
+    color: #FFF;
+}
+main div article.ama a {
+    color: #F55;
+}
+main div article.ama a i {
+    color: #F55;
+}
