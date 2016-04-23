@@ -347,18 +347,3 @@ main div article.lifestyle a {
 main div article.lifestyle a i {
     color: #009933;
 }
-
-header.arts {
-    background-color: #660066;
-}
-section.arts {
-    border-bottom: 3px solid #861186;
-    background: #861186;
-    color: #660066;
-}
-main div article.arts a {
-    color: #660066;
-}
-main div article.arts a i {
-    color: #660066;
-}
