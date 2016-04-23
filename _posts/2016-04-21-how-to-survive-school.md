@@ -19,7 +19,7 @@ We Five Ways pupils share at least one thing in common: we all attend school. In
 **Sixth Formers:** have a folder for each subject instead of having one folder full of various different stuff. One folder makes it hard to find what you need, and you would be in massive trouble if you lost it. Lose it, and you lose everything. 
 Also, **try and get a job.** Juggling both a job and school can be very difficult, but it develops your time management skills, and you earn money. Additionally, having prior experience in a workplace may set you apart from other applicants when It comes to applying for a job, it can also be talked about in personal statements for university.
 
-{% include image.html url="/assets/Edition 1/money.jpg" description="" %}
+{% include image.html url="/assets/edition-1/money.jpg" description="" %}
 
 
 **Everyone** can tune back in now! This relates to everyone! 
