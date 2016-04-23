@@ -17,6 +17,7 @@ url: "" # the base hostname & protocol for your site
 #url: "http://ir-g.uk/kefwmag.github.io"
 # Build settings
 markdown: kramdown
+permalink: "/:categories/:year/:month/:day/:title/"
 
 cats:
   news: "News"
