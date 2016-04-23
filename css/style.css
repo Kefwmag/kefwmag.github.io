@@ -333,17 +333,3 @@ main div article.tech a i {
     color: #333333;
 }
 
-header.lifestyle {
-    background-color: #009933;
-}
-section.lifestyle {
-    border-bottom: 3px solid #29B156;
-    background: #29B156;
-    color: #009933;
-}
-main div article.lifestyle a {
-    color: #009933;
-}
-main div article.lifestyle a i {
-    color: #009933;
-}
