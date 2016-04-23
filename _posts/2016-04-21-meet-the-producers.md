@@ -11,6 +11,8 @@ This first article in the series, ‘Meet the Producers’, is especially releva
 
 *My name is [Kane Ogier](https://soundcloud.com/frzb), I’m 16 years old, and I’m a music producer.* 
 
+ {% include image.html url="/assets/Edition 1/garage-band-guitar.jpg" description="" %}
+
 I use the DAW (digital audio workstation - an acronym that’ll get thrown around a lot in this article) FL Studio 11 to produce music as it’s what I learned to do so on and it has the most intuitive and fluid workflow for production in my eyes. I started producing music about two and a half years ago, in the summer of 2013. I was really getting into electronic music, and decided to have a go at producing music (though it could hardly be called that), following the example of my friend Isa, who you’ll meet later in this article. I’ve come a long way since then, and have experimented with different genres like house, trap and drum & bass. I’m now settling into an interest in electronic, hip hop, ‘future bass’ inspired music, and in that facet, some of my biggest inspirations would be Porter Robinson, Kasbo, Flume and Nosaj Thing. However, I hate limiting myself based on genre so generally I just make the music I’m interested in at the time, which changes on a regular basis. I post music on Soundcloud under the pseudonyms SAUDADE and more recently, FRZB. 
 
 Enough about me, let’s get to the interesting people, and meet the producers.  
@@ -22,8 +24,6 @@ Enough about me, let’s get to the interesting people, and meet the producers.
 **G:** I started producing music about a year and a half ago. Before that, I used to mix songs with each other. I downloaded an app on my IPhone called Garage band which could help me mix the songs together quite easily; the app also let me create beats. After using the app for a good month, I started using Garage band on a MacBook. This really helped me to understand how to lay out different layers of a beat/song. I really did and still do enjoy making music as you can literally make anything you want to, as there’s no limit to what you can produce. 
 
 *Q: What software do you use to make music, and why do you use it?*
-
- {% include image.html url="/assets/Edition 1/garage-band-guitar.jpg" description="" %}
 
 **G:** I use three different pieces of software: Garage band, FL Studio and Acid Pro. I probably use Garage band the most as I mainly produce hip hop beats and I think that Garage band is quite good when creating them as I find the layout simple and easy to work with. 
 
