@@ -1,7 +1,7 @@
 /* Start media queries
  * Bigger than Mobiles 
  */
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 651px) {
     /* Setting main width and animations */
     main {
         width: calc(100% - 50px);
@@ -92,7 +92,7 @@
     }
 }
 /* MOBILE FUN!!!!!!!! (LOOK AT YOUR OWN RISK THIS IS MY FIRST MOBILE SITE) */
-@media screen and (max-width: 651px) {
+@media screen and (max-width: 650px) {
     /* Put the menu off the top of the screen */
     nav {
         height: 70%;
