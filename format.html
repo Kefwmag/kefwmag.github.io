@@ -81,7 +81,9 @@
         output.value += "---\n";
         output.value += text;
         text = title.value.toLowerCase().replace(/ /g,"-");
-        document.getElementById("filename").innerHTML = date.value + "-" + text.replace(/[!$%^&*()_+|~=`{}\[\]:";'<>\?,.\/]/g,"") + ".md";
+        text = text.replace(/[!$%^&*()_+|~=`{}\[\]:";'<>\?,.\/]/g,"");
+        text = text.replace(/\-{2,}/g,"-");
+        document.getElementById("filename").innerHTML = date.value + "-" + text + ".md";
       }
       function addImage() {
         var fname = prompt("Filename?");
