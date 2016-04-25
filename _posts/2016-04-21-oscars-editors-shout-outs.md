@@ -7,6 +7,8 @@ author: "Livvy McComb"
 ---
 **BEST ACTOR**: *Leonardo DiCaprio, The Revenant* DiCaprio proves that good things really do come to those who wait. The Revenant may not have been DiCaprio’s best ever performance but the Oscar is well deserved following some astounding performances over the years.
 
+{% include image.html url="/assets/edition-1/leonardo-dicaprio-oscars.jpg" description="" %}
+
 **BEST ACTRESS**: *Brie Larson, Room* A deeply moving exploration of maternal love and human resilience: Emma Donohue’s 2010 novel, adapted for the big screen in 2015, is an absolute must-read. By the looks of her award, Larson does the novel justice. 
 
 **BEST SUPPORTING ACTOR**: *Mark Ryland, Bridge of Spies* Tom Hanks has a special place in all our hearts, but Rylance stole the show in this Cold War Thriller. His ‘Standing Man’ monologue is guaranteed to bring a tear to the eye of even the cynics amongst us. 
