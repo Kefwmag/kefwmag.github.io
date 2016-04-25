@@ -1,6 +1,6 @@
 ---
 layout: dposts
-title: "Ill Nan"
+title: "Struggles with saddness"
 date: 2016-04-21 12:00:00 +0000
 category: "ama"
 author: "Mel and Ma"
