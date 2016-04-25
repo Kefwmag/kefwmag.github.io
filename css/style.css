@@ -314,7 +314,8 @@ article.fs h4.fs {
     display: block;
     width: 100%;
     text-align: center;
-    margin: 0 15px;
+    margin:15px;
+    margin-top:0;
 }
 /* Sharing Buttons */
 figure {
