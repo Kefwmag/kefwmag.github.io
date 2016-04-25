@@ -287,7 +287,7 @@ article.fs img {
 }
 
 article.fs img.fs {
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: 15px;
     display: inline-block;
@@ -312,7 +312,7 @@ article.fs h4 {
 }
 article.fs h4.fs {
     display: block;
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin: 0 15px;
 }
