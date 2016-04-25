@@ -195,6 +195,7 @@ main div article summary {
     display: inline-block;
 }
 
+
 main div article summary img {
     display: none;
 }
@@ -285,6 +286,13 @@ article.fs img {
     float: left;
 }
 
+article.fs img.fs {
+    width: 90%;
+    height: auto;
+    margin: 15px;
+    display: inline-block;
+}
+
 article.fs > a:last-child {
     top: 8px;
     bottom: auto;
@@ -299,6 +307,12 @@ article.fs h4 {
     display: block;
     float: left;
     width: 50%;
+    text-align: center;
+    margin: 0 15px;
+}
+article.fs h4.fs {
+    display: block;
+    width: 90%;
     text-align: center;
     margin: 0 15px;
 }
