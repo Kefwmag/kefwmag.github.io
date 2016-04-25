@@ -21,7 +21,7 @@ Advancements in robotics were made for the construction of the ISS, which the Br
 
 The ISS is used as an international research station, with the unique property of its microgravity. Researching common objects and processes can give different and enlightening results. With very little, convection currents do not form as readily, so flames are smaller and more uniform. It is hoped that research into combustion aboard the ISS will make more efficient combustion engines possible. Also, biological chemistry is slightly different in 
 
-{% include image.html url="/assets/candlesinspace.png" description="A candles on Earth and in a microgravity" %}
+{% include image.html url="/assets/candlesinspace.png" description="A candle on Earth and one in microgravity" %}
 
 Space technology can also directly benefit humanity; many people use it and take it for granted every day. The Global Positioning System (GPS) is an array of 32 satellites transmitting a signal, and if the precise positions of several satellites are known, the receiver can calculate its position on the Earth. Satellites are also used for communications, both with probes in outer space, and to broadcast information such as TV channels and Internet connections.
 
