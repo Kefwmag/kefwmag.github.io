@@ -11,7 +11,7 @@ This first article in the series, ‘Meet the Producers’, is especially releva
 
 *My name is [Kane Ogier](https://soundcloud.com/frzb), I’m 16 years old, and I’m a music producer.* 
 
- {% include image.html url="/assets/Edition 1/garage-band-guitar.jpg" description="" %}
+ {% include image.html url="/assets/edition-1/garage-band-guitar.jpg" description="" %}
 
 I use the DAW (digital audio workstation - an acronym that’ll get thrown around a lot in this article) FL Studio 11 to produce music as it’s what I learned to do so on and it has the most intuitive and fluid workflow for production in my eyes. I started producing music about two and a half years ago, in the summer of 2013. I was really getting into electronic music, and decided to have a go at producing music (though it could hardly be called that), following the example of my friend Isa, who you’ll meet later in this article. I’ve come a long way since then, and have experimented with different genres like house, trap and drum & bass. I’m now settling into an interest in electronic, hip hop, ‘future bass’ inspired music, and in that facet, some of my biggest inspirations would be Porter Robinson, Kasbo, Flume and Nosaj Thing. However, I hate limiting myself based on genre so generally I just make the music I’m interested in at the time, which changes on a regular basis. I post music on Soundcloud under the pseudonyms SAUDADE and more recently, FRZB. 
 
@@ -31,7 +31,7 @@ Enough about me, let’s get to the interesting people, and meet the producers.
 
 *Q: What genres of music do you make, and who are some of your biggest inspirations?* 
 
-{% include image.html url="/assets/Edition 1/dr-dre.jpg" description="" %}
+{% include image.html url="/assets/edition-1/dr-dre.jpg" description="" %}
 
 **G:** At the moment I have produced music which falls into several different genres including: Hip Hop, Grime, Trap and RnB. This is mainly due to these being the genres I listen to most. However I am going to attempt to produce House and Garage, as I listen to these from time to time too. Something I’m definitely going to try out is making Bhangra (due to me being Punjabi), but I will try to fuse it with western genres too. I have many people who inspire me, in terms of music production. My top three producers would be Dr Dre, Scott Storch and Tru-Skool. Dr Dre because he has made countless hits, due to his distinct style of west coast hip hop and his g-funk sound. Scott Storch as he is probably the most underrated producer around, he literally has made some of the best and catchiest beats ever. The way he uses Arab strings in his beats makes it unique to him. Tru-Skool is a name that most Bhangra fans will know about, due to him literally being the best producer in the game; he can produce any genre of music and fuse it with Bhangra, whether it’s hip hop, jazz or reggae. However these are not the only producers I listen to, others include Metro Boomin, Mike Will Made It & DJ Mustard: for making most of the best songs released in the last couple of years. Timbaland: for his distinct Arab styled Hip Hop. DJ Premier and Pete Rock: for being the original Hip Hop legends. Grades: because he is a new and upcoming producer who can produce many different genres and due to him actually trying to support and help me with my music. 
 
@@ -55,7 +55,7 @@ Enough about me, let’s get to the interesting people, and meet the producers.
 
 *Q: How long have you been producing music, and what prompted you to start?* 
 
-{% include image.html url="/assets/Edition 1/aypex-logo.jpg" description="" %}
+{% include image.html url="/assets/edition-1/aypex-logo.jpg" description="" %}
 
 **P:** I have been producing music for around 2 years, but have stopped and started. I wanted to start after seeing some of my friends gain an interest in it, and with my interests in certain genres of music, it just seemed fun.
 
@@ -85,7 +85,7 @@ Enough about me, let’s get to the interesting people, and meet the producers.
 
 *Q: How long have you been producing music, and what prompted you to start?* 
 
-{% include image.html url="/assets/Edition 1/sealord-logo.jpg" description="" %}
+{% include image.html url="/assets/edition-1/sealord-logo.jpg" description="" %}
 
 **S:** I started almost 2 years ago. I think it was because my brother used to make beats and I always thought it was really cool, but never actually decided to do it. I made my first beat after I heard the album Yeezus by Kanye West, because that was so tight.
 

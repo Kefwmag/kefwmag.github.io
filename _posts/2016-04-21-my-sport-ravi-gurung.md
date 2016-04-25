@@ -9,7 +9,7 @@ Sport is engraved into the school identity, with many pupils excelling at sport 
 
 The subject of the first edition is Ravi Gurung, some of you may recall the assembly earlier in the school year where we were left mesmerised by clips of Ravi kayaking. In this interview with him I discuss where his journey started right up to his goals for the future and how you, the readers can get involved with Kayaking. Q: 
 
-{% include image.html url="/assets/Edition 1/ravi-kayak-1.jpg" description="" %}
+{% include image.html url="/assets/edition-1/ravi-kayak-1.jpg" description="" %}
 
 Firstly, how long have you been Kayaking? 
 
@@ -23,7 +23,7 @@ Q: What is your most memorable experience while Kayaking?
 
 R: My most memorable experience was when I was 12, while in Nepal. At the time I was the youngest person ever to paddle the Bhote Koshi River in Nepal. The river is grade 5 which means it has extremely difficult rapids with precise and technically demanding routes which are to be followed. Being the youngest ever paddler to kayak such a difficult section was memorable for me, I don’t think I have paddled a river that has been as difficult since. 
 
-{% include image.html url="/assets/Edition 1/ravi-kayak-2.jpg" description="" %}
+{% include image.html url="/assets/edition-1/ravi-kayak-2.jpg" description="" %}
 
 Q:Who do you class as your main inspiration? 
 

@@ -15,7 +15,7 @@ To run for President, you have to be a natural born US citizen, at least 35 year
 
 American politics is dominated by Two Parties, the Republicans and The Democrats. The Republicans are often regarded as more conservative whereas The Democrats are regarded as traditionally being more liberal. A series of elections take place in every US State, the first ones normally take place in February. These elections determine who becomes each party’s official presidential candidate. The winner of each election collects a number of ‘delegates’; the more state elections a candidate wins the more delegates will be pledged to support them. To become the republican candidate 1,237 delegates are needed whereas the Democratic contender must secure 2,383. By the end of this month, most states will have voted and there will be a clear leader in the conquest for presidential candidacy for both parties. Candidates are normally made official in the summer, around July time. If a majority is not achieved by this point there will be a lot of interparty politics to sort out the candidate. The final event before voting day is usually three separate televised Presidential Debates, 6 weeks  before votes are cast on 8th November. During these Debates the two candidates reaffirm their potential policies and plans of action for when they potentially become president. 
 
-{% include image.html url="/assets/Edition 1/whitehouse.jpg" description="" %}
+{% include image.html url="/assets/edition-1/whitehouse.jpg" description="" %}
 
 **How does voting work?** 
 
