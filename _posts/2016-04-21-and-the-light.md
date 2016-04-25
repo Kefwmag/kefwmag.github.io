@@ -16,7 +16,7 @@ Okay guys, the boring ones have gone, only the interesting people are here now (
 In this article, we asked some members of BackChat’s Arts and Entertainment team to answer some questions, and give their thoughts on the film. 
 
 
-{% include image.html url="/assets/edition-1/Star wars logo.png" description="Star Wars" %}
+{% include image.html url="/assets/edition-1/Star wars logo.png" description="" %}
 
 
 ***Q1 – Did you like the film? Why?*** 
@@ -55,7 +55,7 @@ E- I really liked BB-8, the main droid in the film. He was very cute and he was 
 
 T– Rey was my favourite character, as she showed very clear character development, and was very cool in the fight scenes.
 
-{% include image.html url="/assets/edition-1/force awakens.jpg" description="The Force Awakens" %}
+{% include image.html url="/assets/edition-1/force awakens.jpg" description="" %}
 
 ***Q4 – If you could be any character from the film who would you be and why?***
 
