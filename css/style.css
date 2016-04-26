@@ -287,9 +287,9 @@ article.fs img {
 }
 
 article.fs img.fs {
-    width: 100%;
+    width: 102%;
     height: auto;
-    margin: 15px;
+    margin: 15 auto;
     display: inline-block;
 }
 
