@@ -6,6 +6,14 @@ section.sports {
     background: #FF8230;
     color: #FF6600;
 }
+
+main div article.sports {
+    border-top:3px solid #FF8230;
+}
+main div article.sports.fs {
+    border-top:none;
+}
+
 main div article.sports a i {
     color: #FF6600;
 }
