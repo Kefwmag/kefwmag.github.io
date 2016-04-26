@@ -6,6 +6,9 @@ section.news {
     background: #9A1504;
     color: #CC0000;
 }
+main div article.news {}
+main div article.news.fs {}
+
 main div article.news a i {
     color: #CC0000;
 }
