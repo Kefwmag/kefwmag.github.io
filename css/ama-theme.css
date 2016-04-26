@@ -6,12 +6,7 @@ section.ama {
     background: #f99;
     color: #FFF;
 }
-main div article.ama {
-    border-top:3px solid #f99;
-}
-main div article.ama.fs {
-    border-top:none;
-}
+
 main div article.ama a i {
     color: #F55;
 }
