@@ -6,6 +6,12 @@ section.tech {
     background: #4C4C4C;
     color: #333333;
 }
+main div article.tech {
+    border-top:3px solid #4C4C4C;
+}
+main div article.tech.fs {
+    border-top:none;
+}
 main div article.tech a i {
     color: #333333;
 }
