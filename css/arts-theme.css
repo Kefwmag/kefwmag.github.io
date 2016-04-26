@@ -6,12 +6,7 @@ section.arts {
     background: #861186;
     color: #660066;
 }
-main div article.arts {
-    border-top:3px solid #861186;
-}
-main div article.arts.fs {
-    border-top:none;
-}
+
 main div article.arts a i {
     color: #660066;
 }
