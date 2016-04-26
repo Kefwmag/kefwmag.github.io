@@ -6,12 +6,7 @@ section.lifestyle {
     background: #29B156;
     color: #009933;
 }
-main div article.lifestyle {
-    border-top:3px solid #29B156;
-}
-main div article.lifestyle.fs {
-    border-top:none;
-}
+
 main div article.lifestyle a i {
     color: #009933;
 }
