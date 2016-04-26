@@ -156,7 +156,7 @@ main div {
 /* Small, square article tile thingies */
 main div article {
     display: none;
-    border-top:3px solid #00ADF1;
+    border-top:3px solid #069;
     border-bottom: 5px solid #AAA;
     background-color: #FFF;
     margin: 8px;
