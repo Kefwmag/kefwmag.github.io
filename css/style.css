@@ -331,3 +331,41 @@ figure a i{
     color:#069;
 }
 /* End full screen article styles */
+
+/*Home Screen Article Top Borders */
+main div article.news {
+    border-top:3px solid #9A1504;
+}
+main div article.news.fs {
+    border-top:none;
+}
+main div article.tech {
+    border-top:3px solid #4C4C4C;
+}
+main div article.tech.fs {
+    border-top:none;
+}
+main div article.sports {
+    border-top:3px solid #FF8230;
+}
+main div article.sports.fs {
+    border-top:none;
+}
+main div article.lifestyle {
+    border-top:3px solid #29B156;
+}
+main div article.lifestyle.fs {
+    border-top:none;
+}
+main div article.ama {
+    border-top:3px solid #f99;
+}
+main div article.ama.fs {
+    border-top:none;
+}
+main div article.arts {
+    border-top:3px solid #861186;
+}
+main div article.arts.fs {
+    border-top:none;
+}
