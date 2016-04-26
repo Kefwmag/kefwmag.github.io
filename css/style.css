@@ -256,6 +256,7 @@ article.fs {
     transition: left 0.8s;
     font-size: initial;
     display: inline-block;
+    border:none;
     transition: height 0.8s, width 0.8s, left 0.8s, right 0.8s, top 0.8s;
 }
 
