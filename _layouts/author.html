@@ -5,7 +5,7 @@ layout: deep
 <div>
     {% for post in site.posts %}{% if post.author == page.author %}{% include postpreview.html %}{% endif %}{% endfor %}
     <style>
-        article {
+        main div article {
           display:inline-block;
         }
     </style>
