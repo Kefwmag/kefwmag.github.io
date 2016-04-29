@@ -1,0 +1,12 @@
+---
+layout: deep
+---
+
+<div>
+    {% for post in site.posts %}{% if post.author == page.author %}{% include authorpostpreview.html %}{% endif %}{% endfor %}
+    <style>
+        article.{{page.author}} {
+          display:inline-block;
+        }
+    </style>
+</div>
