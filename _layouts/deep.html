@@ -7,44 +7,48 @@
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="/css/media-styles.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        {% case page.category %}
-        {% when 'news' %}
-        <meta name="theme-color" content="#CC0000">
-        <link rel="icon" type="image/png" href="/assets/favicons/newsFavicon.png" />
-        <link rel="stylesheet" href="/css/news-theme.css" />
-        
-        {% when 'tech' %}
-        <meta name="theme-color" content="#333333">
-        <link rel="icon" type="image/png" href="/assets/favicons/techFavicon.png" />
-        <link rel="stylesheet" href="/css/tech-theme.css" />
-        
-        {% when 'sports' %}
-        <meta name="theme-color" content="#FF6600">
-        <link rel="icon" type="image/png" href="/assets/favicons/sportsFavicon.png" />
-        <link rel="stylesheet" href="/css/sports-theme.css" />
-        
-        {% when 'lifestyle' %}
-        <meta name="theme-color" content="#009933">
-        <link rel="icon" type="image/png" href="/assets/favicons/lifestyleFavicon.png" />
-        <link rel="stylesheet" href="/css/lifestyle-theme.css" />
-        
-        {% when 'arts' %}
-        <meta name="theme-color" content="#660066">
-        <link rel="icon" type="image/png" href="/assets/favicons/artsFavicon.png" />
-        <link rel="stylesheet" href="/css/arts-theme.css" />
-        
-        {% when 'ama' %}
-        <meta name="theme-color" content="#F33">
-        <link rel="icon" type="image/png" href="/assets/favicons/amaFavicon.png" />
-        <link rel="stylesheet" href="/css/ama-theme.css" />
-        
+        {% if page.useTitle %}
+            <meta name="theme-color" content="{{page.themecolor}}">
+            <link rel="stylesheet" href="/css/author-theme.css" />
         {% else %}
-        <meta name="theme-color" content="#00ADF1">
-        
-        {% endcase %}
+            {% case page.category %}
+            {% when 'news' %}
+            <meta name="theme-color" content="#CC0000">
+            <link rel="icon" type="image/png" href="/assets/favicons/newsFavicon.png" />
+            <link rel="stylesheet" href="/css/news-theme.css" />
+            
+            {% when 'tech' %}
+            <meta name="theme-color" content="#333333">
+            <link rel="icon" type="image/png" href="/assets/favicons/techFavicon.png" />
+            <link rel="stylesheet" href="/css/tech-theme.css" />
+            
+            {% when 'sports' %}
+            <meta name="theme-color" content="#FF6600">
+            <link rel="icon" type="image/png" href="/assets/favicons/sportsFavicon.png" />
+            <link rel="stylesheet" href="/css/sports-theme.css" />
+            
+            {% when 'lifestyle' %}
+            <meta name="theme-color" content="#009933">
+            <link rel="icon" type="image/png" href="/assets/favicons/lifestyleFavicon.png" />
+            <link rel="stylesheet" href="/css/lifestyle-theme.css" />
+            
+            {% when 'arts' %}
+            <meta name="theme-color" content="#660066">
+            <link rel="icon" type="image/png" href="/assets/favicons/artsFavicon.png" />
+            <link rel="stylesheet" href="/css/arts-theme.css" />
+            
+            {% when 'ama' %}
+            <meta name="theme-color" content="#F33">
+            <link rel="icon" type="image/png" href="/assets/favicons/amaFavicon.png" />
+            <link rel="stylesheet" href="/css/ama-theme.css" />
+            
+            {% else %}
+            <meta name="theme-color" content="#00ADF1">
+            {% endcase %}
+        {% endif %}
     </head>
     <body>
-        <header class="{{page.category}}">
+        <header class="{% if page.useTitle %}{{page.titleClass}}{% else %}{{page.category}}{% endif %}">
             <h1><a class="headlink" href="/">BackChat</a></h1>
         </header>
         <input type="checkbox" id="hamburger" name="hamburger" />
