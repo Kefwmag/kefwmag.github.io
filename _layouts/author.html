@@ -3,9 +3,9 @@ layout: deep
 ---
 
 <div>
-    {% for post in site.posts %}{% if post.author == page.author %}{% include authorpostpreview.html %}{% endif %}{% endfor %}
+    {% for post in site.posts %}{% if post.author == page.author %}{% include postpreview.html %}{% endif %}{% endfor %}
     <style>
-        article.{{page.author}} {
+        article {
           display:inline-block;
         }
     </style>
