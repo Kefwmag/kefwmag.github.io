@@ -9,7 +9,7 @@ author: "Adi Silvestro"
 
 Wilko:
 
-“Good morning school, I would like to share with you something which I found unbelievable, after all the theme of this week is things we find unbelievable, when thinking about this assembly I thought of many things I found unbelievable, one thing I found was an email i recently received from a passenger on the 22 bus service. While I read this email I was filled with pride, pride for the school and the students in it and of course, myself. I don’t have time to read the full email, but I have selected my favourite part. 
+“Good morning school, I would like to share with you something which I found unbelievable, after all the theme of this week is things we find unbelievable, when thinking about this assembly I thought of many things I found unbelievable, one thing I found was an email I recently received from a passenger on the 22 bus service. While I read this email I was filled with pride, pride for the school and the students in it and of course, myself. I don’t have time to read the full email, but I have selected my favourite part. 
 
 *“I have caught this bus all of my life, from when I was a small girl at the age of 12 going to town with my mum, now I am an old woman at the age of sixty. I have to say, out of all the schools getting the bus, you”* thats us, folks *“you are the fifth best school ever to have got this bus in the world”*
 
@@ -17,7 +17,7 @@ Wow. Fifth best in the world. We have done it, folks, and you should be proud. I
 
 *The light-fingered, diligent maestro of a man that is Mr Swindells plays the triumphant tune as the Headmistress marches out of Wilkinson Hall, head held high with pride. Mrs Long steps forward to injects the latest batch of male-only excitement into the eagerly awaiting students.*
 
-“Morning school, only the one match report for you today. The under 14s started off well in the first half, with a triumphant lead from Kevway, powering over the line to create a hole in the oppositions defence. The offensive from five ways fell during the latter parts of the first half but the strong forwards kept the defensive line steady and five ways went into the half time break 5-0 up. After a spurring speech from captain Moui… Mouia…, the one with the turban, and the team were back on track. During the second half defence was maintained with one tri being pushed over the line by Hugh Janus, the team walk away with a 79-0 win. There was some girls match somewhere, won 4-3, well done. We have joint hockey, we are balanced, we are… I promise.”
+“Morning school, only the one match report for you today. The under 14s started off well in the first half, with a triumphant lead from Kevway, powering over the line to create a hole in the oppositions defence. The offensive from Five Ways fell during the latter parts of the first half but the strong forwards kept the defensive line steady and five ways went into the half time break 5-0 up. After a spurring speech from captain Moui… Mouia…, the one with the turban, and the team were back on track. During the second half defence was maintained with one tri being pushed over the line by Hugh Janus, the team walk away with a 79-0 win. There was some girls match somewhere, won 4-3, well done. We have joint hockey, we are balanced, we are… I promise.”
 
  *As Miss Long sits back down Mr Atherton, the light catching off his magnificent egg of a cranium, paces slowly and confidently across the stage.* 
  
