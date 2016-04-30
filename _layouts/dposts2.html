@@ -30,8 +30,8 @@ layout: deep
       <a onclick="star()" id="staricon">
         <i class="fa fa-star-o fa-2x"></i>
       </a>
-      <iframe style="display:none">
-        <form name="starForm" style="display:none;" action="http://backchatserver.netai.net/star.php?filename={{page.title}}"></form>
+      <iframe id="starFrame" style="display:none">
+       http://backchatserver.netai.net/star.php?filename={{page.title}}
       </iframe>
       <span id="starcount"></span>
       <script>var starCount = 0;</script>
@@ -45,7 +45,7 @@ layout: deep
         }
         function star() {
           if(getCookie() !== "true") {
-            document.forms["starForm"].submit();
+            document.getElementById("starFrame").src="http://backchatserver.netai.net/star.php?filename={{page.title}}";
             starCount++;
             document.getElementById("starcount").innerHTML = starCount;
             document.getElementById("staricon").innerHTML='<i class="fa fa-star fa-2x"></i>';
