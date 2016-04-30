@@ -27,10 +27,21 @@ layout: deep
         <i class="fa fa-rss-square fa-2x"></i>
       </a>
       
-      <a href="http://backchatserver.netai.net/star.php?filename={{page.title}}" target="_new">
+      <a onclick="star()">
         <i class="fa fa-star-o fa-2x"></i>
       </a>
-      <script src="http://backchatserver.netai.net/{{page.title}}.js"></script>
+      <span id="starcount"></span>
+      <script src="http://backchatserver.netai.net/{{page.title}}.js">
+        document.getElementById("starcount").innerHTML = starCount;
+      </script>
+      <script>
+        function star() {
+          var x = window.open("http://backchatserver.netai.net/star.php?filename={{page.title}}");
+          x.onload=function() {
+            x.close();
+          }
+        }
+      </script>
     </figure>
     <summary>
       {% if page.category == 'ama' %}{% include amaPostHeader.html %}{% endif %}
