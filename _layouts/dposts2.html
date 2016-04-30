@@ -49,10 +49,7 @@ layout: deep
           }
         }
         function setCookie() {
-            var d = new Date();
-            d.setTime(d.getTime() + (3650*24*60*60*1000));
-            var expires = "expires="+d.toUTCString();
-            document.cookie = "starred=true; " + expires;
+            document.cookie = "starred=true; ";
         }
         function getCookie() {
           var name = "starred=";
