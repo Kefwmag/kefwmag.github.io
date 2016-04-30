@@ -7,6 +7,9 @@ section.ama {
     color: #FFF;
 }
 
+main div article.ama a {
+    color: #F55;
+}
 main div article.ama a i {
     color: #F55;
 }
