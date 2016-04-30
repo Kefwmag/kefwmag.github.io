@@ -1,5 +1,5 @@
 ---
-layout: dposts
+layout: dposts2
 title: "Should we bother with Space Exploration"
 date: 2016-04-21 12:00:00 +0000
 category: "tech"
