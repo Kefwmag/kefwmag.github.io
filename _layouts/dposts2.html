@@ -31,10 +31,11 @@ layout: deep
         <i class="fa fa-star-o fa-2x"></i>
       </a>
       <span id="starcount"></span>
-      <script src="http://backchatserver.netai.net/{{page.title}}.js">
-        document.getElementById("starcount").innerHTML = starCount;
-      </script>
+      <script src="http://backchatserver.netai.net/{{page.title}}.js"></script>
       <script>
+        window.onload = function() {
+          document.getElementById("starcount").innerHTML = starCount;
+        }
         function star() {
           var x = window.open("http://backchatserver.netai.net/star.php?filename={{page.title}}");
           x.onload=function() {
