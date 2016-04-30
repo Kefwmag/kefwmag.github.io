@@ -27,21 +27,47 @@ layout: deep
         <i class="fa fa-rss-square fa-2x"></i>
       </a>
       
-      <a onclick="star()">
+      <a onclick="star()" id="staricon">
         <i class="fa fa-star-o fa-2x"></i>
       </a>
-      <span id="starcount"></span>
+      <span id="starcount">0</span>
       <script src="http://backchatserver.netai.net/{{page.title}}.js"></script>
       <script>
         window.onload = function() {
           document.getElementById("starcount").innerHTML = starCount;
-        }
-        function star() {
-          var x = window.open("http://backchatserver.netai.net/star.php?filename={{page.title}}");
-          x.onload=function() {
-            x.close();
+          if(getCookie() == "true") {
+            document.getElementById("staricon").innerHTML='<i class="fa fa-star fa-2x"></i>';
           }
         }
+        function star() {
+          if(getCookie() !== "true") {
+            var x = window.open("http://backchatserver.netai.net/star.php?filename={{page.title}}");
+            starCount++;
+            document.getElementById("starcount").innerHTML = starCount;
+            document.getElementById("staricon").innerHTML='<i class="fa fa-star fa-2x"></i>';
+          }
+        }
+        function setCookie() {
+            var d = new Date();
+            d.setTime(d.getTime() + (3650*24*60*60*1000));
+            var expires = "expires="+d.toUTCString();
+            document.cookie = "starred=true; " + expires;
+        }
+        function getCookie() {
+          var name = "starred=";
+          var ca = document.cookie.split(';');
+          for(var i = 0; i < ca.length; i++) {
+              var c = ca[i];
+              while (c.charAt(0) == ' ') {
+                  c = c.substring(1);
+              }
+              if (c.indexOf(name) == 0) {
+                  return c.substring(name.length, c.length);
+              }
+          }
+          return "";
+      }
+
       </script>
     </figure>
     <summary>
