@@ -6,7 +6,9 @@ section.tech {
     background: #4C4C4C;
     color: #333333;
 }
-
+main div article.tech a {
+    color: #333333;
+}
 main div article.tech a i {
     color: #333333;
 }
