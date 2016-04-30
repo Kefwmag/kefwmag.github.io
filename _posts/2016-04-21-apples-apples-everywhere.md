@@ -9,7 +9,7 @@ I love apples! There’s so many things you can do with them: pie, cake, tarts a
 
 To celebrate the glorious apple, here is a simple recipe that anyone can make with very little time or effort and is great as a sweet treat either cold or warm. 
 
-{% include image.html url="/assets/edition-1/apples.jpg" description="Apples." %}
+{% include image.html url="/assets/edition-1/apples.jpg" description="" %}
 
 Ingredients: 
 
