@@ -2,7 +2,7 @@
 layout: deep
 ---
 
-<div>
+<div class="{{page.author}}">
     {% for post in site.posts %}{% if post.author == page.author %}{% include postpreview.html %}{% endif %}{% endfor %}
     <style>
         main div article {
