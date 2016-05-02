@@ -5,7 +5,7 @@ layout: deep
 <div>
   <article class="fs {{page.categories}}">
     <h1 class="storyName">{{ page.title }}</h1>
-    <h3 class="author">{% if page.author %}By <a id="authorlink" href="/author/">{{ page.author }}</a>, {% endif %}{{ page.date | date: "%-d %b %Y" }}</h3>
+    <h3 class="author">{% if page.author %}By <!--<a id="authorlink" href="/author/">-->{{ page.author }}<!--</a>-->, {% endif %}{{ page.date | date: "%-d %b %Y" }}</h3>
     <script>
       document.getElementById("authorlink").href+="{{page.author}}".toLowerCase().replace(" ","-");
     </script>
