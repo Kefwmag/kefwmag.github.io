@@ -3,7 +3,7 @@ layout: dposts
 title: "US Elections: An Overview"
 date: 2016-04-21 12:00:00 +0000
 category: "news"
-author: "Ciaran Hanvey - Editor in Chief"
+author: "Ciaran Hanvey"
 ---
 January 2017 will mark a new era for American Politics. On the other hand, it will mark the end of the historic Obama Administration which began in January 2008. When the US picks a president, it is not only choosing a head of state but also a head of government and the commander-in-chief of the largest military on the planet.
 
