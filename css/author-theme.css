@@ -8,8 +8,9 @@ section.chanvey {
 main div.chanvey article a {
     color: #001144;
 }
+
 header.lmccomb {
-    background-color: #006759
+    background-color: #006759;
 }
 section.lmccomb {
     border-bottom: 3px solid #00806f;
@@ -17,4 +18,15 @@ section.lmccomb {
 }
 main div.lmccomb article a {
     color: #006759;
+}
+
+header.spenasar {
+    background-color: #28153c;
+}
+section.spenasar {
+    border-bottom: 3px solid #321a4b;
+    background: #321a4b;
+}
+main div.spenasar article a {
+    color: #28153c;
 }
