@@ -41,3 +41,14 @@ section.kogier {
 main div.kogier article a {
     color: #cc0066;
 }
+
+header.jgriffiths {
+    background-color: #e67a00;
+}
+section.jgriffiths {
+    border-bottom: 3px solid #ff8800;
+    background: #ff8800;
+}
+main div.jgriffiths article a {
+    color: #e67a00;
+}
