@@ -3,7 +3,7 @@ layout: dposts
 title: "My Sport - Ravi Gurung"
 date: 2016-04-21 12:00:00 +0000
 category: "sports"
-author: "Ciaran Hanvey - Editor in Chief"
+author: "Ciaran Hanvey"
 ---
 Sport is engraved into the school identity, with many pupils excelling at sport both inside and outside of school. As part of the ‘My Sport’ series, I aim to uncover sporting gems of Five Ways and interview them about their sport and how it plays a part in their lives. 
 
