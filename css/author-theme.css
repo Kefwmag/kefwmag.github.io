@@ -6,3 +6,11 @@ section.chanvey {
     background: #002266;
     color: #001144;
 }
+header.lmccomb {
+    background-color: #006759
+}
+section.lmccomb {
+    border-bottom: 3px solid #00806f;
+    background: #00806f;
+    color: #006759;
+}
