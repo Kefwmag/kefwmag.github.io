@@ -1,19 +1,17 @@
 header.chanvey {
-    background-color: #002266;
+    background-color: #4F008A;
 }
 section.chanvey {
-    border-bottom: 3px solid #003388;
-    background: #003388;
+    background: #7406C7;
 }
 main div.chanvey article a {
-    color: #002266;
+    color: #4F008A;
 }
 
 header.lmccomb {
     background-color: #006759;
 }
 section.lmccomb {
-    border-bottom: 3px solid #00806f;
     background: #00806f;
 }
 main div.lmccomb article a {
@@ -24,7 +22,6 @@ header.spenasar {
     background-color: #28153c;
 }
 section.spenasar {
-    border-bottom: 3px solid #321a4b;
     background: #321a4b;
 }
 main div.spenasar article a {
@@ -35,7 +32,6 @@ header.kogier {
     background-color: #cc0066;
 }
 section.kogier {
-    border-bottom: 3px solid #ff0080;
     background: #ff0080;
 }
 main div.kogier article a {
@@ -46,7 +42,6 @@ header.jgriffiths {
     background-color: #e67a00;
 }
 section.jgriffiths {
-    border-bottom: 3px solid #ff8800;
     background: #ff8800;
 }
 main div.jgriffiths article a {
