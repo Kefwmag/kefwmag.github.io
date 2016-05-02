@@ -4,6 +4,8 @@ header.chanvey {
 section.chanvey {
     border-bottom: 3px solid #002266;
     background: #002266;
+}
+main div.chanvey article a {
     color: #001144;
 }
 header.lmccomb {
@@ -12,5 +14,7 @@ header.lmccomb {
 section.lmccomb {
     border-bottom: 3px solid #00806f;
     background: #00806f;
+}
+main div.lmccomb article a {
     color: #006759;
 }
