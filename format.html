@@ -89,7 +89,10 @@
       function addImage() {
         var fname = prompt("Filename?");
         var desc = prompt("Description?");
-        text = "\n {% include image.html url=\"assets/"+fname+"\" description=\""+desc+"\" %}";
+        var fs = confirm("Full Width?");
+        var include = ""
+        if(fs) {include = "fs"};
+        text = "\n {% include image"+ include +".html url=\"assets/"+fname+"\" description=\""+desc+"\" %}";
         output.value += text;
       }
       function removeNewLines() {
