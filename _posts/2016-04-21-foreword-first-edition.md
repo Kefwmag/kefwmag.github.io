@@ -2,7 +2,7 @@
 layout: dposts
 title: "Foreword - First Edition"
 date: 2016-04-21 13:00:00 +0000
-title: "Foreword"
+title: "Editor's Foreword - Edition 1"
 useTitle: true
 author: "Ciaran Hanvey"
 ---
