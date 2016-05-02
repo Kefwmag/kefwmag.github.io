@@ -30,3 +30,14 @@ section.spenasar {
 main div.spenasar article a {
     color: #28153c;
 }
+
+header.kogier {
+    background-color: #cc0066;
+}
+section.kogier {
+    border-bottom: 3px solid #ff0080;
+    background: #ff0080;
+}
+main div.kogier article a {
+    color: #cc0066;
+}
