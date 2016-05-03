@@ -10,7 +10,7 @@
                         var scripts = document.getElementsByTagName('script'),
                         currentScript = scripts[scripts.length - 1],
                         span = currentScript.previousSibling;
-                        console.log(span);
+                        span.parentElement.children[3].innerHTML = "New!"
                     }
             </script>
             <a href="{{site.url}}{{ post.url }}">Read More</a>
