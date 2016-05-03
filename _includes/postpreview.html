@@ -4,6 +4,9 @@
             <summary>
                 {{post.excerpt}}
             </summary>
-            <span id="new">{{ post.date }}</span>
+            <span id="new"></span>
+            <script>
+                    var date = "{{ post.date }}";
+            </script>
             <a href="{{site.url}}{{ post.url }}">Read More</a>
         </article>
