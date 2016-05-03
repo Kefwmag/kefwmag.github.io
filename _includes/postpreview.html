@@ -7,7 +7,7 @@
             <span id="new"></span>
             <script>
                     if ((new Date() - new Date("{{post.date}}"))/(1000*60*60*24) < 14) {
-                            document.getElementById("new").innerHTML = "New!"
+                            console.log(this);
                     }
             </script>
             <a href="{{site.url}}{{ post.url }}">Read More</a>
