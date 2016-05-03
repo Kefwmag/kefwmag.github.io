@@ -4,10 +4,13 @@
             <summary>
                 {{post.excerpt}}
             </summary>
-            <span id="new"></span>
+            <span></span>
             <script>
                     if ((new Date() - new Date("{{post.date}}"))/(1000*60*60*24) < 14) {
-                            console.log(this);
+                        var scripts = document.getElementsByTagName('script'),
+                        currentScript = scripts[scripts.length - 1],
+                        span = currentScript.previousSibling;
+                        console.log(span);
                     }
             </script>
             <a href="{{site.url}}{{ post.url }}">Read More</a>
