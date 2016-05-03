@@ -212,8 +212,7 @@ main div article > a:last-child {
     position: absolute;
     right: 0;
     bottom: 0;
-    left: 0;
-    width: 100%;
+    width: 0%;
     background-color: #FFF;
     padding: 8px;
     box-sizing: border-box;
@@ -222,6 +221,21 @@ main div article > a:last-child {
 
 main div.home article a:last-child {
     color: #069;
+}
+
+main div article span {
+    position: absolute;
+    display: block;
+    height: 25px;
+    width: 50%;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    padding: 5px;
+    line-height: 25px;
+    text-indent: 5px;
+    color:#13D013;
+    font-weight:900;
 }
 /* End article tile styling */
 
