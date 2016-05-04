@@ -193,4 +193,12 @@
         padding:0;
         display:block;
     }
+    nav ul li:first-child {
+        padding:0;
+        border:none;
+    }
+    nav ul li:nth-child(2) {
+        padding:0;
+        border:none;
+    }
 }
