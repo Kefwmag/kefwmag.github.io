@@ -191,5 +191,6 @@
         margin:0 auto;
         border:none;
         padding:0;
+        display:block;
     }
 }
