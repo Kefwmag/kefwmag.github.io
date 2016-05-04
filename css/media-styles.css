@@ -183,3 +183,13 @@
         width:100%;
     }
 }
+/*Teeny Screen*/
+@media screen and (max-width: 350px) {
+    nav ul li {
+        height:initial;
+        width:auto;
+        margin:0 auto;
+        border:none;
+        padding:0;
+    }
+}
