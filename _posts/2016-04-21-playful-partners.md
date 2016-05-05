@@ -4,6 +4,7 @@ title: "Playful Partners"
 date: 2016-04-21 12:00:00 +0000
 category: "ama"
 author: "Mel and Ma"
+edition: 1
 ---
 So I found out that my boyfriend of 8 months has been speaking or as he says ‘only flirting’ with my best friend of 11 years. I know everyone says that teenage relationships are ‘destined for doom’ and people use them to help pass the time and get through secondary school, but the boy I was with was so different from all the others, and I guess it was this kind of naivety that makes it unbelievable. My and my best friend ended our friendship on a cold note and my ex-boyfriend is begging me to rethink my decision about leaving him. I really don’t know what to do. I don’t deserve to hurt anymore but I can’t trust him again.
 

@@ -4,6 +4,7 @@ title: "Meet the Producers"
 date: 2016-04-21 12:00:00 +0000
 category: "arts"
 author: "Kane Ogier"
+edition: 1
 ---
 Our school has a wide range of talented, creative people- this goes without saying. However, despite our best efforts, it’s impossible to effectively showcase the wide range of creative interests of our pupils, especially those that extend beyond the constraints of formal creative awards and the academic interests of the classroom. In this ‘Meet the’ series, my aim is to celebrate the Five Ways students who embrace music, drama, art and a wide array of other creative subjects for enjoyment in their day to day lives. 
 

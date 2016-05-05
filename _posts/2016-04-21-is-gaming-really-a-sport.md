@@ -4,6 +4,7 @@ title: "Is Gaming Really a Sport?"
 date: 2016-04-21 12:00:00 +0000
 category: "tech"
 author: "Zafar Abbas"
+edition: 1
 ---
 From watching competitive players compete for massive prize pools to watching lets players on YouTube, gaming has become more than just about games. Perhaps the fastest growing off shoot of typical gaming is that of e-sports which has begun to attract millions of young people to watch and participate at the highest, most competitive level of professional gaming. No longer is gaming the solitary hobby of teenage boys, it has developed into its own thriving community of pro players and their massive followings which only seem to grow. By 2018, the gaming industry is expected to be worth $113 billion with 36.4 million gamers in the UK alone. But can video games ever really be considered a real sport? 
 

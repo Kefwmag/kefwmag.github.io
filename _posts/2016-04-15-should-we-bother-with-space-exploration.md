@@ -4,6 +4,7 @@ title: "Should we bother with Space Exploration"
 date: 2016-04-21 12:00:00 +0000
 category: "tech"
 author: "Benji Marshall"
+edition: 1
 ---
 Space exploration is an expensive and dangerous human endeavour, but it also is very rewarding and captivating. The entire Space Race between the USA and USSR was based upon the fact that both sides wanted to look more technologically advanced than the other side.The USA and the USSR spent billions on the Space Race outdoing each other for political and scientific gains. The USA won the Space race when they landed men on the moon, and they stopped spending the same vast quantities of money because there didn’t seem to be any reason to continue. They still have made advances, with orbital space stations such as the International Space Station (ISS), and space shuttle programs, but as they turn to new endeavours such as potential manned missions to Mars, it is worth discussing the merits and difficulties of space exploration.
 

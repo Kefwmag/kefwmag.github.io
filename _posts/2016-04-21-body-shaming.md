@@ -4,6 +4,7 @@ title: "Body Shaming"
 date: 2016-04-21 12:00:00 +0000
 category: "lifestyle"
 author: "Demelza Rose Werrin"
+edition: 1
 ---
 It’s always baffled me that people offend and purposefully ignite self-loathing within others by shaming their bodies. The media’s portrayal of what people now believe to be the perfect male and female bodies are illusions that people divert to in an attempt to weaken someone else’s self-confidence. So here’s a quick reminder: 
 

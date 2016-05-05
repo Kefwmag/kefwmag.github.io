@@ -4,6 +4,7 @@ title: "Life Hacks"
 date: 2016-04-21 12:00:00 +0000
 category: "lifestyle"
 author: "Miranda Townsend"
+edition: 1
 ---
 If you’ve got nothing to do,<br />
 Well I’ve got a couple of tricks for you.<br />

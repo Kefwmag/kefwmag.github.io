@@ -4,6 +4,7 @@ title: "Inside the School Council"
 date: 2016-04-21 12:00:00 +0000
 category: "lifestyle"
 author: "Mariam Khan"
+edition: 1
 ---
 The school council may think they’re doing a good job; but can we be sure? Are they doing the utmost to support our needs? Can we find out? Of course! One of our reporters went to a meeting to observe the doings of the council. The subject that was most argued about was the tying hair back rule, a rule an anonymous source told us was greatly opposed by Year 10 and 11. 
 

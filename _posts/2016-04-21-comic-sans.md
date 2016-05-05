@@ -4,6 +4,7 @@ title: "Comic Sans"
 date: 2016-04-21 12:00:00 +0000
 category: "arts"
 author: "Lily Dent"
+edition: 1
 ---
 <font face="Comic Sans MS">
 Techies hate many things. They hate 3 hours’ worth of unsaved work and a crashing computer, they hate bad AIs, they hate slow internet. But the one thing that they really hate – a font?

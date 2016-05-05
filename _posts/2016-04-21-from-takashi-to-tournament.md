@@ -4,6 +4,7 @@ title: "From Takashi to Tournament"
 date: 2016-04-21 12:00:00 +0000
 category: "tech"
 author: "Isaac Shepherd and Tomos Jones"
+edition: 1
 ---
 Due to the hype train of Street Fighter V, and just the overall amazingness of the series, we have decided to tell you a little bit about the development of the Street Fighter games, and the lore behind them involving the main characters of Ryu, Ken, Akuma and Gouken. Of these characters, Ryu (probably the most well-known fighting game character in the world) is our main ‘protagonist’ and Ken is his training partner under Gouken, their master. Akuma is the brother of Gouken, and a demon of sorts who has transcended his humanity. 
 

@@ -4,6 +4,7 @@ title: "How to: Survive School"
 date: 2016-04-21 12:00:00 +0000
 category: "lifestyle"
 author: "Shannon Penasar"
+edition: 1
 ---
 We Five Ways pupils share at least one thing in common: we all attend school. In fact, for us British citizens, we have to attend school until we are 18 (good luck). But to survive, there are some very easy steps. The first is quite obvious, yet for some reason, so difficult... 
 

@@ -4,6 +4,7 @@ title: "Everything you need to know about stress"
 date: 2016-04-21 12:00:00 +0000
 category: "lifestyle"
 author: "Shannnon Penasar"
+edition: 1
 ---
 Stress. Now, end-of-year exams are drawing ever closer, although mocks have finally finished (yay!). But for some (most), stress is still rampant! Especially amongst the Upper Years! 
 

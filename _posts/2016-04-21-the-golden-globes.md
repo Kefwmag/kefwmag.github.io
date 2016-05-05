@@ -4,6 +4,7 @@ title: "The Golden Globes"
 date: 2016-04-21 12:00:00 +0000
 category: "arts"
 author: "Evie Game"
+edition: 1
 ---
 On January 10th, 2016 the 73rd Golden Globes Award Ceremony was broadcast live from Beverly Hills in California. It was hosted by comedian, Ricky Gervais, and many movies and television programmes were honoured. A list of the of the awards can be found [here](http://www.goldenglobes.com/winners-nominees).
 

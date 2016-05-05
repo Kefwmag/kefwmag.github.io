@@ -4,6 +4,7 @@ title: "Baking Mishaps"
 date: 2016-04-21 12:00:00 +0000
 category: "lifestyle"
 author: "Shannon Penasar"
+edition: 1
 ---
 I was standing there, in my super-fancy apron like one you’d see in Masterchef, and completely covered in flour and batter. My dark hair looked like a weird mix of steel grey and the tacky white paint used in hotels and other cheap places. I took ages to get that out of my hair, especially since it turned into a sticky, gloopy mess when water hit it. Not fun.
 

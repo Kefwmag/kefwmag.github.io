@@ -4,6 +4,7 @@ title: "Five Ways VS Fiction"
 date: 2016-04-21 12:00:00 +0000
 category: "arts"
 author: "Aimee Hughes"
+edition: 1
 ---
 **Five Fictional Schools That Make You Glad You Go to Five Ways.** *This school may not be perfect but at least it doesn’t have a body count*
 

@@ -4,6 +4,7 @@ title: "Oscars - Editor's Shout Outs"
 date: 2016-04-21 12:00:00 +0000
 category: "arts"
 author: "Livvy McComb"
+edition: 1
 ---
 **BEST ACTOR**: *Leonardo DiCaprio, The Revenant* DiCaprio proves that good things really do come to those who wait. The Revenant may not have been DiCaprio’s best ever performance but the Oscar is well deserved following some astounding performances over the years.
 

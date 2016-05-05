@@ -4,6 +4,7 @@ title: "Apples, apples everywhere"
 date: 2016-04-21 12:00:00 +0000
 category: "lifestyle"
 author: "Molly Pearce"
+edition: 1
 ---
 I love apples! There’s so many things you can do with them: pie, cake, tarts and more savoury selections for those without a sweet tooth. And there are so many combinations and possibilities that easily work together. 
 
