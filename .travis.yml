@@ -5,6 +5,7 @@ rvm:
   
 script:
   - bundle exec jekyll build
+  - "find ./_site -type d -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
   - bundle exec htmlproofer ./_site --only-4xx --check-html --empty-alt-ignore
 
 env:
