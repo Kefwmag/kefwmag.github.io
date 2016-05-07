@@ -82,7 +82,7 @@ Enough about me, let’s get to the interesting people, and meet the producers.
 
 **L:** I’d have to say some of my biggest production inspirations are Ta-ku, Kasbo, Mura Masa and Dapurr, who is only 16 and is already an incredibly good producer. 
 
-**[Sef Ahmed](https://soundcloud.com/seaxlord)**
+**Sef Ahmed**
 
 *Q: How long have you been producing music, and what prompted you to start?* 
 
