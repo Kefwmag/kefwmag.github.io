@@ -1,5 +1,4 @@
 ---
-layout: dposts
 title: "Baking Mishaps"
 date: 2016-04-21 12:00:00 +0000
 category: "lifestyle"
@@ -12,4 +11,4 @@ Anyway, unfortunately this occurred during this first time I tried baking a cake
 
  {% include image.html url="/assets/edition-1/baking-stock.jpg" description="" %}
 
-I guess it all began when I started to actually started to bake! I was too lazy to get scales out, so I just threw ingredients together. Too runny? Add some flour. Too thick? Add some butter. Too bland? Add some sugar. After quite a few minutes, it was thrown into a baking tin, and into the oven. Well,  I already mentioned what exactly came out of the oven, and needless to say, it was a disaster. But it was fun trying to explain what on Earth happened to my mum! When she is extremely  terrifying, and obsessive over her kitchen… Yeah, I got into big trouble that day... Big trouble. 
+I guess it all began when I started to actually started to bake! I was too lazy to get scales out, so I just threw ingredients together. Too runny? Add some flour. Too thick? Add some butter. Too bland? Add some sugar. After quite a few minutes, it was thrown into a baking tin, and into the oven. Well,  I already mentioned what exactly came out of the oven, and needless to say, it was a disaster. But it was fun trying to explain what on Earth happened to my mum! When she is extremely  terrifying, and obsessive over her kitchen… Yeah, I got into big trouble that day... Big trouble.

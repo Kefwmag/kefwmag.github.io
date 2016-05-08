@@ -24,5 +24,26 @@ cats:
   sports: "Sports"
   tech: "Technology"
   lifestyle: "Lifestyle"
-  arts: "Arts &amp; Entertainment"
+  arts: "Arts & Entertainment"
   ama: "Agony Aunt"
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: authors
+    values:
+      layout: author
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default

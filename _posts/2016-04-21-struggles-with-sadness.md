@@ -1,5 +1,4 @@
 ---
-layout: dposts
 title: "Struggles with sadness"
 date: 2016-04-21 12:00:00 +0000
 category: "ama"

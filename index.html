@@ -1,20 +1,19 @@
 ---
-layout: deep
 useTitle: true
 title: Home
 titleClass: "home"
 ---
 
 <div class="home">
-    {% for post in site.posts %}
-    {% include postpreview.html %}
-    {% endfor %}
-    <style>
-        article {
-            display:inline-block !important;
-        }
-        article p img {
-            display: none;
-        }
-    </style>
+  <style>
+      article {
+          display:inline-block !important;
+      }
+      article p img {
+          display: none;
+      }
+  </style>
+  {% for post in site.posts %}
+  {% include postpreview.html %}
+  {% endfor %}
 </div>

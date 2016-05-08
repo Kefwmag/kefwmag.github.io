@@ -1,5 +1,4 @@
 ---
-layout: dposts
 title: "The Golden Globes"
 date: 2016-04-21 12:00:00 +0000
 category: "arts"
@@ -8,7 +7,7 @@ edition: 1
 ---
 On January 10th, 2016 the 73rd Golden Globes Award Ceremony was broadcast live from Beverly Hills in California. It was hosted by comedian, Ricky Gervais, and many movies and television programmes were honoured. A list of the of the awards can be found [here](http://www.goldenglobes.com/winners-nominees).
 
-As well as all the many awards, the Golden Globes was a very busy night, and everybody was dressed to impress. All eyes were on *Joy* Star Jennifer Lawrence and *The Revenant*’s Leonardo DiCaprio; what were they wearing and how did it look? 
+As well as all the many awards, the Golden Globes was a very busy night, and everybody was dressed to impress. All eyes were on *Joy* Star Jennifer Lawrence and *The Revenant*’s Leonardo DiCaprio; what were they wearing and how did it look?
 
 {% include imagefs.html url="/assets/edition-1/jennifer-lawrence.jpg" description="Jennifer Lawrence wore a red cut-out Dior Dress which was complimented by her new short hair." %}
 
