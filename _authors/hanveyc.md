@@ -1,4 +1,4 @@
 ---
-title: "Ciaran Hanvey"
+title: "Posts by Ciaran Hanvey"
 auth: "hanveyc"
 ---

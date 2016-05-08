@@ -5,6 +5,7 @@ title: "Editor's Foreword - Edition 1"
 useTitle: true
 edition: 1
 author: "Ciaran Hanvey"
+auths: [ "hanveyc" ]
 ---
 Welcome to the first edition of the brand new school magazine, ‘BackChat’: run by the pupils, for the pupils. You may be thinking, ‘great another school publication like the Chronicle’, but you couldn’t be more wrong. BackChat gives a fresh, alternative view of current affairs, both   inside and outside of school, and, covering five diverse categories (Arts and Entertainment, Lifestyle, Science and Technology, Sport, and News), there is something for everyone.   
 
