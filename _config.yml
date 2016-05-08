@@ -25,7 +25,7 @@ cats:
   sports: "Sports"
   tech: "Technology"
   lifestyle: "Lifestyle"
-  arts: "Arts & Entertainment"
+  arts: "Arts &amp; Entertainment"
   ama: "Agony Aunt"
 
 collections:
