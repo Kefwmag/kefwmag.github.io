@@ -31,13 +31,22 @@ cats:
 collections:
   authors:
     output: true
+  editions:
+    output: true
 
 defaults:
   - scope:
       path: ""
       type: authors
     values:
+      useTitle: true
       layout: author
+  - scope:
+      path: ""
+      type: editions
+    values:
+      useTitle: true
+      layout: edition
   - scope:
       path: ""
       type: posts

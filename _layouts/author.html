@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div>
+    <style>
+        article.{{page.category}} {
+          display:inline-block;
+        }
+    </style>
+    {% for post in site.posts %}{% if post.auths contains page.auth %}{% include postpreview.html %}{% endif %}{% endfor %}
+</div>

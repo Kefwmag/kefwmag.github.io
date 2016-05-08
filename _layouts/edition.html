@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div>
+    <style>
+        article {
+            display:inline-block !important;
+        }
+        article p img {
+            display: none;
+        }
+    </style>
+    {% for post in site.posts %}{% if post.edition == page.edition %}{% include postpreview.html %}{% endif %}{% endfor %}
+</div>
