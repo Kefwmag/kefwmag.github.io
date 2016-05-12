@@ -1,0 +1,5 @@
+{% if include.authData %}
+<a href="{{include.authData.url}}" class="">{{include.authData.name}}</a>
+{% else %}
+{{authname}}
+{% endif %}
