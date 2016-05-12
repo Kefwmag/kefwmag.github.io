@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>gh-edit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/style.css" type="text/css">
+  <meta name="theme-color" content="white">
+</head>
+<body>
+  <div id="all">
+    <div id="content">
+      {% assign auths = "hanveyc|soheliad" | split "|" %}
+      {% for auth in auths %}
+        {% if forloop.first %}
+          By {{auth}}{% unless forloop.last %},{% endunless %}
+        {% else %}
+          {{auth}}{% if forloop.last %}.{% else %}{% if forloop.rindex0 =="1" %} and {% else %},{% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</body>
+</html>
