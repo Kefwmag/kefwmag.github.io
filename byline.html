@@ -14,11 +14,20 @@ layout: false
   <div id="all">
     <div id="content">
       {% assign auths = "hanveyc|irg|soheliad" | split: "|" %}
+      {% assign authData = false %}
+      {% assign authName = false %}
       {% for auth in auths %}
+        {% assign authData = false %}{% assign authName = false %}
+        {% for author in site.authors.docs %}
+        {% if author.auth == auth %}
+        {% assign authData = author %}{% assign authName = author.name %}
+        {% endif %}</a>
+        {% endfor %}
+        {% unless authData %}{% assign authName = page.author %}{% endunless %}
         {% if forloop.first %}
-          By {{auth}}{% if forloop.last %}.{% else %}{% if forloop.rindex0 == 1 %} and {% else %},{% endif %}{% endif %}
+          By {% include authorLinked.html authData=authData authName=authName %}{% if forloop.last %}.{% else %}{% if forloop.rindex0 == 1 %} and {% else %},{% endif %}{% endif %}
         {% else %}
-          {{auth}}{% if forloop.last %}.{% else %}{% if forloop.rindex0 == 1 %} and {% else %},{% endif %}{% endif %}
+          {% include authorLinked.html authData=authData authName=authName %}{% if forloop.last %}.{% else %}{% if forloop.rindex0 == 1 %} and {% else %},{% endif %}{% endif %}
         {% endif %}
       {% endfor %}
     </div>
