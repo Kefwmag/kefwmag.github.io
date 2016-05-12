@@ -13,7 +13,7 @@ layout: false
 <body>
   <div id="all">
     <div id="content">
-      {% assign auths = "hanveyc|soheliad" | split: "|" %}
+      {% assign auths = "hanveyc|irg|soheliad" | split: "|" %}
       {% for auth in auths %}
         {% if forloop.first %}
           By {{auth}}{% if forloop.last %}.{% else %}{% if forloop.rindex0 == 1 %} and {% else %},{% endif %}{% endif %}
