@@ -16,7 +16,7 @@ layout: false
       {% assign auths = "hanveyc|soheliad" | split: "|" %}
       {% for auth in auths %}
         {% if forloop.first %}
-          By {{auth}}{% unless forloop.last %},{% endunless %}
+          By {{auth}}{% if forloop.last %}.{% else %}{% if forloop.rindex0 =="1" %} and {% else %},{% endif %}{% endif %}
         {% else %}
           {{auth}}{% if forloop.last %}.{% else %}{% if forloop.rindex0 =="1" %} and {% else %},{% endif %}{% endif %}
         {% endif %}
