@@ -18,7 +18,7 @@ layout: false
         {% if forloop.first %}
           By {{auth}}{% unless forloop.last %},{% endunless %}
         {% else %}
-          {{auth}}{% if forloop.last %}.{% else %}{% if forloop.rindex0 =="1" %} and {% else %},{% endif %}
+          {{auth}}{% if forloop.last %}.{% else %}{% if forloop.rindex0 =="1" %} and {% else %},{% endif %}{% endif %}
         {% endif %}
       {% endfor %}
     </div>
