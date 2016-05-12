@@ -16,9 +16,9 @@ layout: false
       {% assign auths = "hanveyc|soheliad" | split: "|" %}
       {% for auth in auths %}
         {% if forloop.first %}
-          By {{auth}}{% if forloop.last %}.{% else %}{% if forloop.rindex0 =="1" %} and {% else %},{% endif %}{% endif %}
+          By {{auth}}(Rindex 0){{forloop.rindex0}}){% if forloop.last %}.{% else %}{% if forloop.rindex0 == "1" %} and {% else %},{% endif %}{% endif %}
         {% else %}
-          {{auth}}{% if forloop.last %}.{% else %}{% if forloop.rindex0 =="1" %} and {% else %},{% endif %}{% endif %}
+          {{auth}}{% if forloop.last %}.{% else %}{% if forloop.rindex0 == "1" %} and {% else %},{% endif %}{% endif %}
         {% endif %}
       {% endfor %}
     </div>
