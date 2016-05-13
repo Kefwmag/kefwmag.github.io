@@ -20,7 +20,7 @@ auths: ["hanveyc","irg","soheliad"]
         {% if forloop.first %}By {% endif %}{% if authData %}
 <a href="/authors/{% if authData.custom_url %}{{authData.custom_url}}{% else %}{{auth}}{% endif %}/" class="">{{authName}}</a>
 {% else %}
-{{ include.authName }}
+{{ authName }}
 {% endif %}{% if forloop.last %}.{% else %}{% if forloop.rindex0 == 1 %} and {% else %},{% endif %}{% endif %}
       {% endfor %}
     </div>
