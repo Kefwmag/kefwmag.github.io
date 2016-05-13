@@ -18,11 +18,7 @@ layout: false
       {% assign authName = false %}
       {% for auth in auths %}
         {% assign authData = false %}{% assign authName = false %}
-        {% for author in site.authors.docs %}
-        {% if author.auth == auth %}
-        {% assign authData = author %}{% assign authName = author.name %}
-        {% endif %}</a>
-        {% endfor %}
+        {% if site.data.authors[auth] %}{% assign authData = site.data.authors[auth] %}{% assign authName = authData.name %}{% endif %}
         {% unless authData %}{% assign authName = page.author %}{% endunless %}
         {% if forloop.first %}
           By {% include authorLinked.html authData=authData authName=authName %}{% if forloop.last %}.{% else %}{% if forloop.rindex0 == 1 %} and {% else %},{% endif %}{% endif %}
