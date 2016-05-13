@@ -1,5 +1,6 @@
 ---
 layout: null
+auths: ["hanveyc","irg","soheliad"]
 ---
 
 <html>
@@ -13,11 +14,8 @@ layout: null
 <body>
   <div id="all">
     <div id="content">
-      {% assign auths = "hanveyc|irg|soheliad" | split: "|" %}
-      {% assign authData = false %}
-      {% assign authName = false %}
-      {% for auth in auths %}
-        {% assign authData = false %}{% assign authName = false %}
+      {% assign authData = false %} {% assign authName = false %}
+      {% for auth in page.auths %}{% assign authData = false %}{% assign authName = false %}
         {% if site.data.authors[auth] %}{% assign authData = site.data.authors[auth] %}{% assign authName = authData.name %}{% endif %}
         {% unless authData %}{% assign authName = page.author %}{% endunless %}
         {% if forloop.first %}By {% endif %}{% include authorLinked.html authData=authData authName=authName authId=auth %}{% if forloop.last %}.{% else %}{% if forloop.rindex0 == 1 %} and {% else %},{% endif %}{% endif %}
