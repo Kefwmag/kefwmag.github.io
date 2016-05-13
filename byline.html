@@ -15,7 +15,7 @@ auths: ["hanveyc","irg","soheliad"]
   <div id="all">
     <div id="content">
       {% assign authData = false %} {% assign authName = page.author %}
-      {% for auth in page.auths %}{% assign authData = false %}{% assign authName = false %}
+      {% for auth in page.auths %}{% assign authData = false %}{% assign authName = auth %}
         {% if site.data.authors[auth] %}{% assign authData = site.data.authors[auth] %}{% assign authName = authData.name %}{% endif %}
         {% if forloop.first %}By {% endif %}{% include authorLinked.html authData=authData authName=authName authId=auth %}{% if forloop.last %}.{% else %}{% if forloop.rindex0 == 1 %} and {% else %},{% endif %}{% endif %}
       {% endfor %}
