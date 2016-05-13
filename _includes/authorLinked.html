@@ -1,5 +1,5 @@
 {% if include.authData %}
-<a href="{{include.authData.url}}" class="">{{include.authData.name}}</a>
+<a href="/authors/{% if include.authData.custom_url %}{{include.authData.custom_url}}{% else %}{{include.authId}}{% endif %}" class="">{{include.authname}}</a>
 {% else %}
-{{authname}}
+{{ include.authname }}
 {% endif %}
