@@ -1,6 +1,7 @@
 ---
 layout: null
-auths: ["hanveyc","irg","soheliad"]
+author: "Isaac Reid-Guest"
+auth: ["hanveyc","irg","soheliad"]
 ---
 
 <html>
@@ -14,9 +15,11 @@ auths: ["hanveyc","irg","soheliad"]
 <body>
   <div id="all">
     <div id="content">
-      {% assign authData = false %} {% assign authName = page.author %}
+      {% assign authData = false %} {% assign authName = page.author %}{% if page.auths %}
       {% for auth in page.auths %}{% assign authData = false %}{% assign authName = auth %}
         {% if site.data.authors.authors[auth] %}{% assign authData = site.data.authors.authors[auth] %}{% assign authName = authData.name %}{% endif %}{% if forloop.first %}By {% endif %}{% if authData %}<a href="/authors/{% if authData.custom_url %}{{authData.custom_url}}{% else %}{{auth}}{% endif %}/" class="">{{authName}}</a>{% else %}{{ authName }}{% endif %}{% if forloop.last %}.{% else %}{% if forloop.rindex0 == 1 %} and {% else %},{% endif %}{% endif %}{% endfor %}
+      {% else %}By {{ authName }}.{% endif %}
+
     </div>
   </div>
 </body>

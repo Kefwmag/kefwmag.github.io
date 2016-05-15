@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+{% if page.collection == "author" %}{% assign pageName = site.data.authors.authors[auth].name %}{% capture pageTitle %}{{pageName | prepend "Posts by "}}{% endcapture %}{% else %}{% assign pageTitle = page.title %}{% endif %}
+<!DOCTYPE html>{{pageName | prepend: "Posts by "}}
 <html>
     <head>
-        <title>{% if page.title %}{{page.title}} - {% endif %}BackChat</title>
+        <title>{% if pageTitle %}{{pageTitle}} - {% endif %}BackChat</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="listnr-verify" content="116631619941489692287">
         <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
@@ -59,9 +60,9 @@
                 Backend written by Benji Marshall, <a href="//twitter.com/hexaglow">Matt Randell</a> and <a href="//ir-g.uk">Isaac Reid-Guest</a>, using <a href="//jekyllrb.com">Jekyll</a>
             </p>
         </nav>
-        <section class="{% if page.useTitle %}{{page.titleClass}}{% else %}{{page.category}}{% endif %}">
+        <section class="{% if page.useTitle %}{{pageTitleClass}}{% else %}{{page.category}}{% endif %}">
             <!-- Category title is fetched from _config.yml -->
-            {% unless page.useTitle %}<a class="headlink" href="/{{page.category}}/" title="{{site.cats[page.category]}}">{% endunless %}<h1 id="categoryName" class="{{page.category}}">{% if page.useTitle %}{{page.title}}{% else %}{{site.cats[page.category]}}{% endif %}</h1>{% unless page.useTitle %}</a>{% endunless %}
+            {% unless page.useTitle %}<a class="headlink" href="/{{page.category}}/" title="{{site.cats[page.category]}}">{% endunless %}<h1 id="categoryName" class="{{page.category}}">{% if page.useTitle %}{{pageTitle}}{% else %}{{site.cats[page.category]}}{% endif %}</h1>{% unless page.useTitle %}</a>{% endunless %}
         </section>
         <main>
             {{content}}
