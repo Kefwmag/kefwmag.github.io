@@ -1,5 +1,5 @@
-{% if page.collection == "author" %}{% assign pageName = site.data.authors.authors[auth].name %}{% capture pageTitle %}{{pageName | prepend "Posts by "}}{% endcapture %}{% else %}{% assign pageTitle = page.title %}{% endif %}
-<!DOCTYPE html>
+{% if page.collection == "authors" %}{% assign pageName = site.data.authors.authors.[page.auth].name %}{% capture pageTitle %}{{pageName | prepend: "Posts by "}}{% endcapture %}{% else %}{% assign pageTitle = page.title %}{% endif %}
+<!DOCTYPE html><!-- Page.collection: {{page.collection}} Pagename: {{pageName}}  Pagetitle: {{pageTitle}} page.auth: {{page.auth}}-->
 <html>
     <head>
         <title>{% if pageTitle %}{{pageTitle}} - {% endif %}BackChat</title>
