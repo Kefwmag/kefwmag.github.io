@@ -7,11 +7,8 @@ layout: default
     <h1 class="storyName">{{ page.title }}</h1>
     <h3 class="author">      {% assign authData = false %} {% assign authName = page.author %}{% if page.auths %}
           {% for auth in page.auths %}{% assign authData = false %}{% assign authName = auth %}
-            {% if site.data.authors.authors[auth] %}{% assign authData = site.data.authors.authors[auth] %}{% assign authName = authData.name %}{% endif %}{% if forloop.first %}By {% endif %}{% if authData %}<a href="/authors/{% if authData.custom_url %}{{authData.custom_url}}{% else %}{{auth}}{% endif %}/" class="">{{authName}}</a>{% else %}{{ authName }}{% endif %}{% if forloop.last %}.{% else %}{% if forloop.rindex0 == 1 %} and {% else %},{% endif %}{% endif %}{% endfor %}
+            {% if site.data.authors.authors[auth] %}{% assign authData = site.data.authors.authors[auth] %}{% assign authName = authData.name %}{% endif %}{% if forloop.first %}By {% endif %}{% if authData %}<a href="/authors/{% if authData.custom_url %}{{authData.custom_url}}{% else %}{{auth}}{% endif %}/" class="authlink">{{authName}}</a>{% else %}{{ authName }}{% endif %}{% if forloop.last %}.{% else %}{% if forloop.rindex0 == 1 %} and {% else %},{% endif %}{% endif %}{% endfor %}
           {% elsif page.author %}By {{ authName }}.{% endif %}{{ page.date | date: "%-d %b %Y" }}</h3>
-    <script>
-      document.getElementById("authorlink").href+="{{page.author}}".toLowerCase().replace(" ","-");
-    </script>
     <figure>
       <!-- Twitter -->
       <a href="https://twitter.com/share?u=backchat.kefw.org{{page.url}}&t={{page.title}} - Read more on BackChat">

@@ -1,7 +1,7 @@
 /*
 * BackChat CSS Written By Deep Sohelia
 * Cheeky Plug: Check out my site over at chillibyte.github.io
-* 
+*
 * Read code at your own risk. I take no responsibility for any hallucinations, nausea, scarring or any other ill effects
 * Here be Dragons.
 */
@@ -37,7 +37,7 @@ header {
     text-align: center;
     z-index: 999;
 }
-/* <section> Contains the Category name*/ 
+/* <section> Contains the Category name*/
 section {
     height: 50px;
     color: #069;
@@ -134,7 +134,7 @@ nav ul li a {
     transition: right 0.8s;
     transition-delay: 0.4s;
 }
-/* End Styling Menu Options */ 
+/* End Styling Menu Options */
 
 /* Main section of layout, where articles are */
 main {
@@ -243,7 +243,7 @@ main div article span {
 #hamburger {
     display: none;
 }
-/* #hamburger is the input, but label is the thing that is styled and displayed. 
+/* #hamburger is the input, but label is the thing that is styled and displayed.
  * Clicking a label toggles the value of the input */
 #hamburger + label {
     position: fixed;
@@ -331,6 +331,12 @@ article.fs h4.fs {
     text-align: center;
     margin:5px;
     margin-top:0;
+}
+
+/* Author linking */
+.authlink{
+  color: inherit;
+  text-decoration: underline dotted;
 }
 /* Sharing Buttons */
 figure {
