@@ -59,6 +59,6 @@ defaults:
       layout: default
   - scope:
       type: posts
-      category: ama
+      author: "Mel and Ma"
     values:
       auths: ["mam"]
