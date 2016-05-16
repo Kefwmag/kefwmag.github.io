@@ -3,6 +3,7 @@ title: "Why One Man Should Have All that Power"
 date: 2016-04-21 12:00:00 +0000
 category: "news"
 author: "Adi Silvestro"
+auths: ["silvestroa"]
 edition: 1
 ---
 Will the abomination of Obama’s nation be the President of
