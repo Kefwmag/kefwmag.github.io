@@ -24,6 +24,7 @@ body {
     background-attachment: fixed;
     background-size: 64px;
 }
+
 /* Sets up the "BackChat" fixed header */
 header {
     position: fixed;
@@ -37,6 +38,7 @@ header {
     text-align: center;
     z-index: 999;
 }
+
 /* <section> Contains the Category name*/
 section {
     height: 50px;
@@ -57,6 +59,7 @@ section h1 {
     transition: width 0.8s;
     color: white;
 }
+
 /* <a> tag around the BackChat header */
 a.headlink {
     margin: 0;
@@ -67,6 +70,7 @@ a.headlink {
 a.headlink h1 {
     margin: 0;
 }
+
 /* Sidebar/menu, given a position partially offscren, which is later animated */
 nav {
     z-index: 999;
@@ -88,6 +92,7 @@ nav p {
 nav p > a {
     color: #999;
 }
+
 /* Styling the menu options */
 nav ul {
     padding: 0;
@@ -152,6 +157,7 @@ main div {
     width: 95%;
     text-align: center;
 }
+
 /* Small, square article tile thingies */
 main div article {
     display: none;
@@ -243,6 +249,7 @@ main div article span {
 #hamburger {
     display: none;
 }
+
 /* #hamburger is the input, but label is the thing that is styled and displayed.
  * Clicking a label toggles the value of the input */
 #hamburger + label {
@@ -254,6 +261,7 @@ main div article span {
     z-index: 9999;
     padding: 5px 5px 5px 5px;
 }
+
 /* Full screen (expanded) Article Styles */
 article.fs {
     height: auto;
