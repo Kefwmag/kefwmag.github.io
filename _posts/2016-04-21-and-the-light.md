@@ -3,6 +3,7 @@ title: "And the Light"
 date: 2016-04-21 12:01:00 +0000
 category: "arts"
 author: "Kane Ogier"
+auths: ["ogierk"]
 edition: 1
 ---
 It’s December 2015. The days are short, and the frost lays crisp upon the ground. For people around the world, the tension is building, they’ve been counting down the days, nibbling on a haphazardly moulded chocolate on each, as the main event approaches. It’s an early night tonight, you need to get in plenty of sleep. In the purgatory between your dreams and the world around you, bells start to ring in the distance... could it be? Yes. It’s your alarm, set for 11.00pm on the 16th of December, ‘cause you need to get showered and throw your giant green ears on - a midnight screening for  Star Wars you have.
