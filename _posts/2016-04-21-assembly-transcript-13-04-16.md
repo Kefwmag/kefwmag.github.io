@@ -3,6 +3,7 @@ title: "Assembly Transcript 13-04-16"
 date: 2016-04-21 12:00:00 +0000
 category: "arts"
 author: "Adi Silvestro"
+auths: ["silvestroa"]
 edition: 1
 ---
 *As the majestic organ (played by the even more majestic Mr. Swindells, Swinny to his friends) blasts out the heavenly notes that cascade down onto the eagerly awaiting school children. The sound, the constant echoing plod of Mrs. Wilkinson’s childskin high-heels can be heard echoing around the recently renamed Wilkinson Hall, soon she is on the podium and kindly allows us to regain our seats.*
