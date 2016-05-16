@@ -58,7 +58,6 @@ defaults:
     values:
       layout: default
   - scope:
-      path: ""
       type: posts
       category: ama
     values:
