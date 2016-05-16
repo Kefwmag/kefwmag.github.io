@@ -1,3 +1,3 @@
 ---
-auths: ["farrellyc"]
+auth: farrellyc
 ---
