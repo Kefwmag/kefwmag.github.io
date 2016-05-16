@@ -3,6 +3,7 @@ title: "Life of a: Maccarthian"
 date: 2016-04-21 12:00:00 +0000
 category: "lifestyle"
 author: "Ciara Farrelly"
+auths: ["farrellyc"]
 edition: 1
 ---
 The struggles of being a member of that house. The one that cheers for joint third place.
