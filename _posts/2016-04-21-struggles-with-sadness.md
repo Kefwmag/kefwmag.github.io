@@ -3,6 +3,7 @@ title: "Struggles with sadness"
 date: 2016-04-21 12:00:00 +0000
 category: "ama"
 author: "Mel and Ma"
+auths: ["mam"]
 edition: 1
 ---
 My Nan is really ill at the moment and I don’t really want to talk to anybody about it but it’s really upsetting and I keep getting angry at my friends and am struggling to do much of my schoolwork because I want to see her. People are starting to notice – What should I do?
