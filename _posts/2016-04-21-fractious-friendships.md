@@ -3,6 +3,7 @@ title: "Fractious Friendships"
 date: 2016-04-21 12:00:00 +0000
 category: "ama"
 author: "Mel and Ma"
+auths: ["mam"]
 edition: 1
 ---
 Lately, it’s been really hard within my friendship group. It’s just been one fight after another and it’s stupid because the majority of them are pointless. The dilemma for me is that I never know which side to take. It’s really difficult when your best friends put you in situation where you have to choose which one to side with, and it’s unfair on me. What should I do?
