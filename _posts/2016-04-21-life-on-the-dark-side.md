@@ -3,6 +3,7 @@ title: "Life on the Dark Side"
 date: 2016-04-21 12:02:00 +0000
 category: "arts"
 author: "Livvy McComb"
+auths: ["mccombl"]
 edition: 1
 ---
 Life as Public Enemy No 1 is not easy but frankly, I’m adjusting. I’ve become numb to the gasps of horror and I’m a ninja when it comes to dodging accusatory questions. But no amount of social gymnastics will absolve me of my sin: I’ve never seen Star Wars.
