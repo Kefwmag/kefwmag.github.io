@@ -57,8 +57,3 @@ defaults:
       type: pages
     values:
       layout: default
-  - scope:
-      type: posts
-      author: "Mel and Ma"
-    values:
-      auths: ["mam"]
