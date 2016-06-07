@@ -174,7 +174,7 @@ main div article {
     height: 275px;
     vertical-align: top;
     transition: height 0.8s, width 0.8s;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 main div article h1 {
@@ -196,8 +196,6 @@ main div article h3 {
 main div article summary {
     font-size: smaller;
     margin-top: 2px;
-    height: 179px;
-    overflow: hidden;
     display: inline-block;
 }
 
@@ -208,10 +206,6 @@ main div article summary img {
 
 main div article summary p {
     margin: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 main div article > a:last-child {
