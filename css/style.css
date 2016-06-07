@@ -15,7 +15,7 @@ html,body {
 
 /* Sets font, background color, and sets up watermark in lower right corner */
 body {
-    font-family: Raleway, Trebuchet MS, "Sans Serif";
+    font-family: Raleway, Trebuchet MS, "Sans Serif"; 
     background-color: #BBB;
     overflow-x: hidden;
     background-image: url('/assets/favicons/transparent.png');
