@@ -15,7 +15,7 @@ html,body {
 
 /* Sets font, background color, and sets up watermark in lower right corner */
 body {
-    font-family: Raleway, "Sans Serif";
+    font-family: Raleway, Trebuchet MS, "Sans Serif";
     background-color: #BBB;
     overflow-x: hidden;
     background-image: url('/assets/favicons/transparent.png');
@@ -71,7 +71,7 @@ a.headlink h1 {
     margin: 0;
 }
 
-/* Sidebar/menu, given a position partially offscren, which is later animated */
+/* Sidebar/menu, given a position partially offscreen, which is later animated */
 nav {
     z-index: 999;
     display: block;
