@@ -331,8 +331,13 @@ td {
     border-bottom:1px solid black;
     border-right:1px solid black;
 }
-td:last-of-type {
-    border-right:none;
+
+tr:first-of-type td{
+    border-top:1px solid black;
+}
+
+td:first-of-type {
+    border-left:1px solid black;
 }
 
 /* Author linking */
