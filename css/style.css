@@ -314,11 +314,13 @@ article.fs h4 {
     margin: 0 15px;
 }
 article.fs h4.fs {
-    display: block;
     width: 100%;
-    text-align: center;
     margin:5px;
     margin-top:0;
+}
+article.fs h5 {
+    font-size:larger;
+    margin:14px 0;
 }
 
 /* Author linking */

@@ -13,11 +13,15 @@ As it stands, there are seemingly many positives and negatives for both sides, b
 
 It is said that the current trade within Europe is a vital part of Britain’s economy. Almost half of all British exports in goods and services go to countries within the EU, showing it would be extremely ambitious and dangerous to leave this common market. According to ‘Labour IN for Britain’, British households “would be worse off by around £4,300 a year if we left the EU”, whereas some sources say the average person would lose out on £800 in their wage packet per year. 
 
+{% include image.html url="/assets/edition-2/eu_flag.jpg" description="" %}
+
 Another impact would be the decline of Britain’s standing as a world power, evidenced by Obama’s comments on trade with Britain, where he commented that “Britain would be at the back of the queue”. Many believe that being part of the EU enhances Britain’s trade and world influence, and being part of the 28 nation club is much safer than being alone.
 
 Another perk of being within Europe is the free movement between the member states of the EU, which means that British citizens only need a European passport to travel. This freedom of movement also allows employers to get cheap and skilled labour quickly and thus makes the UK’s economy more competitive at home and globally. The UK, according to the BBC “could not realistically pull up the drawbridge when its prosperity relies on creating global wealth-generating networks”.
 
 Not only this, education severely benefits from European funding as millions of pounds for research is funded by the EU. The Erasmus programme, a successful feature and accolade of British education, allows British students to study abroad, and this programme also relies on the EU. The EU also offers many other benefits for Britain from cultural and artistic impacts, to immigration.
+
+{% include image.html url="/assets/edition-2/eu_flag.jpg" description="" %}
 
 Key figures behind the ‘remain campaign’ include David Cameron, George Osborne, Lord Rose and Brendan Barber. The Premier League, Sir Richard Branson, Jaguar Land Rover and BMW have also voiced their support for remaining in the EU. It’s important to remember that the EU referendum is not a partisan affair as the Conservative party, Labour party, SNP and UKIP have many divides of opinion. Those who don’t support the ‘remain campaign’ are known as the “Eurosceptics”.
 
