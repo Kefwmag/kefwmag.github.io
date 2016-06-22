@@ -1,6 +1,6 @@
 ---
 title: "The EU Referendum: A Game of Hokey Cokey"
-date: 2016-06-22 12:00:00 +0000
+date: 2016-06-21 12:00:00 +0000
 category: "news"
 author: "James Griffiths"
 ---
