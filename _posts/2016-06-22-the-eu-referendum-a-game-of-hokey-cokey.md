@@ -21,7 +21,7 @@ Another perk of being within Europe is the free movement between the member stat
 
 Not only this, education severely benefits from European funding as millions of pounds for research is funded by the EU. The Erasmus programme, a successful feature and accolade of British education, allows British students to study abroad, and this programme also relies on the EU. The EU also offers many other benefits for Britain from cultural and artistic impacts, to immigration.
 
-{% include image.html url="/assets/edition-2/eu_flag.png" description="" %}
+{% include image.html url="/assets/edition-2/uk_flag.png" description="" %}
 
 Key figures behind the ‘remain campaign’ include David Cameron, George Osborne, Lord Rose and Brendan Barber. The Premier League, Sir Richard Branson, Jaguar Land Rover and BMW have also voiced their support for remaining in the EU. It’s important to remember that the EU referendum is not a partisan affair as the Conservative party, Labour party, SNP and UKIP have many divides of opinion. Those who don’t support the ‘remain campaign’ are known as the “Eurosceptics”.
 
