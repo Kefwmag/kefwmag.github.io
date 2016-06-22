@@ -323,6 +323,14 @@ article.fs h5 {
     margin:14px 0;
 }
 
+td {
+    border-bottom:1px solid black;
+    border-left:1px solid black;
+}
+td:last-of-type {
+    border-left:none;
+}
+
 /* Author linking */
 .authlink{
   color: inherit;
