@@ -7,7 +7,7 @@ author: "James Griffiths"
 By now, you’re probably sick and tired of all the anti and pro EU propaganda being thrust upon us by the media. Or, you haven’t got a clue what’s going on. The referendum will affect us all living in Britain and, as the younger generations of society, the result will affect us more and for the rest of our lives, as it not the case with our elders. However, we can’t vote, and the fate of our country rests with our parents, grandparents, teachers, aunties, uncles, and that random bloke from the bus stop... and it’s a pretty big deal, so you might as well get a little clued up. 
 
 <h2>The Facts and Figures</h2>
-<h4>EU: IN</h4>
+<h5>EU: IN</h5>
 
 As it stands, there are seemingly many positives and negatives for both sides, but experts seem to disagree on what will actually happen if we stay or leave. So much is unclear at the current time. 
 
@@ -21,7 +21,7 @@ Not only this, education severely benefits from European funding as millions of 
 
 Key figures behind the ‘remain campaign’ include David Cameron, George Osborne, Lord Rose and Brendan Barber. The Premier League, Sir Richard Branson, Jaguar Land Rover and BMW have also voiced their support for remaining in the EU. It’s important to remember that the EU referendum is not a partisan affair as the Conservative party, Labour party, SNP and UKIP have many divides of opinion. Those who don’t support the ‘remain campaign’ are known as the “Eurosceptics”.
 
-<h4>EU: OUT</h4>
+<h5>EU: OUT</h5>
 
 The “OUT” campaign however, obviously takes the opposite stance on the referendum, but why?  The campaign, with slogans such as “Take back control”, “Bring back UK Democracy” and “Great Britain is great alone” aims to encourage the British people to acknowledge the fact that Britain could become a world power without the restrictions of the EU.
 
@@ -33,7 +33,7 @@ Those who back the OUT campaign also state that the country will have better con
 
 Politicians such as Nigel Farage, Michael Gove, Priti Patel and John Mills are major figureheads, both Labour and Conservative, for the OUT campaign. Farage, with strong anti-EU views, states “It's a European Union of economic failure, of mass unemployment and of low growth.” But who are we to believe? The views on the EU are so radically opposing it’s hard to know who really is right.
 
-<h4>As it stands in the polls:</h4>
+<h5>As it stands in the polls:</h5>
 
 | Ipsos Mori  | 43% IN | 49% OUT | 9% UNDECIDED  |
 | BBC         | 45% IN | 45% OUT | 10% UNDECIDED |
