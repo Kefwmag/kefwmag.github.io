@@ -4,4 +4,7 @@
 
 The website of KEFW's school magazine, [BackChat](http://backchat.kefw.org).
 
+##Want to upload an article?
+
+[Click here](https://github.com/Kefwmag/kefwmag.github.io/wiki/How-to-upload-an-article)
 
