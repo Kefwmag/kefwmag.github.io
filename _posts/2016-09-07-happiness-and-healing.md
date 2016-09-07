@@ -1,6 +1,6 @@
 ---
 title: "Happiness and Healing"
-date: 2016-09-07 12:00:00 +0000
+date: 2016-09-06 12:00:00 +0000
 category: "lifestyle"
 author: "Demelza Rose Werrin"
 ---
