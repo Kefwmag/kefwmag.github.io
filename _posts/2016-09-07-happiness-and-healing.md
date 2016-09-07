@@ -16,4 +16,4 @@ On my way home last week, the cutest old lady got on the bus. Before I could get
 It seems weird to say in an article but I hope you’ve smiled today. If not at this slice of the magazine, at something funny, at the fact that the sunrise was pretty this morning. Whatever makes you happy and whatever you can do to make others happy, I hope you treasure. Let your happiness and the happiness of others be what keeps you safe; it’s your anchor.  
  
 ‘There’s nothing more rewarding than someone you love emitting inescapable radiance and you being the reason for it.’  
- {% include image.html url="assets/edition-2/Happiness_Smiley.png" description="" %}
+ {% include image.html url="/assets/edition-2/Happiness_Smiley.png" description="" %}
