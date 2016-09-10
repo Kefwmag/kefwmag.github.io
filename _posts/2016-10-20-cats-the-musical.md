@@ -1,6 +1,6 @@
 ---
 title: "'Cats' The Musical"
-date: 2016-10-20 12:00:00 +0000
+date: 2016-09-20 12:00:00 +0000
 category: "arts"
 author: "Livvy McComb"
 ---
@@ -8,14 +8,14 @@ If you’re a lover of dance and all things feline, put this on your bucket list
 
 
 As a year nine student at Lordswood Girls’ School, I was confused when my drama teacher told me we couldn’t perform ‘Cats’ as our annual musical because we didn’t have good enough dancers. Rock n’ roll for ‘Grease’? On point. Cheerleading stunts at East High? No problem. Our talent pool was impressive and expanding every year. It was only once I saw ‘Cats’ at the Hippodrome on a muggy Monday in May this year that I truly understood what Mrs Swallow had meant: It wasn’t that we didn’t have some truly great dancers at Lordswood, it’s just that in ‘Cats’ everyone dances, impeccably, all the time.
-
+ {% include imagefs.html url="assets/Cats_Musical.png" description="null" %}
 Composed by Andrew Lloyd Webber and based on a T.S. Elliot book of his childhood, ‘Cats’ remains Broadway’s fourth longest-running show in history and an audience favourite. The show draws the audience into the world of the Jellicle Cats as they meet to decide which of their furry friends will ascend to the Heaviside Layer and be given another life… don’t ask me what the Heaviside Layer is; frankly I was utterly lost throughout 89% of the show. 
 
 Irrespective of narrative, ‘Cats’ in a design masterpiece. First impressions for a theatre-goer are always exciting and the towering rubbish piles of bicycle wheels, cereal boxes and abandoned kitchen appliances swathed in soft blue light created a mysterious back-alley feel. In fact, you could always rely on the show’s lighting design for magic, whether it be the fairy lights strung across the theatre, the glowing moon, twinkling stars or glinting cat eyes amongst the piles of trash. The attention to detail didn’t stop here. The set was cleverly enlarged to give the impression of the actors being cat sized and I loved examining each cat’s unique costume design, trying to pick my favourite. If unforgiving leotards and masses of synthetic hair are your thing, then ‘Cats’ is the musical for you. 
 
 ‘Cats’ doesn’t have the strongest soundtrack. The entirety of the show is sung which proved problematic: I missed much of the (already limited) narrative that the musical possesses simply because I couldn’t make out what the actors were singing. Admittedly there were some bangers amongst the duds. Marianne Benedict gave a powerful performance of the show’s standout hit ‘Memories’ (yes, the song Summer auditions with in ‘The School of Rock’) and ‘Macavity the Mystery Cat’ was a tunnneee: catchy, sexy, a proper Broadway belter. 
-
-My qualms with ‘Cats’ are real and pervasive. To fully enjoy ‘Cats’ you have to abandon your dignity at the door. Unfortunately, unlike the star-struck women sat behind me, I was not capable of such a feat. As a result I was left cringing as the actors periodically prowled the aisles interacting with the audience. I’m talking direct singing, intense eye contact, awkwardly intimate physical contact. Call me a cynic, I don’t care, I didn’t go to the theatre to be clawed. 
+ {% include image.html url="assets/Cats_Musical2.png" description="null" %}
+My qualms with ‘Cats’ are real and pervasive. To fully enjoy ‘Cats’ you have to abandon your dignity at the door. Unfortunately, unlike the star-struck women sat behind me, I was not capable of such a feat. As a result, I was left cringing as the actors periodically prowled the aisles interacting with the audience. I’m talking direct singing, intense eye contact, awkwardly intimate physical contact. Call me a cynic, I don’t care, I didn’t go to the theatre to be clawed. 
 
 But the major let down was the narrative, or lack of. The first act is a fairly dull meet and greet with some of the key Jellicle Cats. Even the main plotline of the exiled Grizabella coming back onto the scene, seeking redemption from her old pals, was majorly underdeveloped. Then, the limited connection the audience built with the characters during Act One was utterly crushed during the interval when a stagehand came on stage to give the Jellicle gang leader, Old Deuteronomy, a bottle of water and a bit of an update on the backstage gossip. So much for suspended disbelief. Old Deuteronomy then proceeded to sign autographs for (over-eager) audience members. I was not impressed. 
 
@@ -25,5 +25,4 @@ Ultimately the flaws in ‘Cats’ rest with the material not the execution: the
 
 'Cats' tours regularly- visit www.catsthemusical.com for dates and tickets
 
- {% include imagefs.html url="assets/Cats_Musical.png" description="null" %}
- {% include image.html url="assets/Cats_Musical2.png" description="null" %}
+
