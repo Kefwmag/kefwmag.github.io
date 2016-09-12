@@ -7,7 +7,12 @@ layout: default
   test003.png
 </p>
 <script>
-  var fileList = document.getElementById("imageList").innerText;
+  var page = document.getElementById("imageList");
+  var fileList = page.innerText;
   var fileArray = fileList.split(" ");
-  alert(fileArray);
+  page.innerHTML = "";
+  var len = fileArray.length;
+  while(len--) {
+    page.innerHTML += "<div class='tile' style='background-image:url(/assets/feed/" + fileArray[len] + ")'></div>"
+  }
 </script>
