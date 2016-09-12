@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
-test.png
-
-<script> alert("Test");</script>
+<p id="imageList">
+  test001.png
+  test002.png
+  test003.png
+</p>
+<script>
+  var fileList = document.getElementById("imageList").innerText;
+  console.log(fileList);
+</script>
