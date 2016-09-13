@@ -2,9 +2,9 @@
 layout: default
 ---
 <p id="imageList">
-  test001.jpg
-  test002.jpg
-  test003.jpg
+  test001.jpg : Guy painting Rainbow
+  test002.jpg : Finger Faces
+  test003.jpg : Glasses on Newspaper
 </p>
 <script>
   var page = document.getElementById("imageList");
@@ -13,7 +13,7 @@ layout: default
   page.innerHTML = "";
   var len = fileArray.length;
   while(len--) {
-    page.innerHTML += "<div class='tile' style='background-image:url(/assets/feeds/" + fileArray[len] + ")'></div>"
+    page.innerHTML += "<div class='tile' style='background-image:url(/assets/feeds/" + fileArray[len].split()[0] + ")'>" + fileArray[len].split()[1] + "</div>"
   }
 </script>
 <style>
