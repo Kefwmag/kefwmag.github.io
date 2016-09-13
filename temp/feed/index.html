@@ -9,11 +9,11 @@ layout: default
 <script>
   var page = document.getElementById("imageList");
   var fileList = page.innerText;
-  var fileArray = fileList.split("#");
+  var fileArray = fileList.split("#").shift();
   page.innerHTML = "";
   var len = fileArray.length;
   while(len--) {
-    page.innerHTML += "<div class='tile' style='background-image:url(/assets/feeds/" + fileArray[len].split()[0] + ")'>" + fileArray[len].split()[1] + "</div>"
+    page.innerHTML += "<div class='tile' style='background-image:url(/assets/feeds/" + fileArray[len].split(" : ")[0] + ")'>" + fileArray[len].split(" : ")[1] + "</div>"
   }
 </script>
 <style>
