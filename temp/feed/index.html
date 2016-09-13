@@ -2,14 +2,14 @@
 layout: default
 ---
 <p id="imageList">
-  test001.jpg : Guy painting Rainbow
-  test002.jpg : Finger Faces
-  test003.jpg : Glasses on Newspaper
+  #test001.jpg : Guy painting Rainbow
+  #test002.jpg : Finger Faces
+  #test003.jpg : Glasses on Newspaper
 </p>
 <script>
   var page = document.getElementById("imageList");
   var fileList = page.innerText;
-  var fileArray = fileList.split(" ");
+  var fileArray = fileList.split("#");
   page.innerHTML = "";
   var len = fileArray.length;
   while(len--) {
