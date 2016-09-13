@@ -14,8 +14,10 @@ category: temp/feed
   fileArray.shift();
   page.innerHTML = "";
   var len = fileArray.length;
+  var genURL;
   while(len--) {
-    page.innerHTML += "<div class='tile' style='background-image:url(/assets/feeds/" + fileArray[len].split(" : ")[0] + ")'><div class='tileCaption'>" + fileArray[len].split(" : ")[1] + "</div></div>"
+    genURL = "/assets/feeds/" + fileArray[len].split(" : ")[0]
+    page.innerHTML += "<a href='"+ genURL+"'><div class='tile' style='background-image:url(" + genURL + ")'><div class='tileCaption'>" + fileArray[len].split(" : ")[1] + "</div></div></a>"
   }
 </script>
 <style>
