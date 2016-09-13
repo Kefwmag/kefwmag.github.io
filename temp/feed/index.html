@@ -9,7 +9,7 @@ layout: default
 <script>
   var page = document.getElementById("imageList");
   var fileList = page.innerText;
-  var fileArray = fileList.split("#").shift();
+  var fileArray = fileList.split("#");
   page.innerHTML = "";
   var len = fileArray.length;
   while(len--) {
