@@ -7,14 +7,13 @@ layout: default
   test003.jpg
 </p>
 <script>
-  window.onLoad = function() {
-    var page = document.getElementById("imageList");
-    var fileList = page.innerText;
-    var fileArray = fileList.split(" ");
-    page.innerHTML = "";
-    var len = fileArray.length;
-    while(len--) {
-      page.innerHTML += "<div class='tile' style='background-image:url(/assets/feed/" + fileArray[len] + ")'></div>"
-    }
+  var page = document.getElementById("imageList");
+  var fileList = page.innerText;
+  var fileArray = fileList.split(" ");
+  page.innerHTML = "";
+  var len = fileArray.length;
+  while(len--) {
+    page.innerHTML += "<div class='tile' style='background-image:url(/assets/feed/" + fileArray[len] + ")'></div>"
+  }
   }
 </script>
