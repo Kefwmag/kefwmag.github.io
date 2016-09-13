@@ -10,6 +10,7 @@ layout: default
   var page = document.getElementById("imageList");
   var fileList = page.innerText;
   var fileArray = fileList.split("#");
+  fileArray.shift();
   page.innerHTML = "";
   var len = fileArray.length;
   while(len--) {
