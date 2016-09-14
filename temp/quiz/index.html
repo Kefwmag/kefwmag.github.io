@@ -26,7 +26,7 @@ Do you like puppies?
   var questionArray;
   var len = questionBlocks.length;
   for(var i = 0; i < len; i++) {
-    questionArray = quizText.split("//")[i].split("\n"));
+    questionArray = quizText.split("//")[i].split("\n");
     quizDiv.innerHTML+="<h3>" + questionArray[0] + "</h3>"
     for(var j = 1;j<5;j++) {
       quizDiv.innerHTML +=  "<input type='radio' name='question" + i + "' value='" + j + "'  /> " + questionArray[j] + "<br />"; 
