@@ -24,6 +24,7 @@ Do you like puppies?
   var quizText = quizDiv.innerHTML;
   var questionBlocks = quizText.split("//");
   var questionArray;
+  quizDiv.innerHTML = "";
   var len = questionBlocks.length;
   for(var i = 0; i < len; i++) {
     questionArray = quizText.split("//")[i].split("\n");
