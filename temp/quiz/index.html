@@ -28,6 +28,7 @@ Do you like puppies?
   var len = questionBlocks.length;
   for(var i = 0; i < len; i++) {
     questionArray = quizText.split("//")[i].split("\n");
+    questionArray.shift();
     if(questionArray.length > 5) {
       questionArray.pop();
     }
