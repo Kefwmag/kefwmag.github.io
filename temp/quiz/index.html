@@ -24,7 +24,7 @@ Do you like puppies?
   var quizDiv = document.getElementById("quiz");
   var quizText = quizDiv.innerHTML;
   var questionBlocks = quizText.split("//");
-  var questionArray;
+  var questionArray,total;
   quizDiv.innerHTML = "";
   var len = questionBlocks.length;
   for(var i = 0; i < len; i++) {
@@ -39,6 +39,15 @@ Do you like puppies?
     }
   }
   function myScore() {
-    
+    var radios = document.getElementsByTagName("input");
+    radios.shift();
+    total = 0
+    var radioLen = radios.length;
+    for(var k = 0; k < radioLen; k++) {
+      if(radios[k].checked) {
+        total += parseInt(radios[k].value,10);
+      }
+    }
+    alert(total);
   }
 </script>
