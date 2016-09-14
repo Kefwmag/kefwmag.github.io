@@ -40,10 +40,9 @@ Do you like puppies?
   }
   function myScore() {
     radios = document.getElementsByTagName("input");
-    radios.shift();
     total = 0
     radioLen = radios.length;
-    for(var k = 0; k < radioLen; k++) {
+    for(var k = 1; k < radioLen; k++) {
       if(radios[k].checked) {
         total += parseInt(radios[k].value,10);
       }
