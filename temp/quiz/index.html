@@ -22,7 +22,16 @@ Do you like puppies?
 <script>
   var quizDiv = document.getElementById("quiz");
   var quizText = quizDiv.innerHTML;
-  alert(quizText.split("//"));
-  alert(quizText.split("//")[0].split("\n"));
+  var questionBlocks = quizText.split("//"));
+  var questionArray;
+  var len = questionBlocks.length;
+  for(var i = 0;i < len;i++){
+    questionArray = quizText.split("//")[len].split("\n"));
+    
+    if(questionArray.length > 5) {
+      questionArray.pop();
+    }
+  }
+  
   
 </script>
