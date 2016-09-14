@@ -12,7 +12,7 @@ How do you like your tea?
 2) Green
 3) Milk First
 4) Milk afterwards
-
+//
 Do you like puppies?
 1) They're good in stews
 2) No I have no soul
@@ -22,5 +22,7 @@ Do you like puppies?
 <script>
   var quizDiv = document.getElementById("quiz");
   var quizText = quizDiv.innerHTML;
-  alert(quizText.split("?"));
+  alert(quizText.split("//"));
+  alert(quizText.split("//")[0].split("\n"));
+  
 </script>
