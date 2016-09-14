@@ -18,6 +18,11 @@ Do you like puppies?
 2) No I have no soul
 3) Eh they're okay
 4) ERMAGERD PUPPERS
+//
+2 / You suck / you picked wrong
+4 / Eh / could be better
+6 / better / this is okay
+8 / go you / marry me
 </div>
 <button onclick="myScore()">Results</button>
 <script>
@@ -26,6 +31,7 @@ Do you like puppies?
   var questionBlocks = quizText.split("//");
   var questionArray,total,radios,radioLen;
   quizDiv.innerHTML = "";
+  var answers = questionBlocks.pop();
   var len = questionBlocks.length;
   for(var i = 0; i < len; i++) {
     questionArray = quizText.split("//")[i].split("\n");
@@ -38,6 +44,7 @@ Do you like puppies?
       quizDiv.innerHTML +=  "<input type='radio' name='question" + i + "' value='" + j + "'  /> " + questionArray[j] + "<br />"; 
     }
   }
+  var answersBands = answers.split("\n");
   function myScore() {
     radios = document.getElementsByTagName("input");
     total = 0
@@ -47,7 +54,13 @@ Do you like puppies?
         total += parseInt(radios[k].value,10);
       }
     }
-    alert(total);
+    for(var i = 0; i < answersBands.length;i++) {
+      if(parseInt(answerBands[i].split("/")[0],10) > total) {
+        break
+      }
+    }
+    alert(total)
+    alert(answerBands[i].split("/")[1],answerBands[i].split("/")[2]);
   }
 </script>
 <style>
