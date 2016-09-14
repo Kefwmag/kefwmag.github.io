@@ -44,7 +44,7 @@ Do you like puppies?
       quizDiv.innerHTML +=  "<input type='radio' name='question" + i + "' value='" + j + "'  /> " + questionArray[j] + "<br />"; 
     }
   }
-  var answersBands = answers.split("\n");
+  var answerBands = answers.split("\n");
   function myScore() {
     radios = document.getElementsByTagName("input");
     total = 0
@@ -54,7 +54,7 @@ Do you like puppies?
         total += parseInt(radios[k].value,10);
       }
     }
-    for(var i = 0; i < answersBands.length;i++) {
+    for(var i = 0; i < answerBands.length;i++) {
       if(parseInt(answerBands[i].split("/")[0],10) > total) {
         break
       }
