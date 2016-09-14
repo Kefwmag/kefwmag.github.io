@@ -19,6 +19,7 @@ Do you like puppies?
 3) Eh they're okay
 4) ERMAGERD PUPPERS
 </div>
+<button onclick="myScore()">Results</button>
 <script>
   var quizDiv = document.getElementById("quiz");
   var quizText = quizDiv.innerHTML;
@@ -32,10 +33,12 @@ Do you like puppies?
     if(questionArray.length > 5) {
       questionArray.pop();
     }
-    quizDiv.innerHTML+="<strong>" + questionArray[0] + "</strong>"
+    quizDiv.innerHTML+="<span class='question'>" + questionArray[0] + "</span><br>"
     for(var j = 1;j<5;j++) {
       quizDiv.innerHTML +=  "<input type='radio' name='question" + i + "' value='" + j + "'  /> " + questionArray[j] + "<br />"; 
     }
   }
-  alert(quizDiv.innerHTML)
+  function myScore() {
+    
+  }
 </script>
