@@ -86,12 +86,13 @@
         document.getElementById("filename").innerHTML = text;
       }
       function addImage() {
+        var edition = prompt("Edition Number?");
         var fname = prompt("Filename?");
         var desc = prompt("Description?");
         var fs = confirm("Full Width?");
         var include = ""
         if(fs) {include = "fs"};
-        text = "\n {% include image"+ include +".html url=\"assets/"+fname+"\" description=\""+desc+"\" %}";
+        text = "\n {% include image"+ include +".html url=\"/assets/edition_"+ edition +"/"+ fname +"\" description=\""+desc+"\" %}";
         output.value += text;
       }
       function removeNewLines() {
