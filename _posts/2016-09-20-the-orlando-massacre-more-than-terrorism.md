@@ -1,6 +1,6 @@
 ---
 title: "The Orlando Massacre : More Than Terrorism"
-date: 2016-09-20 12:00:00 +0000
+date: 2015-09-20 12:00:00 +0000
 category: "news"
 author: "Livvy McComb"
 ---
