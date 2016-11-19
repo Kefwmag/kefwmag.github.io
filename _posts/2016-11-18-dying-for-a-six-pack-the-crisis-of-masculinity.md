@@ -14,4 +14,4 @@ The Lad Bible attempted to body shame star of prison breaks, Wentworth Miller by
 
 Men today are constantly pressured to fit in with the new culture surrounding them, to push themselves to sustain beauty and value in terms of impressing women and other men and regaining this image of masculinity to present to the world. Men are allowed to cry with joy when their national team wins the World Cup, but they are censored when it comes to crying because they are stressed by work or devastated by the breakdown of a relationship. It’s not fair and it’s not healthy and it needs to change. We could make a start by challenging the laddish banter culture used by men, against men and against women. For young men in particular, it takes a lot of courage to stand up to this marauding, distorted version of masculinity. Men need to be encouraged and supported to look after their mental health and wellbeing. Lad culture and a pressure to be the perfect man does nothing to promote the integrity of individual men and causes people to really forget what it is to be an individual person. 
 
- {% include images.html url="assets/Are_you_a_man.jpg" description="" %}
+
