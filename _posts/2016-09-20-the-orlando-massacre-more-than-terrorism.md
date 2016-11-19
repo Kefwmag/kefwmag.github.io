@@ -53,6 +53,6 @@ Wisdom from Obama
 3.	“Fuelling ISIL’s notion that the West hates Muslims, making young Muslims in this country and around the world feel like no matter what they do, they're going to be under suspicion and under attack.  It makes Muslim Americans feel like they're government is betraying them.  It betrays the very values America stands for.”
 
 
- {% include imagefs.html url="assets/Leave_Eu.png" description="" %}
- {% include imagefs.html url="assets/Guns.png" description="" %}
- {% include imagefs.html url="assets/Orlando.png" description="" %}
+ {% include imagefs.html url="assets/edition-2/Leave_Eu.png" description="" %}
+ {% include imagefs.html url="assets/edition-2/Guns.png" description="" %}
+ {% include imagefs.html url="assets/edition-2/Orlando.png" description="" %}
