@@ -4,11 +4,9 @@ date: 2016-11-24 12:00:00 +0000
 category: "arts"
 author: "Livvy McComb"
 ---
-                                                             ***
 If you’re a lover of dance and all things feline, put this on your bucket list. But if you’re more of a dog person, I’d save yourself the money… and the cringes. 
 
-
-
+"Three Stars"
 
 As a year nine student at Lordswood Girls’ School, I was confused when my drama teacher told me we couldn’t perform ‘Cats’ as our annual musical because we didn’t have good enough dancers. Rock n’ roll for ‘Grease’? On point. Cheerleading stunts at East High? No problem. Our talent pool was impressive and expanding every year. It was only once I saw ‘Cats’ at the Hippodrome on a muggy Monday in May this year that I truly understood what Mrs Swallow had meant: It wasn’t that we didn’t have some truly great dancers at Lordswood, it’s just that in ‘Cats’ everyone dances impeccably... all the time.
 
