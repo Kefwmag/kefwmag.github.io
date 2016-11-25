@@ -54,6 +54,7 @@ Human Rights Campaign collaborated with Ryan Murphy and 49 celebrities to honour
 
 
 Wisdom from Obama 
+
 1.	“Hatred towards people because of sexual orientation, regardless of where it comes from, is a betrayal of what’s best in us… You can't make up the world into ‘us’ and ‘them,’ and denigrate and express hatred towards groups because of the colour of their skin, or their faith, or their sexual orientation, and not feed something very dangerous in this world. So if there was ever a moment for all of us to reflect and reaffirm our most basic beliefs that everybody counts and everybody has dignity, now is the time." 
 
 2.	“The shooter targeted a nightclub where people came together to be with friends, to dance and to sing, and to live. The place where they were attacked is more than a nightclub -- it is a place of solidarity and empowerment where people have come together to raise awareness, to speak their minds, and to advocate for their civil rights.” 
