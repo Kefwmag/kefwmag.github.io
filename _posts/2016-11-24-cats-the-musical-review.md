@@ -40,6 +40,6 @@ Ultimately the flaws in ‘Cats’ rest with the material not the execution: the
 
 
 
- {% include imagefs.html url="/assets/edition_2/Cats_Musical.png" description="" %}
+ {% include imagefs.html url="/assets/edition-2/Cats_Musical.png" description="" %}
 
- {% include imagefs.html url="/assets/edition_2/Cats_Musical2.png" description="" %}
+ {% include imagefs.html url="/assets/edition-2/Cats_Musical2.png" description="" %}
