@@ -4,7 +4,7 @@ date: 2016-11-24 12:00:00 +0000
 category: "arts"
 author: "Livvy McComb"
 ---
-
+                                                             ***
 If you’re a lover of dance and all things feline, put this on your bucket list. But if you’re more of a dog person, I’d save yourself the money… and the cringes. 
 
 
